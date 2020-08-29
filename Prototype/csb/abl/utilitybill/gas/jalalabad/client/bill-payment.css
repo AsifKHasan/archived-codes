@@ -1,0 +1,138 @@
+body{
+	width: 600px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.outer-canvas{
+	width: auto;
+	height: auto;
+	margin: 10px 20px 10px 20px;
+	border: 1px Solid #e0e0e0;
+	background-color: #fdfdfd;
+	text-align: center;
+}
+
+.outer-canvas-header{
+	width: auto;
+	height: auto;
+	padding: 8px 4px 8px 4px;
+	border-bottom: 1px Solid #e0e0e0;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+.outer-canvas-subheader{
+	width: auto;
+	height: auto;
+	padding: 4px 4px 4px 4px;
+	border-bottom: 1px Solid #e8e8e8;
+	background-color: #f8f8f8;
+	text-align: center;
+}
+
+.outer-canvas-body{
+	width: auto;
+	height: auto;
+	margin: 10px 5px 10px 5px;
+	text-align: center;
+}
+
+.outer-canvas-message{
+	padding: 0px 4px 4px 4px;
+}
+
+.outer-canvas-footer{
+	width: auto;
+	padding: 10px 4px 10px 4px;
+	border-top: 1px Solid #f0f0f0;
+	background-color: #fafafa;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.outer-canvas-header-text{
+	font-size: 2.0em;
+	color: #555555;
+	text-align: center;
+}
+
+.outer-canvas-subheader-text{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #777777;
+	text-align: center;
+}
+
+.btn-retrieveua,
+.btn-paybill,
+.btn-retry,
+.btn-newpayment{
+	font-size: 1.2em;
+	color: #609fcc;
+	background-color: #e4e4e4;
+	border: 1px Solid #d8d8d8;
+	padding: 6px 50px 6px 50px;
+}
+
+.btn-retrieveua:hover,
+.btn-paybill:hover,
+.btn-retry:hover,
+.btn-newpayment:hover{
+	color: #1a6499;
+	background-color: #e0e0e0;
+}
+
+td.cell-left{
+	text-align: left;
+	padding: 2px 5px 2px 5px;
+	width: 200px;	
+}
+
+td.cell-right{
+	text-align: right;
+	padding: 2px 5px 2px 5px;
+	width: 200px;	
+}
+
+td.cell-middle{
+	text-align: middle;
+	padding: 2px 5px 2px 5px;
+}
+
+.label-warning{
+	font-family: Georgia, serif;
+	color: #ff0000;
+	font-size: 0.8em;
+}
+
+.label-info{
+	font-family: Georgia, serif;
+	color: #1a6499;
+	font-size: 0.8em;
+}
+
+.label-text{
+	color: #777777;
+	font-size: 1.0em;
+}
+
+.text-input{
+	color: #777777;
+	font-size: 1.0em;
+	padding: 2px 2px 2px 2px;
+	border: 1px solid #e0e0e0;
+	border-style: none;
+}
+
+.text-input:read-only{
+	color: #a0a0a0;
+	background-color: #f0f0f0;
+}
+
+input:required {
+	background-color: rgba(254, 35, 2, 0.05);
+}

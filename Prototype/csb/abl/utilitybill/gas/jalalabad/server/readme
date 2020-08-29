@@ -1,0 +1,10 @@
+# Python 3 is required
+# pip is required
+# installation of web.py is required through
+pip install web.py
+
+# server
+python bill-payment.py 9090
+
+# client
+curl --data '{"mobile":"01714169606", "uaid":"JG00001234"}' http://localhost:9090/csb/abl/utilitybill/gas/jalalabad/retrieve-ua

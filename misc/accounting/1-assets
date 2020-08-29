@@ -1,0 +1,1705 @@
+10000 Assets
+10100 Non-Current Assets
+10101 Property, Plant and Equipment 1
+1010101 Land & Land Development
+101010101 Land-Factory
+101010101001 Land Inside Factory Boundary
+101010101002 Land Outside Factory Boundary
+101010101003 Land -Motin House
+101010102 Land-HO
+101010102001 Dhaka Land
+101010102002 ABC
+1010102 Civil Construction
+101010201 Factory Building & Construction
+101010201001 FBC -Raw Sugar Warehouse
+101010201002 FBC-Refined Sugar Warehouse
+101010201003 FBC-Process House
+101010201004 FBC-Lime House
+101010201005 FBC-Store & Mechanical Building-1
+101010201006 FBC-Store & Mechanical Building-2
+101010201007 FBC-Admin. Building
+101010201008 Factory Building & Construction
+101010202 Building Construction
+101010202001 Building Construction-Labor Shed
+101010203 Road Construction
+101010203001 FBC-Road construction -Outside
+101010203002 FBC-Road Construction-Inside
+101010204 Civil Construction In Progress
+101010204001 WIP-Labor Sheed
+101010204002 River side Construction In Progress-Fac.
+101010208 Electrical Installation
+101010208001 Electrical Installation-HO
+101010208002 Electrical Installation-Factory
+1010103 Plant & Machinery
+101010301 Plant & Machinery
+101010301001 P&M-E -Crane
+101010301002 P&M-Raw Sugar Unloading System
+101010301003 P&M-Raw Sugar Handling, Affination and Melting
+101010301004 P&M-Raw Liquor and Co2 Gas Purification Unit
+101010301005 P&M-Liquor and Mud Filtration
+101010301006 P&M-Milk of Lime Preparation Unit
+101010301007 P&M-Milk of Lime Preparation Unit
+101010301008 P&M-Liquor Decolorization and Concentration Unit
+101010301009 P&M-Refined Sugar Crystalization unit
+101010301010 P&M-Renined Sugar Drying, Cooling and Baging Unit
+101010301011 P&M-Sugar Recovery Unit
+101010301012 P&M-Piping, Fitting and Insulation
+101010301013 P&M-Electical Equipment and Cables
+101010301014 P&M-Measuring & Control system
+101010301015 P&M-Air Compressor and Accessories
+101010301016 P&M-Air conditioning, Lifting Equipment etc.
+101010301017 P&M-Utilities System
+101010301018 P&M-Cooling Tower & Accessories
+101010301019 P&M-Tools Accessoriesand Equipment
+101010301020 P&M-Packaging Machine
+101010301021 Plant & Machinery
+101010302 Water Treatment Plant
+101010302001 Water Treatment Plant
+101010302002 Waste Water Treatment Pond
+101010303 Plant & Machinery -Packaging Machine
+101010303001 xxxxxx
+101010304 Generator
+101010304001 Diesel Generator
+1010104 Equipment
+101010401 Equipment-Factory
+101010401001 Airconditioner-Factory
+101010401002 Aircompressor-Factory
+101010401003 Laboratory Equipment-Factory
+101010401004 Photocopier-Factory
+101010401005 Refrigerator-Factory
+101010401006 Loose Tools-Factory
+101010401007 Generator Equipment-Factory
+101010401008 Fuel dispensing Unit-Fac.
+101010402 Equipment-HO
+101010402001 Airconditioner-HO
+101010402002 Aircompressor-HO
+101010402003 Refrigerator-HO
+101010402004 Photocopier-HO
+1010105 Furniture & Fixure
+101010501 Furniture & Fixure- H/O
+101010501001 Chair-HO
+101010501002 Table-HO
+101010501003 Almira-HO
+101010501004 Fan-Celling-HO
+101010501005 Fan-Stand-HO
+101010501006 Furniture & Fixture-H/O
+101010502 Furniture & Fixure -Factory
+101010502001 Chair-Factory
+101010502002 Table-Factory
+101010502003 Almira-Factory
+101010502004 Fan-Ceiling-Factory
+101010502005 Fan-Stand-Factory
+101010502006 Rake-Factory
+101010502007 File Cabinate-Factory
+101010502008 Shofa-Factory
+101010502009 Cot-Factory
+101010502010 Furniture & Fixture-Factory
+101010502011 Hardware-Factory
+1010106 Computer & Computer Equipment
+101010601 Computer & Computer Equipment-HO
+101010601001 Laptop-HO
+101010601002 Desktop-HO
+101010601003 Printer-HO
+101010601004 Computer & Computer Equipment-HO
+101010601005 ABCD
+101010602 Computer & Computer Equipment-Factory
+101010602001 Laptop-Factory
+101010602002 Desktop-Factory
+101010602003 Printer-Factory
+101010602004 Computer & Computer Equipment-Factory
+101010603 ABC Computer
+101010603001 ABC Laptop
+1010107 Vehicle
+101010701 Vehicle-HO
+101010701001 Motor Cycle-HO
+101010701002 Micro Bus-HO
+101010701003 Motor Car-HO
+101010702 Vehicle -Factory
+101010702001 Motor Car-Factory
+101010702002 Motor Cycle-Factory
+101010702003 Microbus-Factory
+101010702004 Fork Lift Truck-Factory
+101010702005 Truck-Cargo [ Sugar carrying ]-Factory
+1010108 Communication Equipments
+101010800001 Communication Equipments-HO
+101010800002 Communication Equipments-Factory
+1010109 Capital Work In Progress
+101010900001 Software Development In Progress
+101010900002 Work in Progress-Labor Shed
+1010110 ABC Company
+1010111 AB Traders
+1010112 Salim & CO
+1010113 Microsoft Corporation
+1010114 xyz Company
+1010115 Bazaz
+1010116 Cocacola
+10102 Intangible Assets 0
+101020000001 Preliminary Expenses
+101020000002 Deferred Revenue Expenditure
+10200 Current Assets
+10201 Inventory 0
+102010000001 Inventory Raw Sugar
+102010000002 Inventory-Work In Process
+102010000003 Inventory Finished Goods
+102010000004 Inventory Stationery Items
+102010000005 Inventory Civil & Hardware Items
+102010000006 Inventory Medicine Items
+1020101 Inventory-Chemicals
+102010100001 Inventory-Chemicals
+102010100002 Inventory-Filter Aid
+102010100003 Inventory-Hydrochloric Acid
+102010100004 Inventory-Ion Exchange Resin-FPA-90
+102010100005 Inventory-Ion Exchange Resin-FPA-98
+102010100006 Inventory-Ion Exchange Resin-IR-120
+102010100007 Inventory-Ion Exchange Resin-PP
+102010100008 Inventory-Soda Ash Light
+102010100009 Inventory-Alchohol-IPA
+102010100010 Inventory-Bleaching Powder
+102010101 Inventory-Quick Lime
+102010101001 Inventory-Quick Lime -Local
+102010101002 Inventory-Quick Lime -Imported
+1020102 Inventory Packaging Materials
+102010200001 Inventory-Packaging Materials
+102010200002 Inventory-LDPE Outer Bag
+102010201 Inventory-PP Woven Bag
+102010201001 Inventory-PP Woven Bag-50Kg Size
+102010201002 Inventory-PP Woven Bag-25Kg Size
+102010201003 Inventory-PP Woven Bag-1000Kg Size
+102010202 Inventory-Sewing Thread
+102010202001 Inventory-Sewing Thread-Big
+102010202002 Inventory-Sewing Thread-Small
+102010203 Inventory-Niddle
+102010203001 Inventory-Niddle (Big)
+102010203002 Inventory-Niddle (Small)
+1020103 Inventory Spare Parts
+102010300001 Inventory-Mechanical Items
+102010300002 Inventory-Electrical Items
+102010300003 Inventory-E-Crane Items
+102010300004 Inventory-Sutech Items
+102010300005 Inventory Laboratory Items
+102010300006 Inventory Vehicle Items
+102010300007 Inventory Tools Items
+1020104 Inventory Fuel & Lubricants Items
+102010400001 Inventory-Diesel
+102010400002 Inventory-Lubricants
+10202 Inter Company Current Account 0
+102020000001 AM Channel Ltd.
+102020000002 Abdul Monem Ltd. [Corporate]
+102020000003 Abdul Monem Ltd. [Construction]
+102020000004 Abdul Monem Ltd. [Beverage]
+102020000005 Abdul Monem Ltd. [Ice Cream]
+102020000006 AM Energy Ltd
+102020000007 AB Bank [ AML Construction ], Installment
+102020000008 AM Sugar Blending Ltd.
+102020000009 Novus Pharmaceuticals Ltd.
+102020000010 Abdul Monem Ltd. [ Igloo Foods ]
+102020000011 AM Securities & Financial Services Ltd.
+102020000012 AM Bran Oil Company Ltd.
+102020000013 Denish Bangla Emulsion
+102020000014 Joinab Enterprise
+102020000015 AML Infotech Ltd.
+102020000016 ServicEngine Ltd.
+102020000017 AM Foods Ltd.
+10203 Loan to Directors 0
+102030000001 Abdul Monem
+102030000002 Meherunnessa
+102030000003 Husana Banu
+102030000004 A.S.M Mainuddin Monem
+102030000005 A.S.M Mohiuddin Monem
+102030000006 Mrs. Farhana Monem
+102030000007 Mrs. Mahmuda Begum
+102030000008 Mrs. Dilara Begum
+10204 Investment In Securites 0
+1020401 Investment In Securites-Public Ltd. Co.
+102040100001 Investment in AB Bank Ltd.
+102040100002 Investment in First Security Bank Ltd.
+102040100003 Investment in Southeast Bank Ltd.
+102040100004 Investment in HEIDELBERGE
+102040100005 Investment in Titas Gas T&D Co. Ltd.
+102040100006 Investment in Novus Pharmaceuticals Ltd.
+102040100007 Investment in Desco Ltd.
+102040100008 Investment in BSRM Steel.
+102040100009 Investment in BEXTEX.
+102040100010 Investment in Uttara Bank Ltd..
+102040100011 Investment in Grameen Phone.
+102040100012 Investment in Meghna Cement.
+102040100013 Investment in Prime Bank Ltd.
+102040100014 Investment in Summit Power.
+102040100015 Investment in Lafarge Surma Cement.
+102040100016 Investment in Square Pharmaceuticals Ltd.
+102040100017 Investment in Power Grid Ltd.
+102040100018 Investment in Beximco Pharmaceuticals Ltd.
+102040100019 Investment in Islami Bank [ BD.] Ltd.
+102040100020 Investment in Delta Brac Housing Finance Ltd.
+102040100021 Investment in Fareast Life Insurance Ltd.
+102040100022 Investment in I D L C.
+102040100023 Investment in United Leasing Co.
+102040100024 Investment in Bank Asia Ltd.
+102040100025 Investment in National Bank Ltd.
+102040100026 Investment in One Bank Ltd.
+102040100027 Investment in Standard Bank Ltd.
+102040100028 Investment in Al-Arafah Islami Bank Ltd.
+102040100029 Investment in Beximco Ltd.
+102040100030 xxxx
+1020402 Investment In Securites-Private Ltd. Co.
+102040200001 Investment in Share to Novus Pharmaceuticals Ltd.
+10205 Trade Receivable 0
+1020501 Trade Receivable-Whole Sales
+102050100001 Ajmir Trading
+102050100002 Alam Traders
+102050100003 Joy Ram Store
+102050100004 Bhuiyan Brothers
+102050100005 G.R Traders
+102050100006 Shimul Dutta
+102050100007 Harvest Trading
+102050100008 Hazi Traders
+102050100009 Shekhor Banik
+102050100010 Amin Traders
+102050100011 Nowshad Ali
+102050100012 Ahad Trading
+102050100013 Islam Brothers
+102050100014 Khorshed & Brothers
+102050100015 Tapash Enterprise
+102050100016 Hira Enterprise
+102050100017 Zaman Brothers
+102050100018 B. K International
+102050100019 Gopi Nath Bhander
+102050100020 Mofizul Haque
+102050100021 Akshoy Bhander
+102050100022 Hari Pado Saha
+102050100023 Mohon Saha
+102050100024 Mohesh Prashad
+102050100025 Bengal Traders
+102050100026 Roy Brothers
+102050100027 Elias Hossain
+102050100028 Siddeswari Bhander
+102050100029 Rokeya Enterprise
+102050100030 Al-Safa Trading
+102050100031 Hossain Oil
+102050100032 Hazi Siraj Uddin & Sons
+102050100033 Dipu Enterprise
+102050100034 Bengal Oil Store.
+102050100035 Dost. Md. & Sons.
+102050100036 Siddique & Sons.
+102050100037 Mukta & Sons.
+102050100038 Amin General Store.
+102050100039 Boishakhi Enterprise.
+102050100040 Khair & Brothers.
+102050100041 Nandon Megeshop.
+102050100042 Shahin Traders [ Jatrabari ]
+102050100043 xxxx
+102050100044 Harun-Ur-Rashid
+102050100045 Wingo International.
+102050100046 Munni Enterprise
+102050100047 Apurbo Ghosh.
+102050100048 Banijja Bitan.
+102050100049 Surma Enterprise.
+102050100050 Falauddin Ali Ahmed.
+102050100051 S.M traders
+102050100052 Madina Enterprise.
+102050100053 Nehal Trade.
+102050100054 Abul Hossain
+102050100055 Anowar & Brothers.
+102050100056 R.K Traders
+102050100057 Sumi Enterprise
+102050100058 Sarada Enterprise.
+102050100059 M.G Trading.
+102050100060 Abdur Rashid & Sons.
+102050100061 Sheema Ent.
+102050100062 Adam Store
+102050100063 Shafi Trading.
+102050100064 Fakhruddin Ahmed.
+102050100065 Raj Kumar Dhanuka.
+102050100066 Gaffar Store.
+102050100067 Molla Traders.
+102050100068 Chanda Oil Mill.
+102050100069 Anowar Enterprise.
+102050100070 Shohel Enterprise.
+102050100071 Ghosh & Sons.
+102050100072 Abdur Razzak & Sons.
+102050100073 Siraj & Sons [ Cadet college ]
+102050100074 Dhrubo Enterprise.
+102050100075 Altaf & Brothers.
+102050100076 Janab Ali
+102050100077 Loknath Bhander.
+102050100078 Wall Mart Trade International.
+102050100079 Janata Oil Store.
+102050100080 Tajul Islam
+102050100081 Tasneem Traders.
+102050100082 Janani Traders
+102050100083 Kamal & Sons
+102050100084 Aminul Monir
+102050100085 Asha Store.
+102050100086 Aminul Islam [Bhoirov]
+102050100087 Maa Trading.
+102050100088 Khokon Basak.
+102050100089 Sales in Transit [Igloo IceCream]
+102050100090 Ali Biponi
+102050100091 Hossain Food, Ctg.
+102050100092 Hazi Chand Miah -Sugar
+102050100093 Nahar Store
+102050100094 Parimal Saha
+102050100095 Savar Enterprise
+102050100096 Mimi Chocolate
+102050100097 Pabitro Store
+102050100098 Dipuk Kundu
+102050100099 Karim Store
+102050100100 Star Bakery
+102050100101 Rahman Enterprise { sugar sales }
+102050100102 Nayan Enterprise
+102050100103 Abu Sayed
+102050100104 Majnu Miah
+102050100105 ABC Traders
+102050100106 Amir Traders
+102050100107 Janata Sweets
+102050100108 Nurul Amin & Sons
+102050100109 Azahar Ali
+102050100110 Nikhil Roy
+102050100111 Bikram
+102050100112 S Traders
+102050100113 IBBL Chowmohoni { Kalam & Sons }
+102050100114 Amin Brothers
+102050100115 Nirmol Udyog
+102050100116 Bablu Biswas
+102050100117 Manik Enterprise
+102050100118 Fazlu Trading
+102050100119 Big Wave Trade Intl.
+102050100120 Sonali Trading [ sugar ]
+102050100121 Real Time Ind.
+102050100122 Akhter Hossain
+102050100123 Moloy Enterprise
+102050100124 Siddiqur Rahman
+102050100125 Uttam Kumar Kundu
+102050100126 Ratan Enterprise
+102050100127 Shahadad Miah
+102050100128 Rejuan Enterprise
+102050100129 Hazi Babul Ahmed
+102050100130 Majid Miah
+102050100131 Ziaul Haque
+102050100132 Dulal Saha
+102050100133 Aman Ullah
+102050100134 Haque Traders
+102050100135 Abul Khair
+102050100136 Sona Miah
+102050100137 Ambela Sweets
+102050100138 Shapla Foods
+102050100139 Prova Enterprise
+102050100140 Sudhir Ghosh
+102050100141 Radha Binod Modok
+102050100142 Kawser Kabir
+102050100143 Nirmol Saha
+102050100144 Gopal Saha
+102050100145 Yeahia Store
+102050100146 Meximco Trading Corporation
+102050100147 Tripura Traders
+102050100148 Doctors Chemical
+102050100149 Fida Enterprise
+102050100150 Santosh Kumar Basak
+102050100151 Rafiq Traders
+102050100152 Julia Chen
+102050100153 Mark International
+102050100154 Touhid Enterprise
+102050100155 Salam Trading
+102050100156 Liton Traders [ sugar sales ]
+102050100157 Binimoy Store
+102050100158 Kamal & Brothers
+102050100159 Hazi Mokhles Miah & Sons
+102050100160 J M Trading
+102050100161 Fahim Traders
+102050100162 New Bhai Bon General Store
+102050100163 Hayder Trading Corporation
+102050100164 Mandol Traders
+102050100165 Swapnil Enterprise
+102050100166 Bismillah Traders
+102050100167 Amantran Snacks
+102050100168 Maskura Hafiz
+102050100169 Crystal Distribution
+102050100170 Sultan Traders
+102050100171 Sunbim Enterprise
+102050100172 Saha & Brothers
+102050100173 Mantra Mega Shop
+102050100174 Almas Super Store
+102050100175 Minu Bazar
+102050100176 Amena
+102050100177 Tokyo Super Store
+102050100178 Target Super Store
+102050100179 Lavender Super Store
+102050100180 Family World Pvt. Ltd.
+102050100181 I.Z Enterprise
+102050100182 Promise Distribution
+102050100183 R.R Traders
+102050100184 Sawon General Store
+102050100185 Liaquate Traders
+102050100186 Alif Enterprise
+102050100187 Shafiqul Islam
+102050100188 Barna Enterprise
+102050100189 Atoshee Enterprise
+102050100190 Marium Enterprise
+102050100191 Aim Trading
+102050100192 Mayer Doa Enterprise
+102050100193 Pragati Vander
+102050100194 Trust Family Needs.
+102050100195 Consumer Megha Shop Ltd.
+102050100196 Islam Enterprise
+102050100197 Bhai Bhai Corporation
+102050100198 Frank Enterprise
+102050100199 Lira Foods, Dhaka
+102050100200 J A Traders
+102050100201 Tanim Trading
+102050100202 Aliza Enterprise
+102050100203 Shahin Traders [Jessore]
+102050100204 Anu Distribution-Chittagong
+102050100205 Pabna Doi Ghor
+102050100206 S.S. Enterprise
+102050100207 Ma Enterprise [ Comilla]
+102050100208 Padma Enterprise
+102050100209 Manasha Bhander [B. Baria]
+102050100210 Four B. Trade
+102050100211 One Enterprise
+102050100212 Saha Enterprise
+102050100213 Mahbub Trading Corp.[Mymenshing]
+102050100214 Nazrul Islam
+102050100215 Gobinda Bhander [Sirajgonj]
+102050100216 Shopnil Enterprise
+102050100217 Bhuiyan Enterprise [Mirpur]
+102050100218 Khan Enterprise [ Sugar sales ]
+102050100219 Abdullah Enterprise
+102050100220 R.S & Company
+102050100221 Rezaul Haque,Eng. [ Sugar sales ]
+102050100222 Joy Kundu, Dhaka.
+102050100223 Kala Chand Store
+102050100224 Bandhab Store
+102050100225 Arun Enterprise
+102050100226 Tipu Enterprise
+102050100227 Jhuma Enterprise
+102050100228 Sadek Bhuiyan
+102050100229 Shahjahan Khan
+102050100230 Mizan Store [Ray Saheb Bazar]
+102050100231 Sheak Brothers [Kapasia]
+102050100232 Amirul & Brothers
+102050100233 Jim Mim Enterprise
+102050100234 Mina Bazar
+102050100235 Shankor Sarker [Dhaka]
+102050100236 Kala Chand Paul
+102050100237 N Abedin
+102050100238 Din & Co. [Ctg]
+102050100239 M.M. Trading [Moulovi Bazar]
+102050100240 Shefali Enterprise
+102050100241 Hiron Chandra Saha
+102050100242 Cofi Eleven
+102050100243 Oishee Enterprise
+102050100244 Suresh Chandra Saha
+102050100245 Oparna Traders [Uttar Badda -Dhaka]
+102050100246 Suruz Enterprise
+102050100247 Silver Basket
+102050100248 Bafwa Best Buy
+102050100249 Padokshep Biponi
+102050100250 Daily Bazar
+102050100251 Talukder Traders [Tangail]
+102050100252 Maa Kali Bhander
+102050100253 A M Enterprise
+102050100254 Mahi Enterprise
+102050100255 Anurag Super Store
+102050100256 Paul Enterprise
+102050100257 Yousuf Store
+102050100258 Ali Store [ Sugar sale ]
+102050100259 Laskar General Store
+102050100260 F M Traders
+102050100261 Coastal Varities Store
+102050100262 Hashem General Store
+102050100263 City Shopping Mall
+102050100264 Sobuz Enterprise
+102050100265 Bazar Sodai Super Store
+102050100266 Wel Come Super Shop
+102050100267 Kamal General Store
+102050100268 P Q S Super Shop
+102050100269 Hamim Store
+102050100270 Hannan & Brothers
+102050100271 BDR Kallyan Trust
+102050100272 Jhorna Enterprise
+102050100273 Shapla Shaluk Dep. Store
+102050100274 Gopal Flour Mills
+102050100275 Bashundhara Bazar
+102050100276 Janani Bhander
+102050100277 Progoti Vendar
+102050100278 Patowary General Store
+102050100279 Arat Store [ Sugar ]
+102050100280 Amisha Trade
+102050100281 Jamini Traders
+102050100282 Abed Bakery
+102050100283 Ishak Ali Molla
+102050100284 Iqbal & Brothers
+102050100285 R S Store
+102050100286 Bandhon Enterprise
+102050100287 R B Super Market
+102050100288 3 S Shopping Mall
+102050100289 Azmir Bakery
+102050100290 Janata Enterprise
+102050100291 Bibhuti Biswas
+102050100292 Mamota General Store
+102050100293 Alamgir Khan
+102050100294 Dhananjoy Saha
+102050100295 Al-Madina Traders
+102050100296 Manik Mukta Traders
+102050100297 Chitto Ranjan Kundo
+102050100298 North Bengal Dal Mill
+102050100299 Fresh N Near
+102050100300 Narayan Chowdhury
+102050100301 Samir Kumar Paul
+102050100302 Sadman Enterprise
+102050100303 Jahangir Alam.
+102050100304 Joy Ram Bhander [ Noakhali ]
+102050100305 Fatin Traders [Sylhet ]
+102050100306 Luxmi Store [ Rangamati ]
+102050100307 Techno Drugs
+102050100308 Max Line International
+102050100309 Luxmi Bhander
+102050100310 M S Trading
+102050100311 Dev Enterprise
+102050100312 Rafid Enterprise
+102050100313 Abdur Razzak [ Kushtia ]
+102050100314 Mabco Foods Ltd
+102050100315 Receivable against advance sales.
+102050100316 Water transport co- ordinationcell
+102050100317 CSD Bakery
+102050100318 Mallick Traders
+102050100319 Joy Kali Bhander
+102050100320 Discovery Trading Co. Ltd.
+102050100321 Radhaballab
+102050100322 Eng. Fazlay Monem
+102050100323 Chaman Md. Chowdhury
+102050100324 Faisal
+102050100325 Dulal & Brothers
+102050100326 MD House [ Sugar ]
+102050100327 Bakul Traders
+102050100328 Jamal Traders
+102050100329 Hanif Miah
+102050100330 Abdul Razzak
+102050100331 Shibbir Ahmed
+102050100332 Baten Trading
+102050100333 Bismillah Food Products
+102050100334 Prahlat & Brothers
+102050100335 Pratoy & Brothers
+102050100336 Anower Habib
+102050100337 Adar Trade
+102050100338 Khandaker & Sons
+102050100339 Habib Trade
+102050100340 Monohardi Traders
+102050100341 Urmee Traders
+102050100342 D M Traders
+102050100343 Hossain Enterprise
+102050100344 Khandoker Alamgir
+102050100345 Rasel
+102050100346 Kajol & Sons
+102050100347 Joyram Bhander
+102050100348 Delowar Hossain
+102050100349 Ujjul Traders
+102050100350 Ope & Opu enterprise
+102050100351 Islam Traders
+102050100352 Moulavi Bazar Babashayee Samity
+102050100353 Md. Abu Hanif
+102050100354 S.K. Enterprise
+102050100355 Islami Bank BD LTD
+102050100356 Suman Trading
+102050100357 Nargis & Brothers
+102050100358 Manik Trading
+102050100359 Anika Trading
+102050100360 Rafique Enterprise
+102050100361 Vagabati Bhander
+102050100362 Karim Trading
+102050100363 Abdul Hasem
+102050100364 Monowar Traders
+102050100365 Rahmat Trading
+102050100366 Purbasha
+102050100367 Shakil Trading
+102050100368 Laboni
+102050100369 Angan Enterprise
+102050100370 Didar Enterprise
+102050100371 Rikta Traders
+102050100372 Kalpana Enterprise
+102050100373 Abdul Motin
+102050100374 Khaja Trading
+102050100375 Moazzem Hossain [Dhaka]
+102050100376 Nila Enterprise
+102050100377 Shila Enterprise
+102050100378 Rani Enterprise
+102050100379 Shagatam Enterprise
+102050100380 Haji Nur Mohammad
+102050100381 Kafil Uddin & Sons
+102050100382 Azad Store
+102050100383 Tarek Bhander
+102050100384 Sajal Store
+102050100385 Dhaka Trading
+102050100386 Meghna Enterprise
+102050100387 Eleyash Brothers
+102050100388 Bhowmik Brothers
+102050100389 M.K. Trading
+102050100390 Kamal Trading
+102050100391 Ali Hossain
+102050100392 Bashir Uddin
+102050100393 Kartik Kundu
+102050100394 Nandini Trading
+102050100395 TanmoyTraders
+102050100396 Jilu Enterprise
+102050100397 Raju Enterprise
+102050100398 Dhanu Miah
+102050100399 Elahe Store
+102050100400 Babul Traders
+102050100401 Kwaja Corporation
+102050100402 Kanika Enterprize
+102050100403 Sadia Enterprise
+102050100404 Majumder Brothers
+102050100405 Master Enterprise
+102050100406 Zaman Brothers [Khulna]
+102050100407 Shourav Traders
+102050100408 Bismillah Store [Fatullah]
+102050100409 Sumana Enterprise
+102050100410 Sagor Enterprise
+102050100411 Adil Enterprise
+102050100412 Dina Enterprise
+102050100413 Rana Rahman
+102050100414 Pinky Enterprise
+102050100415 Ananda Bhander
+102050100416 Khadya Bhander
+102050100417 Satata Store
+102050100418 Halim & Sons
+102050100419 Rubel
+102050100420 Labour office
+102050100421 Joya Enterprise
+102050100422 Julhas
+102050100423 Shomol Bangla
+102050100424 Mita Traders [ Maximco ]
+102050100425 T.K Enterprise
+102050100426 Matri Bhander
+102050100427 Prime Enterprise
+102050100428 M.Rahman
+102050100429 Popular Traders
+102050100430 Asad Store
+102050100431 Palash Enterprise
+102050100432 Biswnath Enterprise
+102050100433 Zahid
+102050100434 K.R.S
+102050100435 Habiba Foods
+102050100436 Puja Enterprise
+102050100437 Ali Ahmed Trading
+102050100438 B.H Enterprise
+102050100439 M.S Trading
+102050100440 Niramoyee Traders
+102050100441 Amin Store [ Sylhet ]
+102050100442 Faruk Store
+102050100443 Sattar Brothers
+102050100444 Al-Amin Trading
+102050100445 S.Alam
+102050100446 Abdus Samad
+102050100447 Golden Sugar House
+102050100448 Joynal Abedin
+102050100449 Siddique Enterprise
+102050100450 Jahangir Alam [ Sugar Sales ]
+102050100451 Wazed Ali
+102050100452 H.M Enterprise
+102050100453 Joy Flower Mills
+102050100454 Salim Enterprise
+102050100455 Tarajul Islam
+102050100456 Bhai Bhai Trading [Valuka]
+102050100457 Zohura Trading
+102050100458 Abdus Salam
+102050100459 Hashi Food
+102050100460 Apurbo Traders
+102050100461 Shah Alam [Chowmohoni]
+102050100462 Shams Enterprise [IBBL]
+102050100463 Kartick Enterprise
+102050100464 Biswas Traders
+102050100465 Sumon Enterprise
+102050100466 Hossain Brothers
+102050100467 Abir Enterprise
+102050100468 Hashem & Co. [Moulovi Bazar]
+102050100469 Razzak & Brothers
+102050100470 Sukur Meah
+102050100471 Shambunath Jalan
+102050100472 J.B. Trading
+102050100473 Sunder Kundu
+102050100474 Osman & Brothers
+102050100475 Selim Enterprise
+102050100476 Kazi Abdul Wadud
+102050100477 Zontu Miah
+102050100478 Bulbul
+102050100479 N. N. Builders
+102050100480 Obayedul Haq
+102050100481 Sizer
+102050100482 Haji Kalachan Store
+102050100483 Rownakul Islam
+102050100484 Mofiz Miah
+102050100485 Nurul Islam [ L-2 AML]
+102050100486 Momin Ullah
+102050100487 Maher & Sons
+102050100488 Barun Kumar
+102050100489 Mahbuba Enterprise
+102050100490 Gopal Prashad
+102050100491 Abul Kalam Azad
+102050100492 R.K. Store
+102050100493 Haji Mainuddin
+102050100494 M.Hossain
+102050100495 Chandan Enterprise
+102050100496 Elma Enterprise
+102050100497 Faridur Haque
+102050100498 Swarna Enterprise
+102050100499 Sattar Store
+102050100500 H.R. Enterprise
+102050100501 Sudipta Trading
+102050100502 Mafs Enterprise
+102050100503 Samad Enterprise
+102050100504 Partha Enterprise
+102050100505 Rupom Trade International
+102050100506 Saiful Islam
+102050100507 Rezaul Karim
+102050100508 Ayesha Enterprise
+102050100509 Sudir Saha
+102050100510 Sanjib Kumar Saha
+102050100511 Anik Trading [ Sugar sales ]
+102050100512 Haji Mir Hossain [ Sugar sales ]
+102050100513 Malitha Traders [ Sugar sales ]
+102050100514 Gyan Bhander
+102050100515 Kurban Ali & Sons
+102050100516 A.H. Enterprise
+102050100517 Mita Enterprise [ Loknath ]
+102050100518 Anil Kumar
+102050100519 Meb Fen Trade International
+102050100520 Liya Enterprise
+102050100521 Shafiul Alam
+102050100522 Hasna Traders
+102050100523 Chittagong Trading [ Sugar Sales ]
+102050100524 Khokon [ Tiger ]
+102050100525 Sinthy Enterprise
+102050100526 Harun & Brothers [ Sugar sales ]
+102050100527 H.M.Store
+102050100528 Shamol Bangla
+102050100529 Igloo/Standard Bank Ltd./LC -20066
+102050100530 National Consultant & Construction
+102050100531 Ismat Ali Khan
+102050100532 Siddique Traders [ Ctg. ]
+102050100533 Fleet International Ltd.
+102050100534 Jalal & Sons
+102050100535 Rangpur Distilleries & Chemicals Ltd.
+102050100536 Friends Corporation.
+102050100537 Niranjan Kumer Saha
+102050100538 Subash Banik
+102050100539 Masjid-E-Belal
+102050100540 Shambir Alam [ Sugar Sales ]
+102050100541 Mosharaf Hossain
+102050100542 Shahidul Islam [Sugar]
+102050100543 IF-I Trade Ltd
+102050100544 M.R. Majumder
+102050100545 Masud Trading
+102050100546 Arif Ahamed Chowdhury
+102050100547 Mannan & Brothers
+102050100548 Nilufa Enterprise
+102050100549 Shahin Rana
+102050100550 Kibria Traders
+102050100551 Ful Miah Traders
+102050100552 Akter Store [ Sugar Sales ]
+102050100553 Dip Traders [ Sugar Sales ]
+102050100554 Ekota Traders [ Sugar Sales ]
+102050100555 Jayanta
+102050100556 Joy Enterprise
+102050100557 Mahmuda Enterprise
+102050100558 Mousumi Traders [Sugar Sales]
+102050100559 Muslim Store [ Sugar Sales ]
+102050100560 Rajdhani Store [ Sugar Sales ]
+102050100561 Farid uddin & Brothers [ Sugar Sales ]
+102050100562 Kalam & Sons [ Sugar Sales ]
+102050100563 Hasan Traders [ Sugar Sales ]
+102050100564 Shamol Store [ Sugar Sales ]
+102050100565 Parna Enterprise [ Sugar Sales ]
+102050100566 Shanta Enterprise [ Sugar Sales ]
+102050100567 Hasina Store [ Sugar Sales ]
+102050100568 Shama Store [ Sugar Sales ]
+102050100569 Salim Store [ Sugar Sales ]
+102050100570 Kalatia General Store [ Sugar Sales ]
+102050100571 Shamim-AML P.R.O [ Sugar Sales ]
+102050100572 Tania Enterprise [ Sugar Sales ]
+102050100573 Mahanagar Enterprise [ Sugar Sales ]
+102050100574 Mim Enterprise [ Sugar Sales ]
+102050100575 Musa Miah [ Sugar Sales ]
+102050100576 Joyanta Enterprise [ Sugar Sales ]
+102050100577 Nasir [ Sugar Sales ]
+102050100578 Raja Store [ Sugar Sales]
+102050100579 Likhon Enterprise [ Sugar Sales]
+102050100580 A.R. Enterprise
+102050100581 Islam Chemical [Sugar Sales]
+102050100582 Modina Stationeries
+102050100583 Azim & Sons
+102050100584 Mim Trading
+102050100585 Sonargaon Enterprise
+102050100586 Rahmania Foods
+102050100587 Janani Trading Corporation [Sugar Sales]
+102050100588 Bashundhara Paper Industries
+102050100589 Plum View-Restaurant
+102050100590 Direct Sales
+102050100591 Takwa Enterprise
+102050100592 Consumer Program [Mokbul-Igloo Foods]
+102050100593 Bhai Bhai Enterprise [Malibag-Dhaka]
+102050100594 SOS Trade International [Dhaka]
+102050100595 Takwa Enterprise [Badda-Dhaka]
+102050100596 Tuhin Traders [Begum Bazar-Dhaka]
+102050100597 Sunny Traders
+102050100598 S.S. Mart [Dhanmondi-Dhaka]
+102050100599 Shyamol Ghosh [ Sugar Sales ]-Pabna
+102050100600 Bismillah Trading [ Jessore- Sugar Sales ]
+102050100601 Omar Enterprise [B. Baria]
+102050100602 Charka Enterprise [ Sugar Sales ]
+102050100603 Abdul Kader
+1020502 Trade Receivable-Export Sales
+102050200001 Receivable-Duty Draw Back [DEDO]
+102050201 Bottlers Nepal Ltd.
+102050201001 Ex-Bottlers-LC
+102050201002 Ex-Bottlers-LC
+102050202 Phoenix Distribution U.K Ltd.
+102050202001 Ex-Phoenix -LC
+102050202002 Ex-Phoenix -LC
+102050203 Barentz Intl. BV Saturnusstraat.
+102050203001 Ex-Barentz -LC
+102050203002 Ex-Barentz -LC
+102050204 Alico Holding Group Ltd.
+102050204001 Ex-Alico -LC
+102050204002 Ex-Alico -LC
+102050205 Brumar SRL, Italy
+102050205001 Ex-Brumar -LC
+102050205002 Ex-Brumer -LC
+102050206 Askripo
+102050206001 Ex-Askripo -LC
+102050206002 Ex-Askripo -LC
+1020503 Trade Receivable- Institutional Sales
+102050300001 Arctic Biscuit
+102050300002 A F & B L
+102050300003 Transcom Beverage [ Pepsi ]
+102050300004 The Acme Ltd
+102050300005 Dekko Foods.
+102050300006 Sanowara Group.
+102050300007 Cocola Food Products.
+102050300008 Pran Agro. Ltd.
+102050300009 Pran Beverage Ltd.
+102050300010 Fu-wang Foods Ltd.
+102050300011 Globe Soft Drinks.
+102050300012 Banoful & Co.
+102050300013 Ram Part Power
+102050300014 Global Beverage Ltd.
+102050300015 Brac Dairy & Food
+102050300016 Dhaka Tobacco Ltd.
+102050300017 Rahim Afroz Super Store
+102050300018 Olympia Bakery
+102050300019 Pran AMCL
+102050300020 Romania Food Ltd.
+102050300021 Mark Agro Foods Ltd.
+102050300022 Pran Confectionery
+102050300023 Sanowara Drinks & Beverage Ltd.
+102050300024 Sanowara Dairy Foods
+102050300025 Gono Swastho Food
+102050300026 Eliyas Brothers [Chittagong]
+102050300027 Edruc Pharmacueticals
+102050300028 A S T Beverage
+102050300029 Jayson Pharmaceuticals
+102050300030 Rose Ltd.
+102050300031 Pran Food Ltd.
+102050300032 Pran Dairy Ltd.
+102050300033 Tabani Beverage Ltd.
+102050300034 AM Bee Pharma.
+102050300035 Opsonin Pharma.
+102050300036 ACI Foods Ltd.
+102050300037 Aristopharma Ltd.
+102050300038 Gaco Pharmaceuticals
+102050300039 Silco Pharmaceuticals.
+102050300040 Refco Pharma.
+102050300041 Atlas Food & Beverage Ltd.
+102050300042 Hashem Foods Ltd.
+102050300043 Pran Export Ltd.
+102050300044 Partex Group
+102050300045 Nestle Bangladesh Ltd.
+102050300046 Danish Condensed Milk Ltd.
+102050300047 Olympic Industries
+102050300048 Milk Vita
+102050300049 Hamdard Laboratories
+102050300050 Orion Laboratories
+102050300051 Drug International Ltd.
+102050300052 Popular Pharmaceuticals Ltd
+102050300053 IBN SINA Pharmaceuticals Ltd
+102050300054 Pharma Solution Bangladesh
+102050300055 Ranova Health Care Ltd.
+102050300056 Mabfen Trade.
+102050300057 Ayurvedia Pharma.
+102050300058 Ramadan Special
+102050300059 ACI Logistic
+102050300060 Trading Corporation of Bangladesh
+102050300061 Silva Pharmaceuticals Ltd.
+102050300062 Abul Khair Group
+102050300063 Navana Pharmaceuticals Ltd.
+102050300064 The Acme Agrovet & Beverage Ltd.
+102050300065 Eskayef Bangladesh Ltd
+102050300066 Ingredients Navigator BD LTD
+102050300067 Protity Pharma ceticals Ltd
+102050300068 BIO-Nature
+102050300069 AP [ Dacca ] Ltd.
+102050300070 Nokon Food Industries
+102050300071 JMI Pharmaceuticals Ltd.
+102050300072 Monico Pharma
+102050300073 Unimed Uni Health
+102050300074 Bangladesh Sugar & Food Industries Corporation
+102050300075 Olympic Biscuits
+102050300076 ACI Limited
+102050300077 ALCO Pharma Ltd.
+102050300078 Concord Pharma Ltd.
+102050300079 Central Pharma
+102050300080 Newzeland Dairy Products
+102050300081 ACI Ltd.- 1 kg. packet [ Sugar sales ]
+102050300082 Mymensingh Agro Ltd. [ Sugar Sales ]
+102050300083 Sanofi Aventis Bangladesh Ltd [ Sugar Sales ]
+102050300084 General Pharmaceuticals Ltd [ Sugar Sales ]
+102050300085 Perfetti VAN Melle Bd. [ Sugar Sales ]
+102050300086 Gonoswasthya Pharmaceuticals [ Sugar Sales ]
+102050300087 The Acme Laboratories [ Sugar Sales ]
+102050300088 Mission Food & Beverage Ltd. [ Sugar Sales ]
+102050300089 Delta Pharma Limited [ Sugar Sales]
+102050300090 Renata Limited [ Sugar Sales]
+102050300091 Organic Health Care Ltd.
+102050300092 Apex Pharma Limited
+102050300093 Danish Bangla Emulsion
+102050300094 Sharif Pharmaceuticals Ltd. [Sugar Sales]
+102050300095 Novo Health Care & Pharma
+102050300096 Rephco Laboratories Ltd.
+102050300097 Adesh Ghosh [ Sugar Sales ]
+102050300098 Siddique Foods
+102050300099 Venture Capital Corporation [Nandan Mega shop]
+102050300100 Swapno Super Store
+102050300101 Haque Brothers Industries Ltd.
+102050300102 AHZ Agro Industries (Pvt.) Ltd.
+102050300103 Virgo Pharmaceuticals Ltd.
+102050300104 Dhaka Ice Cream Industries Ltd.
+102050300105 Madhuban Sweets
+102050300106 Hudson Pharmaceuticals Ltd.
+102050300107 Coopers Bakery
+102050300108 Medicon Pharmaceuticals Ltd.
+102050300109 Alif Trading
+102050300110 Millat Pharmaceuticals Ltd.
+102050300111 Gweebarra Bakery Industries Ltd.
+102050300112 Leon Pharmaceuticals Ltd.
+102050300113 Incepta Pharmaceuticals Ltd.
+102050300114 Unity Agro Foods & Beverage Ltd.
+102050300115 Ejab Group
+102050300116 Raven Food Co. Ltd.
+102050300117 Ispahani Foods Ltd.
+102050300118 Baton Rouge Foods Ltd.
+102050300119 Orion Pharma Ltd.
+102050300120 Bio Pharma Ltd.
+102050300121 Nipro JMI Pharma Ltd.
+1020504 Trade Receivable-Inter company
+102050400001 RV-AML-Igloo Ice Cream
+102050400002 RV-AML-Beverage
+102050400003 RV-AML-Igloo Foods
+102050400004 RV-Novus Pharma Ltd.
+1020505 Trade Receivable- Employee
+102050500001 Corporate Sales Point
+102050500002 AML IT Department.
+102050500003 Yusuf Bin Masud
+102050500004 Romeo-E- Villanueva
+102050500005 Sazzad Manzur
+102050500006 Md. Osman Gani Khan
+102050500007 Abul Kalam [ PS of MD]
+102050500008 Malik Akram [ ED. L-2 ]
+102050500009 Zamiul Hasan [Sales of Sugar]
+102050500010 Head of H R
+102050500011 Factory labour
+102050500012 C.H.O Sugar
+102050500013 Abdur Rahim Molla
+102050500014 Akram Hossain [ Brand, L-4 ]
+102050500015 Syamal Kr. Byapari
+102050500016 Ismail Miah [ Sugar sales]
+102050500017 Shamsul Haque
+102050500018 Saleh U Ahmed- Head of HR.
+102050500019 Abdur Rouf [CHO-L-1]
+102050500020 Akhteruzzaman L-1 [ Sugar Sales ]
+102050500021 Salim - SRO[ Igloo Brand ]
+102050500022 Lulu Imtiaz [ Fac. ]
+102050500023 Anower Hasan Salim [ IT ]
+102050500024 Mr. Golam Faruque (GM-TO]
+102050500025 Foyez Hussain [ IAD ]-C.H.O
+102050500026 Anowarul Mamun-Fac [ Sales of Sugar ]
+1020506 Trade Receivable-Distributors
+102050600001 RD-Tarek Traders [Tangail]
+102050600002 RD-Bhuyan & Brothers [Bhairob]
+102050600003 RD-Babul Akther [Tangail]
+102050600004 RD-Delower Enterprise [Narayangonj]
+102050600005 RD-M/S Sugarika Ent.
+102050600006 RD-Rupali Store [Tangail]
+102050600007 RD-Sazzad Enterprise [Tangail]
+102050600008 RD-Bimol Kumar Saha [Gaibandha]
+102050600009 RD-Nirmal Kumar Saha [Gaibandha]
+102050600010 RD-Rokeya Enterprise [Tangail]
+102050600011 RD-Shilpi Construction [Bogra]
+102050600012 RD-Talukder Traders [Tangail]
+102050600013 RD-Khandaker Store [Tangail]
+102050600014 RD-Rouzia Traders [Narayangonj]
+102050600015 RD-Sagarica Corporation
+102050600016 RD-Sadman Enterprise [Dhaka]
+102050600017 RD-M. Rezaul Karim [Sirajgonj]
+102050600018 RD-Prime Traders [Narshingdi]
+102050600019 RD-Nilkamol Trading [Narshingdi]
+102050600020 RD-MBM Trading [Narayangonj]
+102050600021 RD-Bhai Bhai Store [Natore]
+102050600022 RD-Rafim Enterprise [Narayangonj]
+102050600023 RD-Sharif Store [Habigonj]
+102050600024 RD-Dewan Trading Corp.[Narayangonj]
+102050600025 RD-Ujjal Traders [Narayangonj]
+102050600026 RD-Ujjal Brothers [Bogra]
+102050600027 RD-Chadni Traders [Nilphamari]
+102050600028 RD-Pranta Traders [Dhaka]
+102050600029 RD-Pal Rice Agency [Dhaka]
+102050600030 RD-Amorandronath Dutta & Sons [Rajbari]
+102050600031 RD-Gias Traders [Rajbari]
+102050600032 RD-Toha Enterprise [Bogra]
+102050600033 RD-Swapan Kumar Roy [Habigonj]
+102050600034 RD-Salim & Brothers [Chuadanga]
+102050600035 RD-Mostak Ahmed [Rajshahi]
+102050600036 RD-Sonargaon Enterprise [Lalmonirhat]
+102050600037 RD-Babutipara Enterprise [Comilla]
+102050600038 RD-Monoranjan Saha [Comilla]
+102050600039 RD-Monir Enterprise [Tangail]
+102050600040 RD-M.N. Builders & Eng. [Dhaka]
+102050600041 RD-Fulguni Traders [Mymensingh]
+102050600042 RD-B.S. Enterprise [Dhaka]
+102050600043 RD-Provat Trade Int. [Narayangonj]
+102050600044 RD-Banijja Bitan [Narayangonj]
+102050600045 RD-Seba Traders [Bogra]
+102050600046 RD-Islam Traders [Bogra]
+102050600047 RD-Gopal Chandra Saha [B. Baria]
+102050600048 RD-Gyan Bhander [Comilla]
+102050600049 RD-Aminul Momin [Gaibandha]
+102050600050 RD-Aminul Momin [Rangpur]
+102050600051 RD-Shahid Traders [Dhaka]
+102050600052 RD-Janata Store [Bhairab]
+102050600053 RD-Haji Mokles Meah [Sylhet]
+102050600054 RD-Zaman Traders [Rajshahi]
+102050600055 RD-Sadia Trade Int. [Pabna]
+102050600056 RD-Islam Store [Bogra]
+102050600057 RD-Janata Store [Pabna]
+102050600058 RD-Soroj Kumar Saha [Narsingdi]
+102050600059 RD-Abdullah Food Products [Bhairab]
+102050600060 RD-Wasek Khan [Lalmonirhat]
+102050600061 RD-Habib Store [Lalmonithat]
+102050600062 RD-Habibur Rahman [Sylhet]
+102050600063 RD-Sattar & Brothers [Jamalpur]
+102050600064 RD-Niranjan Gopal [Mymensingh]
+102050600065 RD-North Bengal Dal Mill [Rajshahi]
+102050600066 RD-N.R. Enterprise [Meherpur]
+102050600067 RD-R.N. Enterprise [Mymensingh]
+102050600068 RD-Gopal Chandra Saha [Faridpur]
+102050600069 RD-Chandni Enterprise [Munshigonj]
+102050600070 RD-Sumaiya Trading [Rangpur]
+102050600071 RD-Rabbi Enterprise [Dhaka]
+102050600072 RD-Faraji Store [Noakhali]
+102050600073 RD-Al-Haji Md. Abu Taher [Kishoregonj]
+102050600074 RD-Mahadev Flower & Foods [Comilla]
+102050600075 RD-Dewan Trading [Narayangonj]
+102050600076 RD-Khondaker Traders [Tangail]
+102050600077 RD-Joyram Store [Comilla]
+102050600078 RD-Sibbir Ahmed Bhuiyan
+102050600079 RD-Adar Saha Brothers [Chapai]
+102050600080 RD-Haji Mainuddin
+102050600081 RD-Karim Traders [Lalmonirhat]
+102050600082 RD-Al-Nur Traders
+102050600083 RD-Ganga Traders [Manikgonj]
+102050600084 RD-Sagar Traders [Rajbari]
+102050600085 RD-Jalan Traders [Chuadanga]
+102050600086 RD-Rupali Traders [Feni]
+102050600087 RD-Shobhan Brothers [Dhaka]
+102050600088 RD-AG Traders [Shariotpur]
+102050600089 RD-Bismillah Traders [Rajshahi]
+102050600090 RD-Humayan Kabir [Comilla]
+102050600091 RD-Basudev Kanti Das [Netrokona]
+102050600092 RD-Alomgir Store [Thakurgaon]
+102050600093 RD-Azem & Sons [Chapai]
+102050600094 RD-OI Company [Dhaka]
+102050600095 RD-Alpha Enterprise [Noagaon]
+102050600096 RD-FM Traders [Dhaka]
+102050600097 RD-SM Traders [Jamalpur]
+102050600098 RD-Hasan Enterprise [Pabna]
+102050600099 RD-Kajol & Sons [Natore]
+102050600100 RD-Ishaq Miah & Sons [Sylhet]
+102050600101 RD-Rahman & Sons [Luxmipur]
+102050600102 RD-Haripada Saha [Feni]
+102050600103 RD-Tareef Pvt. Ltd. [Dhaka]
+102050600104 RD-Noor Alam [Dinajpur]
+102050600105 RD-Samad Brik Food [Thakurgaon]
+102050600106 RD-Molla Store [Magura]
+102050600107 RD-Purnima Traders [Narayangonj]
+102050600108 RD-Rezaul Karim [Bhairob]
+102050600109 RD-Karthik Saha [Kustia]
+102050600110 RD-Luxmi Traders [Chittagong]
+102050600111 RD-Hazi Siddique Rahman [Faridpur]
+102050600112 RD-Rumke Enterprise [Bhairob]
+102050600113 RD-Harun-ur Rashid [Bhairob]
+102050600114 RD-Bhai Bhai Corporation [Dhaka]
+102050600115 RD-Nanda Kishore Enterprise [Noagaon]
+102050600116 RD-Majid Meah [Bhairob]
+102050600117 RD-Hossasin Store [Comilla]
+102050600118 RD-Hossain Food & Co. [Chittagong]
+102050600119 RD-Sudipta Enterprise [Chittagong]
+102050600120 RD-Muzammil Haq [Sylhet]
+102050600121 RD-Faisal Trading [Dhaka]
+102050600122 RD-Nazmul Trading [Dhaka]
+102050600123 RD-Sourav Silk [Natore]
+102050600124 RD-Tegarat Traders [Natore]
+102050600125 RD-Haq Enterprise [Khulna]
+102050600126 RD-Akbar Ali [Sylhet]
+102050600127 RD-Ashraful Karim [Noagaon]
+102050600128 RD-Kalipada Kundu [Jhalakati]
+102050600129 RD-Abdul Sobhan Meah [Bhairob]
+102050600130 RD-DS Telecom & Trade [Jamalpur]
+102050600131 RD-Sourav Enterprise [B. Baria]
+102050600132 RD-S.R. Enterprise [Chittagong]
+102050600133 RD-Asha Store [Khulna]
+102050600134 RD-Radhaballab Saha [Comilla]
+102050600135 RD-Bandhu Traders [Comilla]
+102050600136 RD-Haider Trading [Chadpur]
+102050600137 RD-Biswas Brothers [Jhenaidah]
+102050600138 RD-Bengal Biscuit Ltd. [Barisal]
+102050600139 RD-M.A. Traders [Comilla]
+102050600140 RD-Mayer Doa Traders [Natore]
+102050600141 RD-Sudev Kumar Dutta [Jhenaidah]
+102050600142 RD-Ujjal Traders [Jhenaidah]
+102050600143 RD-Sree Durga Bhander [B. Baria]
+102050600144 RD-Habib Trade International [Dhaka]
+102050600145 RD-Rajib Enterprise [Dhaka]
+102050600146 RD-New S. H. International [Dhaka]
+102050600147 RD-Delta International [B. Baria]
+102050600148 RD-Raju Store [Dhaka]
+102050600149 RD-Shamim Enterprise [Khagrachari]
+102050600150 RD-Bijoy Kumar [Kustia]
+102050600151 RD-R.K. Trading [Dhaka]
+102050600152 RD-Rajkumar Dhanuka [Faridpur]
+102050600153 RD-ST Enterprise [Comilla]
+102050600154 RD-Kaji Mamun Hossain [Jhenaidah]
+102050600155 RD-Maa Enterprise [Kustia]
+102050600156 RD-Junab Ali & Co. [Dhaka]
+102050600157 RD-Eleyash Brothers [B. Baria]
+102050600158 RD-Gulshan Trade [Dhaka]
+102050600159 RD-Mokbul Hossain [Kustia]
+102050600160 RD-Saver Enterprise [Savar]
+102050600161 RD-Alam Traders [Tangail]
+102050600162 RD-Hasnat Chaul Kall [Rangpur]
+102050600163 RD-Dulal & Brothers [Narshingdi]
+102050600164 RD-Shahadat & Brothers [Luxmipur]
+102050600165 RD-Kamal & Sons [Noakhali]
+102050600166 RD-Rahamat Ali [Gazipur]
+102050600167 RD-Giasuddin & Brothers [Coxbazar]
+102050600168 RD-Rezaul Haq Patwary [Lalmonirhat]
+102050600169 RD-Kamrul Hassan [Kishoregonj]
+102050600170 RD-Champa Traders [Bogra]
+102050600171 RD-Fahim Enterprise [Jessore]
+102050600172 RD-Bengal Oil Store [Dhaka]
+102050600173 RD-Maa Trading [Chittagong]
+102050600174 RD-Luxmi Bhander [Pabna]
+102050600175 RD-Selim & Brothers [Munshigonj]
+102050600176 RD-Azad Traders [Chittagong]
+102050600177 RD-MM Trading [Dhaka]
+102050600178 RD-Tarajul Islam [Sirajgonj]
+102050600179 RD-Bhuiyan Food Products [Chadpur]
+102050600180 RD-Hasan Enterprise [Comilla]
+102050600181 RD-Shapla Shaluk [Dhaka]
+102050600182 RD-Bismillah Food Products [Bhairob]
+102050600183 RD-Golap Meah [Kishoregonj]
+102050600184 RD-Akter Trade Link [Chadpur]
+102050600185 RD-Mayer Doa Enterprise [Chapai]
+102050600186 RD-Mojibar Rahman [Mymensingh]
+102050600187 RD-Anam Ahmed [Sylhet]
+102050600188 RD-SMB Traders [Magura]
+102050600189 RD-Monowara Enterprise [Jessore]
+102050600190 RD-Ajit Ranjon [Bhairob]
+102050600191 RD-Bayazid Traders [Bhairob]
+102050600192 RD-Siddique Enterprise [Dhaka]
+102050600193 RD-Mohona Traders [Manikgonj]
+102050600194 RD-Arefin Enterprise [Gopalgonj]
+102050600195 RD-Shimul Enterprise [Tangail]
+102050600196 RD-Haji Aftab Store [Kishoregonj]
+102050600197 RD-Shad Enterprise [Dhaka]
+102050600198 RD-S.S. Enterprise [Satkhira]
+102050600199 RD-Shahin Traders [Dhaka]
+102050600200 RD-Anika Traders [Chittagong]
+102050600201 RD-Anower & Brothers [Dhaka]
+102050600202 RD-Janani Bhander [Sylhet]
+102050600203 RD-Lakshmi Store [Rangamati]
+102050600204 RD-Ashab Ali [Rajshahi]
+102050600205 RD-Loknath Bhander [Dhaka]
+102050600206 RD-Altaf & Brothers [Chittagong]
+102050600207 RD-Khandaker Store [Natore]
+102050600208 RD-Rahim & Brothers [Dhaka]
+102050600209 RD-Nasir Store [Bandarban]
+102050600210 RD- Halim General Store [Dhaka]
+102050600211 RD-Uttam Kumar Kundu [Pabna]
+102050600212 RD-B.K. International [Dhaka]
+102050600213 RD-Radha Binod Modok [Sylhet]
+102050600214 RD-Shafi Traders (Chittagong]
+102050600215 RD-Shah Jamal [Chittagong]
+102050600216 RD-Tareque & Traders [Mymensigh]
+102050600217 RD-Nehal Trade International [Dhaka]
+102050600218 RD-Abul Hashem & Co. [Dhaka]
+102050600219 RD-Meena Bazar [Dhaka]
+102050600220 RD-Brothers Enterprise [Chittagong]
+102050600221 RD-R.K. Trading [Chittagong]
+102050600222 RD-Sheikh Brothers [Gazipur]
+102050600223 RD-Rupam Trade International [Dhaka]
+102050600224 RD-Al-Amin International [Dhaka]
+102050600225 RD-Konok Kanti Das [Jhenaidah]
+102050600226 RD-Nahin Enterprise [Noagaon]
+102050600227 RD-Matiar Rahman [Faridpur]
+102050600228 RD-Molla Traders [Faridpur]
+102050600229 RD-Masuda Trading [Faridpur]
+102050600230 RD-Shahjadi Trading [Kishoregonj]
+102050600231 RD-Jerin Enterprise [Gazipur]
+102050600232 RD-Ahnaf International [Thakurgaon]
+102050600233 RD-Fozlo Store [Dhaka]
+102050600234 RD-Ayesha Enterprise [Gazipur]
+102050600235 RD-Zillur Rahman [Monshigonj]
+102050600236 RD-Modok Khaddo Vander [Norshingdi]
+102050600237 RD-Biswas Enterprise [Faridpur]
+102050600238 RD-Nurul Islam & Brothers [Chittagong]
+102050600239 RD-Adar Trade International [Dhaka]
+102050600240 RD-Mobashira Traders [Chittagong]
+102050600241 RD-Tuhin Enterprise [Dhaka]
+102050600242 RD-Shahjahan Store [Dhaka]
+102050600243 RD-Mostafa Store [Dhaka]
+102050600244 RD-Sumon International [Faridpur]
+102050600245 RD-Kajol Traders [Bogra]
+102050600246 RD-Kibria Traders [Bogra]
+102050600247 RD-Nilufa Enterprise [Dhaka]
+102050600248 RD-Nandy Trading [Khulna]
+102050600249 RD-Bayes Brothers [B. Baria]
+102050600250 RD-Hasan Trading Corporation [Faridpur]
+102050600251 RD-Ado Alo Traders [Narail]
+102050600252 RD-JB Traders [Dhaka]
+102050600253 RD-Nishi Trade International [Dhaka]
+102050600254 RD-Haji Dost Mohammad Trade [Dhaka]
+102050600255 RD-Nazmul Haq [B. Baria]
+102050600256 RD-Shamim Enterprise [Luxmipur]
+102050600257 RD-Khandaker Traders [Dhaka]
+102050600258 RD-Tapan Kumar Saha [Munshigonj]
+102050600259 RD-Talukder Traders [Munshigonj]
+102050600260 RD-Bivash Kanti Das [Netrokona}
+102050600261 RD Abu Taher Miah [ Kishoregonj]
+102050600262 RD-Rana Enterprise
+102050600263 RD-Unique Enterprise
+102050600264 RD-Hasan Enterprise [Dhaka]
+102050600265 RD-Taranga Traders [Mymensingh]
+102050600266 RD-Jahura Trading [Dhaka, MB]
+102050600267 RD-T.M. Enterprise [Kishoregonj]
+102050600268 RD-New Salauddin & Brothers [Dhaka, MB]
+102050600269 RD-Janata Traders [B. Baria]
+102050600270 RD-Doctor Sultan Traders [Dhaka]
+102050600271 RD-Rafi Enterprise [Dhaka]
+102050600272 RD-xxxxx
+102050600273 RD-Mosharraf Hossain [Meghna Ghat]
+102050600274 RD-Haji Abdul Karim Meah [Bhairab]
+102050600275 RD-Borhanuddin Oil Traders [Narayangonj]
+102050600276 RD-Taher Enterprise [Gazipur]
+102050600277 RD-Doel Enterprise [Savar]
+102050600278 RD-Pia Traders [Bagherhat]
+102050600279 RD-Karimmiah Agency [Dhaka]
+102050600280 RD-Mohana International [Munshigonj]
+102050600281 RD-Uttara Traders Pvt. Ltd. [Chuadanga]
+102050600282 RD-Sumon Traders [B. Baria]
+102050600283 RD-Ashraf International [Dhaka]
+102050600284 RD-Muslim Store [MB-Dhaka}
+102050600285 RD-Luxmi Bhander [MB-Dhaka]
+102050600286 RD-Mukta Enterprise [Faridpur]
+102050600287 RD-Mofizul Haq [MB-Dhaka]
+102050600288 RD-Dulal and Brothers
+102050600289 RD-Meximco Trading [MB-Dhaka]
+102050600290 RD-S.M. Traders [MB-Dhaka]
+102050600291 RD-Banijjo Bitan [MB-Dhaka]
+102050600292 RD-Swiss Trade [Cox's Bazar]
+102050600293 RD-Noman Enterprise [Shatkhira]
+102050600294 RD-Babu Enterprise [ Lalpur, Natore ]
+102050600295 RD-Badshah Enterprise [Jamalpur]
+102050600296 RD-Bhai Bhai Enterprise [Narayangonj]
+102050600297 RD-Ful Miah Traders [ Dhaka ]
+102050600298 RD-Fatema Sons Trade Int. [Monshigonj]
+102050600299 RD-Kalam Enterprise [Tangail]
+102050600300 RD-Rajib Traders [ Bogra ]
+102050600301 RD-Rajesh Brothers [ Dinajpur ]
+102050600302 RD-Milon Bala Paul [ Mymensingh ]
+102050600303 RD-K.M Enterprise [ Chuadanga ]
+102050600304 RD-Mamun Traders [Dhaka]
+102050600305 RD-Maa Enterprise [ Sathkhira ]
+102050600306 RD-Krishna Chandra Saha [ Madari Pur ]
+102050600307 RD-Jony Enterprise [ B. Baria ]
+102050600308 RD-Prakash Chandra Shaha [Gopalgonj]
+102050600309 RD-Shapla Enterprise [ Munshigonj ]
+102050600310 RD-Rahbor Traders [ Shariatpur]
+102050600311 RD-New Bhairab Store[ Kishoregonj]
+102050600312 RD-Prahlad & Brothers [ MB-Dhaka]
+102050600313 RD-Janab Ali & Co. [ Dhaka ]
+102050600314 RD-Bismillah Store [ Dhaka]
+102050600315 RD-Anchal Traders [ Mymensingh]
+102050600316 RD-Kalam Enterprise [ Sakhipur]
+102050600317 RD-Rasel Enterprise [ Dhaka ]
+102050600318 RD-Rehana Store [ Bhola ]
+1020507 Trade Receivable-Molasses Sales
+102050700001 Sourov Silk Ind.
+102050700002 Oxford Agro.
+102050700003 Sunipun Organics
+102050700004 Abul Kalam [ Molasses ]
+102050700005 Jahangir Alam [ Molasses ]
+102050700006 Shabuj Enterprise [Molasses]
+102050700007 Sadman Enterprise [Molasses Sales]
+102050700008 Raju Ahmed [Molasses Sales]
+102050700009 Mizan [ Molasses ]
+102050700010 Bizu Ahmed [Molasses Sales]
+1020508 Receivable-AIT
+102050800001 Receivable AIT [ Tabani Beverage]
+102050800002 Receivable AIT [ Opsonin Pharma.]
+102050800003 Receivable AIT [ Transcom Beverage]
+102050800004 Receivable AIT [ Aristopharma]
+102050800005 Receivable-Louis Dreyfus Commodities.
+102050800006 Receivable-AIT [Dividend]
+102050800007 Receivable Dividend A/C.
+102050800008 Receivable VAT & Tax
+102050800009 Receivable AIT [Navana Pharmaceuticals Ltd.]
+102050800010 Receivable AIT [Sanofiaventis Ltd.]
+102050800011 Receivable AIT [The ACME Laboratories Ltd.]
+102050800012 Receivable AIT [Eskayef BD Ltd.]
+102050800013 Receivable AIT [Milk Vita]
+102050800014 Receivable AIT [ACI Ltd.]
+102050800015 Receivable AIT [The IBN Sina Ltd.]
+102050800016 Receivable AIT [Arctic Biscuits]
+102050800017 Receivable AIT [Perfetti Van Melle BD Ltd. ]
+102050800018 Receivable AIT [Jayson Pharmaceuticals Ltd.]
+102050800019 Receivable AIT [Olympic Industries Ltd.]
+102050800020 Receivable AIT [The ACME Agrovate & Beverage Ltd.]
+102050800021 Receivable AIT [ Sharif Pharmaceuticals Ltd. ]
+102050800022 Receivable AIT [Renata Ltd]
+102050800023 Receivable AIT [ Nestle Bd. Ltd. ]
+102050800024 Receivable AIT [ AST Beverage Ltd. ]
+102050800025 Receivable AIT [ Popular Pharma ]
+102050800026 Receivable AIT [ JMI Pharmaceuticals Ltd.]
+102050800027 Receivable AIT [ Drug International Ltd.]
+102050800028 Receivable AIT [ Apex Pharma ]
+102050800029 Receivable AIT [ Incepta Pharmaceuticals Ltd. ]
+102050800030 Receivable AIT [ Orion Group ]
+1020509 Receivable-Others
+10206 Advance, Deposit & Prepayment 0
+1020601 Advance
+102060100001 Advance Insurance Premium
+102060100002 Moazzem Hossain [Tax]
+102060100003 Sanaul Haque [AMBOCL]
+102060100004 Shahed Enterprise [ AM Bran Oil ]
+102060100005 Bashundhara Steel Complex Ltd. [AMBOCL]
+102060100006 Alam Enterprise [AMBOCL]
+102060100007 Masum Billah
+102060100008 Shuktara CNG Filling Station [ Mughra para, Meghnaghat ]
+102060100009 Monirul Islam [AMBOCL]
+102060100010 Abdul Matin [ Mgt.] Land Development.
+1020602 Advance to Employee (Procurement Department)
+102060200001 Yusuf Bin Masud [Procurement]
+102060200002 Zamiul Hasan [ Procurement ]
+102060200003 Mohosin Uddin [Procurement ]
+102060200004 Akhlas Ahmed [ Procurement ]
+102060200005 Anisur Rahman [ Procurement ]
+102060200006 Rezaul Haque [ Procurement ]
+102060200007 Al-Mamun [ Procurement ]
+1020603 Advance to Other Employee
+102060300001 Mahbubur Rahman [ Sales ]
+102060300002 Ismail Miah [ P & A ]
+102060300003 Golam Kabir [ F & A ]
+102060300004 Farhana Ahmed [ HRD ]
+102060300005 Rasel Driver
+102060300006 Osman Gani Khan [ F & A ]
+102060300007 Nirod Barua [ HRM ]
+102060300008 Sharif Mahbubur [ Commercial ]
+102060300009 Abdul Haque [ Commercial ]
+102060300010 Shahadat Hossain [ Commercial ]
+102060300011 Ariful Islam [ Civil Eng. ]
+102060300012 Golam Faruque, GM [T O ]
+102060300013 Arif [ Store & Distribution]
+102060300014 Nowsher A. Faruque [ Procurement ]
+102060300015 Shaheb Ali Driver
+102060300016 Babu Lal Ratna [F& A]
+102060300017 Abul Hossain Driver
+102060300018 Anowarul Haque [ Insurance ]
+102060300019 Uttam Kumar Biswas [ Sales ]
+102060300020 Hasan Mahmud [ Brand ]
+102060300021 Monirul Islam, TSO [ Sales ]
+102060300022 Mostafizur Rahman [ F & A ]
+102060300023 Shamol Kumar Bapary [ Insurance ]
+102060300024 Mizanur Rahman [F&A]
+102060300025 Akter Hossain [F&A]
+102060300026 Shafiqul Islam [ A. Adm Construction ]
+102060300027 Ali Akbar [ F & A ]
+102060300028 Reza [ H R M ]
+102060300029 H.M Rony [ Sales Dept. ]
+102060300030 Shamsuzzaman [ Sales Dept. ]
+102060300031 Asadul Islam [ Adm. Dept. Fac.]
+102060300032 Nurul Islam [ Store Dept. Fac.]
+102060300033 Mokbul Hossain [ Sales ]
+102060300034 Moniruzzaman [ Audit Dept. ]
+102060300035 Mintu Chakrabarty [ Sales ]
+102060300036 Akbar Hossain [ Sales SR ]
+102060300037 Shohag Rahman [ Sales SR ]
+102060300038 Romeo-E-Villanueva [ GM, Operation ]
+102060300039 Serajul Islam [ Admin. ]
+102060300040 Kamal Hossain [ Driver of DMD II ]
+102060300041 Amir Ali [ Sr. Superviser Transport ]
+102060300042 Asaduzzaman Khan [ Distribution ]
+102060300043 Sazid Iqbal [ Business Dev. ]
+102060300044 Basarat Karim [ Fac.]
+102060300045 Akhter Hossain [ Fac.]
+102060300046 Rafiq-Driver
+102060300047 Rahim Molla [ F & A ]
+102060300048 Mahfuzur Rahman [ IT ]
+102060300049 Sujoy Kr. Biswas [ F & A ]
+102060300050 Advance- IOU
+102060300051 Kamrul Ahsan,Eng.[Adv. Salary ]
+102060300052 Sabur Khan [ Sales ]
+102060300053 Major Khairul Bashar [GM-Amm.]
+102060300054 Samiron Barua
+102060300055 Shahidul Islam [Manager-Admin-Factory]
+102060300056 Abdur Rob [Land Department]
+102060300057 Akmal Imam Chisty
+102060300058 Shambir Alam [ Level-13 -AML]
+102060300059 Lulu Imtiaz-QA-Fac.
+102060300060 Mizanur Rahman [ Security Officer-Fac.]
+1020604 Advance Income Tax
+102060400001 Advance Income Tax [ Import ]
+102060400002 Value Added Tax [ Import ]
+102060400003 Advance Income Tax [Export Sales]
+102060400004 Advance- Income Tax Payment
+102060401 Tax Deducted At Sources
+102060401001 TDS on Interest Income-STD A/c
+102060401002 TDS on Interest Income-FDRA/c
+102060401003 AIT on Sugar Sales to Institution
+102060401004 TDS on Dividend Income
+1020605 L/C Margin
+102060500001 L/C Margin - Janata Bank Ltd. [L/O]
+102060500002 L/C Margin -Mutual Trust Bank Ltd
+102060500003 L/C Margin- AB Bank Ltd. [New Elephant Rd. Br.]
+102060500004 L/C Margin-SJIBL [Dhanmondi ]
+102060500005 L/C Margin-Bank Asia Ltd.
+102060500006 L/C Margin-IBBL [Security Deposit against Import]
+102060500007 L/C Margin-Premier Bank B.B
+102060500008 L/C Margin-National Bank Ltd. [MB]
+102060500009 L/C Margin-Premier Bank Ltd.[Motijheel]
+102060500010 L/C Margin-DBBL-KB
+1020606 Security & Other Deposit
+102060600001 Security Deposit-Mobile Phones
+102060600002 Security Deposit-Vehicles
+102060600003 Security Deposit [ Customs ]
+102060600004 Security Deposit-Titas Gas
+102060600005 Security Deposit-Telephone
+102060600006 Security Deposit -TCB
+102060600007 Security Deposit-Electricity
+102060601 Security Deposit-Bank Guarantee Margin
+102060601001 BG Margin /Bank Asia Ltd.
+102060601002 BG Margin /Bank Asia /BSFIC
+1020607 Goods In Transit
+102060701 GIT-Bank Asia Ltd.
+102060701001 MIT/BAL/RS/Sight/LC- 10013
+102060701002 MIT/BAL/RS/DP/LC- 20008
+102060701003 MIT/BAL/RS/DP/LC- 20011
+102060701004 MIT/BAL/RS/Sight/LC- 10056
+102060701005 MIT/BAL/WS/Local/LC-90004
+102060701006 MIT/BAL/Lime/Sight/LC-10114
+102060701007 MIT/BAL/RS/DP/LC-20025
+102060701008 MIT/BAL/Spares/Sight/LC-10117
+102060701009 MIT/BAL/Spares/Sight/LC-10126
+102060701010 MIT/BAL/Lime/Sight/LC-10088
+102060701011 MIT/BAL/Filter Aid/Sight/LC-10087
+102060701012 MIT/BAL/Air Com./LC-10001
+102060701013 MIT/BAL/Lime/Sight/LC-10154
+102060701014 MIT/BAL/Filter Aid/Sight/LC-10156
+102060701015 MIT/BAL/Carbon/Sihgt/LC-10158
+102060701016 MIT/BAL/WS/Local/LC-90005
+102060701017 MIT/BAL/RS/DP/LC-20056/41th
+102060701018 MIT/BAL/RS/DP/LC-20057/41th
+102060701019 MIT/BAL/Resin/Sight/LC-1001/02-01-12
+102060701020 MIT/BAL/V.Motor/Sight/LC-10033/30.01.12
+102060701021 MIT/BAL/Valves/Sight/LC-10034/30.01.12
+102060701022 MIT/BAL/Lime/Sight/LC-10039/06.02.12
+102060701023 MIT/BAL/Lime/Sihgt/LC-10056/13.03.12
+102060701024 MIT/BAL/Filter Cloth/LC-10140/25-06-12
+102060701025 MIT/BAL/RS/DP/LC-20104/49th
+102060701026 MIT/BAL/RS/DP/LC-20105/49th
+102060701027 MIT/BAL/RS/DP/LC-20138/50th
+102060701028 MIT/BAL/RS/DP/LC-20139/50th
+102060701029 MIT/BAL/Lime/Sight/LC-10262/24-12-12
+102060701030 MIT/BAL/Magnetic Grill/Sight/LC-10263/26-12-12
+102060701031 MIT/BAL/Bare Pump/sight/LC-10001/01.01.13
+102060701032 MIT/BAL/Control Valve/sight/LC-10033/27.01.13
+102060702 GIT-Shahjalal Islami Bank Ltd. (DB)
+102060702001 MIT/SJIBL/RS/DP/LC- 20001
+102060702002 MIT/SJIBL/RS/DP/LC- 20002
+102060703 GIT-Mutual Trust Bank Ltd.
+102060703001 MIT/MTBL/RS/DP/LC- 20010
+102060703002 MIT/MTBL/RS/DP/LC- 20007
+102060703003 MIT/MTBL/RS/DP/LC- 20006
+102060703004 MIT/MTBL/RS/DP/LC-20004/43rd
+102060703005 MIT/MTBL/RS/DP/LC-20005/43rd
+102060703006 MIT/MTBL/RS/DP/LC-20006/43rd
+102060703007 MIT/MTBL/RS/DP/LC-20015/45th/17.05.12
+102060703008 MIT/MTBL/RS/DP/LC-20016/45th/17.05.12
+102060703009 MIT/MTBL/RS/DP/LC-20017/45th/17.05.12
+102060703010 MIT/MTBL/RS/DP/LC-20018/45th/17.05.12
+102060704 GIT-One Bank Ltd.
+102060704001 MIT/OBL/RS/DP/LC- 20006
+102060704002 MIT/OBL/RS/DP/LC- 20007
+102060704003 MIT/OBL/RS/DP/LC-20018
+102060704004 MIT/OBL/RS/DP/LC-20019
+102060704005 MIT/OBL/RS/DP/LC-20032/39th
+102060704006 MIT/OBL/RS/Sight/LCA-51559
+102060705 GIT-Janata Bank Ltd.
+102060705001 MIT/Janata/RS/DP/LC-21091
+102060705002 MIT/Janata/RS/DP/LC-21092
+102060705003 MIT/Janata/RS/DP/LC-21093
+102060705004 MIT/Janata/RS/DP/LC-21094
+102060705005 MIT/Janata/RS/DP/LC-21602
+102060705006 MIT/Janata/RS/DP/LC-21637
+102060705007 MIT/Janata/RS/DP/LC-21707
+102060705008 MIT/Janata/RS/DP/LC-21746
+102060706 GIT-National Bank Ltd.
+102060706001 MIT/NBL/RS/DP/LC-20002
+102060706002 MIT/NBL/RS/DP/LC-20003
+102060706003 MIT/NBL/RS/DP/LC-20004
+102060706004 MIT/NBL/RS/DP/LC-20005
+102060706005 MIT/NBL/RS/DP/LC-20008
+102060706006 MIT/NBL/RS/DP/LC-20009
+102060706007 MIT/NBL/RS/DP/LC-20001/44th
+102060706008 MIT/NBL/RS/DP/LC-20002/44th
+102060707 GIT-Islami Bank Bangladesh Ltd.
+102060707001 MIT/IBBL/RS/DP/LC-20099
+102060707002 MIT/IBBL/RS/DP/LC-20100
+102060707003 MIT/IBBL/RS/DP/LC-20105
+102060707004 MIT/IBBL/RS/DP/LC-20106
+102060707005 MIT/IBBL/RS/DP/LC-20123/40th
+102060707006 MIT/IBBL/RS/DP/LC-20124/40th
+102060707007 MIT/IBBL/RS/DP/LC-20125/40th
+102060707008 MIT/IBBL/RS/DP/LC-20126/40th
+102060707009 MIT/IBBL/Sight/Activated Carbon/LC-10218/25.03.12
+102060707010 MIT/IBBL/Sight/Activated Carbon/LC-10219/25.03.12
+102060707011 MIT/IBBL/Sight/Spares-Centrifugal/LC-10295/25.04.12
+102060707012 MIT/IBBL/Sight/Spares-Swing/LC-10296/25.04.12
+102060707013 MIT/IBBL/RS/DP/LC-20064/46th
+102060707014 MIT/IBBL/RS/DP/LC-20065/46th
+102060707015 MIT/IBBL/RS/DP/LC-20066/46th
+102060707016 MIT/IBBL/RS/DP/LC-20067/46th
+102060707017 MIT/IBBL/Sight/Lime/LC-10385/29.05.12
+102060707018 MIT/IBBL/RS/DP/LC-20081/47th
+102060707019 MIT/IBBL/RS/DP/LC-20082/47th
+102060707020 MIT/IBBL/RS/DP/LC-20083/47th
+102060707021 MIT/IBBL/RS/DP/LC-20084/47th
+102060707022 MIT/IBBL/RS/DP/LC-20125/48th
+102060707023 MIT/IBBL/RS/DP/LC-20126/48th
+102060707024 MIT/IBBL/RS/DP/LC-20127/48th
+102060707025 MIT/IBBL/RS/DP/LC-20128/48th
+102060708 GIT-Premier Bank Ltd. [Motijheel Br.]
+102060708001 MIT/Premier/RS/DP/LC-20007/41th
+102060708002 MIT/Premier/RS/DP/LC-20008/41th
+102060708003 MIT/Premier MB/RS/DP/LC-20002/42th
+102060708004 MIT/Premier MB/RS/DP/LC-20003/42th
+102060709 GIT-Dutch Bangla Bank Ltd. [KB]
+102060709001 MIT/DBBL/RS/DP/LC-10196/49th
+102060709002 MIT/DBBL/RS/DP/LC-10197/49th
+102060710 GIT-AB Bank Ltd. [NERB]
+102060710001 MIT/ABBL/RS/DP/LC-20086/50th
+102060710002 MIT/ABBL/RS/DP/LC-20392/50th
+10207 Cash & Cash Equivalents 0
+1020701 Cash In Hand
+102070100001 Cash In Hand -HO
+102070100002 Cash In Hand -Factory
+1020702 Cash At Bank
+102070201 Islami Bank BD Ltd. [L/O]
+102070201001 IBBL-CD-8897 [L/O]
+102070201002 IBBL-Margin A/C [ MDA Normal-36813 ]
+102070201003 IBBLCD-9281[Sk. Traders]
+102070202 Islami Bank BD Ltd. [Moghbazar Br.]
+102070202001 IBBL-CD-0317[MBB]
+102070203 National Bank Ltd.-Kawran Bazar Br.
+102070203001 NBL-STD-011222 [KB]
+102070203002 NBL-CD-25603 [KB]
+102070204 National Bank Ltd.-Motijheel Branch
+102070204001 NBL-STD-36001005 [MB]
+102070204002 NBL-MB-FDR-0337322
+102070205 AB Bank Ltd-New Elephant Road Branch
+102070205001 ABBL- CD-755072 [NERB]
+102070205002 ABBL- STD- 0430 [NERB]
+102070205003 ABBL-CD-750636-AML-Construction [NERB]
+102070206 Shahjalal Islami Bank-Gulshan Branch
+102070206001 SJIBL-SND-0863 [GB]
+102070207 Shahjalal Islami Bank Ltd. -Dhanmondi Branch
+102070207001 SJIBL-SND-1186 [DB]
+102070207002 SJIBL-FDR [DB]
+102070208 Shahjalal Islami Bank Ltd.-Main Branch
+102070208001 SJIBL-SND-1911 [Main B]
+102070209 Premier Bank Ltd. -Meghnaghat Branch
+102070209001 Premier Bank Ltd-CD-2764 [MGB]
+102070209002 Premier Bank Ltd. -STD-0094 [MGB]
+102070210 Premier Bank Ltd. -Banani Branch
+102070210001 Premier Bank Ltd.-STD-850 [BB]
+102070211 City Bank Ltd. -Kawran Bazar Branch
+102070211001 City Bank Ltd.-CD-KB-6001
+102070212 Prime Bank Ltd. -Kawran Bazar Branch
+102070212001 Prime Bank Ltd. - CD-113-1103-489 [KB]
+102070212002 Prime Bank Ltd.-STD-11106 [KB]
+102070213 Mutual Trust Bank Ltd.-Dilkusha Branch
+102070213001 MTBL- STD-562 [DKB]
+102070213002 MTBL- FDR [DKB]
+102070214 Dutch Bangla Bank Ltd.-STD-0529
+102070214001 DBBL-STD-0529
+102070214002 DBBL-FDR-107.502.18081
+102070215 Janata Bank Ltd.-L/O
+102070215001 Janata Bank Ltd.-CD-58747 [L/O]
+102070215002 Janata Bank Ltd.-STD-1968 [L/O]
+102070215003 Janata Bank-Margin A/c [Export]
+102070216 Exim Bank Ltd.- Kawran Bazar Branch
+102070216001 Exim Bank Ltd.-MSTD-5873 [KB]
+102070217 Sonali Bank Ltd.-Sonargaon Road Branch
+102070217001 Sonali Bank Ltd. - STD-4000054 [SRB]
+102070218 Uttara Bank Ltd.-Kawran Bazar Branch
+102070218001 Uttara Bank Ltd.- CD-1291 [KB]
+102070219 United Commercial Bank Ltd. -Kawran Bazar Branch
+102070219001 UCBL-STD-0463 [KB]
+102070220 Bank Asia Ltd. -Corporate Branch
+102070220001 Bank Asia Ltd.-CD-11221 [CB]
+102070220002 Bank Asia Ltd.- FDR[TCB/ BG Margin]
+102070220003 Bank Asia Ltd.-FDR- 11428
+102070220004 Bank Asia Ltd.-FDR- 11500
+102070220005 Bank Asia Ltd.-FDR-11687
+102070220006 Bank Asia Ltd.-FDR-255-12057
+102070220007 Bank Asia Ltd.-FDR-12664
+102070220008 Bank Asia Ltd.-FDR-12665
+102070220009 Bank Asia Ltd.-FDR-12761
+102070220010 Bank Asia Ltd.-FDR-12762
+102070221 Jamuna Bank Ltd.-Sonargaon Road Branch
+102070221001 Jamuna Bank Ltd.- CD-10734
+102070222 Southeast Bank Ltd -New Eskaton Branch
+102070222001 Southeast Bank Ltd - CD-6346 [NEB]
+102070223 One Bank Ltd. -Kawran Bazar Branch
+102070223001 One Bank Ltd.-CD-83818-018 [KB]
+102070223002 One Bank Ltd.-FDR- 081781[KB]
+102070223003 One Bank Ltd.-FDR- 081782[KB]
+102070223004 One Bank Ltd.-FDR-106133[KB]
+102070223005 One Bank Ltd.-FDR-106134[KB]
+102070223006 One Bank Ltd.-Margin-026
+102070223007 One Bank Ltd.-FDR-106336[KB]
+102070223008 One Bank Ltd.-FDR-130910[KB]
+102070223009 One Bank Ltd.-FDR-130946[KB]
+102070223010 One Bank Ltd.-SND-83818001[KB]
+102070223011 One Bank Ltd.-FDR-131102[KB]
+102070224 Agrani Bank Ltd.- Main Br. Motijheel
+102070224001 Agrani Bank Ltd.-CD-154857[ MB-Motijheel]
+102070225 Premier Bank Ltd.-Motijheel Branch
+102070225001 Premier Bank Ltd.-MB-FDR-0128928
+102070225002 Premier Bank Ltd.-MB-CD-16802
+102070225003 Premier Bank Ltd.-MB-FDR-0132136
+102070225004 Premier Bank Ltd.-MB-FDR-0132155
+102070225005 Premier Bank Ltd.-MB-SND-1173
+102070225006 Premier Bank Ltd.-MB-FDR-243-36590
+102070226 Dhaka Bank Ltd.-Foreign Exchange Br. Motijheel
+102070226001 Dhaka Bank Ltd-FEBM-SND-1402
+102070227 Standard Chartered Bank
+102070227001 SCB-CD-02-1146046-01

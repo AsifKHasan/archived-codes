@@ -1,0 +1,113 @@
+# ErpNext
+
+# Ubuntu 16.04
+sudo apt-get update
+sudo apt-get upgrade --fix-missing
+sudo apt install libffi-dev python-pip python-dev libssl-dev wkhtmltopdf curl git
+
+sudo apt-get install gcc g++ make
+sudo apt autoremove
+
+# Node Js and Redis
+sudo apt-get install -y redis-server
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+sudo npm install -g yarn
+
+# Nginx / MariaDB
+sudo apt install nginx
+
+sudo systemctl stop nginx.service
+sudo systemctl start nginx.service
+sudo systemctl enable nginx.service
+
+sudo apt-get install mariadb-server mariadb-client
+sudo apt-get install libmysqlclient-dev
+
+sudo systemctl stop mysql.service
+sudo systemctl start mysql.service
+sudo systemctl status mysql.service
+sudo systemctl enable mysql.service
+
+sudo mysql_secure_installation
+
+# Enter current password for root (enter for none): Just press the Enter
+# Set root password? [Y/n]: Y
+# New password: Enter password
+# Re-enter new password: Repeat password
+# Remove anonymous users? [Y/n]: Y
+# Disallow root login remotely? [Y/n]: Y
+# Remove test database and access to it? [Y/n]:  Y
+# Reload privilege tables now? [Y/n]:  Y
+
+# mysql root password - Redhat123
+
+sudo mysql -u root -p
+CREATE DATABASE erpnext;
+CREATE USER 'erpnextuser'@'localhost' IDENTIFIED BY 'erpnext';
+GRANT ALL ON erpnext.* TO 'erpnextuser'@'localhost' IDENTIFIED BY 'erpnext' WITH GRANT OPTION;
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('Redhat123');
+UPDATE user SET plugin='mysql_native_password' WHERE User='root'
+#ALTER USER 'root'@'localhost' IDENTIFIED BY 'Redhat123';
+FLUSH PRIVILEGES;
+
+
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
+[mysqld]
+innodb-file-format=barracuda
+innodb-file-per-table=1
+innodb-large-prefix=1
+character-set-client-handshake = FALSE
+character-set-server = utf8mb4
+collation-server = utf8mb4_unicode_ci
+
+[mysql]
+default-character-set = utf8mb4
+
+# for mariadb status viewing
+sudo journalctl -xe
+
+
+SHOW VARIABLES LIKE '%innodb%';
+MariaDB is not properly configured to use the Barracuda storage engine
+
+# ErpNext
+sudo useradd -m -s /bin/bash erpnextuser
+sudo passwd erpnextuser
+# password is erpnext
+sudo usermod -aG sudo erpnextuser
+
+sudo mkdir -p /opt/erpnext
+sudo chown -R erpnextuser /opt/erpnext/
+
+su - erpnextuser
+cd /opt/erpnext
+git clone https://github.com/frappe/bench bench-repo
+sudo pip install -e bench-repo
+
+bench init erpnext && cd erpnext
+
+bench new-site secl.com
+bench start
+
+
+# ERPNext
+http://192.168.0.130:8000
+Administrator/admin
+asif.hasan@gmail.com/An1m1kh
+
+
+http://localhost:8080
+asif.hasan@gmail.com/An1m1kh
+Administrator/admin
+
+
+
+ssh -l secl 192.168.0.130
+user : root/Redhat123
+User : secl/Asdf@1234
+
+
+sudo mysql -u root -p

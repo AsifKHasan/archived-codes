@@ -1,0 +1,91 @@
+<configuration>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<withJansi>true</withJansi>
+		<encoder>
+			<pattern>%d %-10([%thread]) %highlight(%-5level) %highlight(%logger{36} -) %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+	
+	<!--Daily rolling file appender -->
+	<appender name="FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>log/uniVerge.log</File>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<FileNamePattern>log/uniVerge.log.%d{yyyy-MM-dd}.log</FileNamePattern>
+		</rollingPolicy>
+		<encoder>
+			<Pattern>%d %-30([%thread]) %-5level %logger{36} - %msg%n
+			</Pattern>
+		</encoder>
+	</appender>
+	
+	<!--Error Mail appender -->
+	<appender name="EMAIL" class="ch.qos.logback.classic.net.SMTPAppender">
+		<smtpHost>smtp.gmail.com</smtpHost>
+		<smtpPort>587</smtpPort>
+		<STARTTLS>true</STARTTLS>
+		<username>rivertelecom@gmail.com</username>
+		<password>genbandc3</password>
+
+		<to>univergeerrorfinder@gmail.com.</to>
+		<!--<to>asif.hasan@gmail.com</to>-->  <!-- additional destinations are possible -->
+		<from>rivertelecom@gmail.com</from>
+		<subject>uniVerge-System Error: %logger{20} - %m</subject>
+		<encoder>
+			<pattern>%date %-5level %logger - %message%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="ROOTS_BILL_NOTIFY" class="ch.qos.logback.classic.net.SMTPAppender">
+		<smtpHost>smtp.gmail.com</smtpHost>
+		<smtpPort>587</smtpPort>
+		<username>mdjamal1984@gmail.com</username>
+		<password>TjcAndJamal</password>
+		<to>jamal@spectrum-bd.com</to>
+		<from>mdjamal1984@gmail.com</from>
+
+		<subject>%m</subject>
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%date %message %mdc{body}%n</pattern>
+		</layout>
+	
+		<cyclicBufferTracker class="ch.qos.logback.core.spi.CyclicBufferTracker">
+			<!-- send just one log entry per email -->
+			<bufferSize>1</bufferSize>
+		</cyclicBufferTracker>
+
+		<evaluator class="ch.qos.logback.classic.boolex.JaninoEventEvaluator">
+			<expression>
+				marker != null &amp;&amp; marker.contains("SMTP_TRIGGER")
+			</expression>
+		</evaluator>
+	</appender>
+
+
+	
+	<logger name="com.distint.river.telecom" level="INFO">
+		<appender-ref ref="STDOUT" />	
+		<appender-ref ref="ROOTS_BILL_NOTIFY" />	
+	</logger>
+	
+	<logger name="org.apache.zookeeper" level="INFO">
+	</logger>
+	
+	<logger name="River" level="INFO">
+		<appender-ref ref="STDOUT" />
+		
+	</logger>
+	<logger name="warn" level="WARN">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="ROOTS_BILL_NOTIFY" />
+	</logger>
+	<logger name="error" level="ERROR">
+		<appender-ref ref="EMAIL" />
+	</logger>
+	<root level="INFO">
+		<appender-ref ref="FILE" />	
+		
+	</root>
+
+</configuration>

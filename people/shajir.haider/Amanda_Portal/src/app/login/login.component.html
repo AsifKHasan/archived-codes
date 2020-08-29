@@ -1,0 +1,51 @@
+<div class="login">
+  <h3 class="text-center text-white pt-1">Login form</h3>
+  <div class="image">
+      <img src="../src/assets/images/Cambridge_logo.png" alt="">
+  </div>
+  <div class="page-heading"></div>
+  <div class="container">
+    <div id="login-row" class="row justify-content-center align-items-center">
+      <div id="login-column" class="col-md-6">
+        <div id="login-box" class="col-md-12">
+          <form id="login-form" class="form" (ngSubmit)="onSubmit()" #f="ngForm">
+            <h3 class="text-center text-info">Account Login</h3>
+            <div
+              id="user-data"
+              ngModelGroup="userData"
+              #userData="ngModelGroup">
+              <div class="form-group">
+                <label for="login">Login ID</label>
+                <input
+                  type="text"
+                  id="login"
+                  class="form-control"
+                  ngModel
+                  name="login"
+                  required>
+              </div>
+              <div class="form-group">
+                <label for="password"> Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  class="form-control"
+                  ngModel
+                  name="password"
+                  required
+                  password
+                  #password="ngModel">
+
+              </div>
+            </div>
+
+            <button
+              class="btn btn-primary"
+              type="submit"
+              [disabled]="!f.valid"  >Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

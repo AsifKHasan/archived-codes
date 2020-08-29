@@ -1,0 +1,18 @@
+apply plugin: 'application'
+apply plugin: 'maven'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+mainClassName = 'com.spectrumbd.play.app.Play'
+
+dependencies {
+	compile project(':play-cassandra')
+}
+
+sourceSets {
+	conf {
+		java {
+			srcDir 'src/dist/conf'
+		}
+	}
+}

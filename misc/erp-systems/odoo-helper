@@ -1,0 +1,50 @@
+# Odoo 10
+
+# Ubuntu 16.04
+sudo apt-get update
+sudo apt-get upgrade --fix-missing
+
+# postgres
+sudo apt install postgresql
+sudo su - postgres -c "createuser -s $USER"
+
+# Node.js
+sudo apt-get install -y npm
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+sudo npm install -g less
+
+# Python 2.7.9+
+sudo apt install python-pip
+pip2 install --upgrade pip
+sudo apt-get install libsasl2-dev python-dev libldap2-dev libssl-dev
+sudo apt-get install libxml2-dev libxslt-dev
+sudo pip2 install -r requirements.txt
+sudo pip2 install --upgrade python-openid pyusb PyYAML qrcode reportlab suds-jurko python-stdnum vatnumber vobject Werkzeug XlsxWriter xlwt xlrd
+
+# run
+cd /opt/odoo/odoo-10.0.post20181229/
+./odoo-bin --dev all
+
+
+http://192.168.0.130:8069
+asif.hasan@gmail.com/odoo
+DB schema - odoo10
+
+
+
+http://localhost:8069
+asif.hasan@gmail.com/odoo10
+DB schema - odoo10/odoo10
+
+
+
+
+
+
+ssh -l secl 192.168.0.130
+user name: root
+Password: Redhat123
+User name: secl
+Password: Asdf@1234
+
+psql -U postgres -d postgres

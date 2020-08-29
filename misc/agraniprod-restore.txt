@@ -1,0 +1,20 @@
+HOST="127.0.0.1"
+PORT="5432"
+SQLCLI=`which psql`
+DB="postgres"
+USER="postgres"
+
+$SQLCLI -h $HOST -p $PORT -d $DB -U $USER
+
+drop database agraniprod
+
+-- run this within psql to create agraniprod user, agraniprod database
+create user agraniprod password 'agraniprod';
+create database agraniprod WITH owner=agraniprod encoding='UTF8';
+alter user agraniprod with superuser;
+
+-- agraniprod can login now
+$SQLCLI -h $HOST -p $PORT -d agraniprod -U agraniprod
+
+
+\i /Users/asif.hasan/Downloads/agrani-2016-11-01-000102.sql

@@ -1,0 +1,1277 @@
+user_management.authorities	id	integer	-	-	Yes	-
+user_management.authorities	name	character varying	50	-	Yes	-
+user_management.authorities	endpoint	character varying	250	-	Yes	-
+user_management.authorities	method	character varying	10	-	Yes	-
+user_management.authorities	service	character varying	10	-	Yes	-
+user_management.authority_authority_mappings	id	integer	-	-	Yes	-
+user_management.authority_authority_mappings	parent_id	integer	-	-	Yes	-
+user_management.authority_authority_mappings	child_id	integer	-	-	Yes	-
+user_management.role_authority_mappings	id	uuid	-	-	Yes	-
+user_management.role_authority_mappings	role_id	uuid	-	-	Yes	-
+user_management.role_authority_mappings	authority_id	integer	-	-	Yes	-
+user_management.roles	id	uuid	-	-	Yes	-
+user_management.roles	created_on	timestamp without time zone	-	-	Yes	now()
+user_management.roles	created_by	uuid	-	-	-	-
+user_management.roles	updated_on	timestamp without time zone	-	-	-	-
+user_management.roles	description	text	-	-	-	-
+user_management.roles	name	character varying	50	-	Yes	-
+user_management.roles	updated_by	uuid	-	-	-	-
+user_management.roles	organisation_id	uuid	-	-	Yes	-
+user_management.tmp_authority_authority_mappings	id	integer	-	-	Yes	-
+user_management.tmp_authority_authority_mappings	authority_parent	character varying	50	-	Yes	-
+user_management.tmp_authority_authority_mappings	service_parent	character varying	10	-	Yes	-
+user_management.tmp_authority_authority_mappings	authority_child	character varying	50	-	Yes	-
+user_management.tmp_authority_authority_mappings	service_child	character varying	10	-	Yes	-
+user_management.user_role_mappings	id	uuid	-	-	Yes	-
+user_management.user_role_mappings	user_id	uuid	-	-	Yes	-
+user_management.user_role_mappings	role_id	uuid	-	-	Yes	-
+user_management.users	id	uuid	-	-	Yes	-
+user_management.users	login_name	character varying	50	-	Yes	-
+user_management.users	profile_id	uuid	-	-	Yes	-
+user_management.users	organisation_id	uuid	-	-	Yes	-
+user_management.users	is_default_password	boolean	-	-	Yes	true
+user_management.users	is_active	boolean	-	-	Yes	true
+user_management.users	is_deleted	boolean	-	-	Yes	false
+user_management.users	created_on	timestamp without time zone	-	-	Yes	now()
+user_management.users	active_from	timestamp without time zone	-	-	Yes	now()
+user_management.users	active_to	timestamp without time zone	-	-	Yes	(now() + '1 year'::interval)
+user_management.users	created_by	uuid	-	-	-	-
+user_management.users	updated_on	timestamp without time zone	-	-	-	-
+user_management.users	updated_by	uuid	-	-	-	-
+user_management.users	password	character varying	256	-	Yes	-
+meeting.tbl_attachment	id	uuid	-	-	Yes	-
+meeting.tbl_attachment	file_id	character varying	100	-	Yes	-
+meeting.tbl_attachment	file_name	character varying	100	-	Yes	-
+meeting.tbl_attachment	external_meeting_id	uuid	-	-	Yes	-
+meeting.tbl_attachment	is_delete	boolean	-	-	Yes	-
+meeting.tbl_budget_heads	id	uuid	-	-	Yes	-
+meeting.tbl_budget_heads	head_name	character varying	255	-	Yes	-
+meeting.tbl_budget_heads	head_code	character varying	255	-	Yes	-
+meeting.tbl_budget_heads	status	boolean	-	-	Yes	true
+meeting.tbl_budget_heads	is_deleted	boolean	-	-	Yes	false
+meeting.tbl_external_meeting	id	uuid	-	-	Yes	-
+meeting.tbl_external_meeting	office_name	character varying	100	-	Yes	-
+meeting.tbl_external_meeting	meeting_reference	character varying	100	-	Yes	-
+meeting.tbl_external_meeting	meeting_title	character varying	100	-	Yes	-
+meeting.tbl_external_meeting	meeting_type	character varying	100	-	Yes	-
+meeting.tbl_external_meeting	meeting_room	character varying	100	-	-	-
+meeting.tbl_external_meeting	meeting_chairperson	character varying	100	-	-	-
+meeting.tbl_external_meeting	meeting_date	date	-	-	Yes	-
+meeting.tbl_external_meeting	start_time	time without time zone	-	-	-	-
+meeting.tbl_external_meeting	end_time	time without time zone	-	-	-	-
+meeting.tbl_external_meeting	employee_id	uuid	-	-	Yes	-
+meeting.tbl_external_meeting	is_delete	boolean	-	-	Yes	-
+meeting.tbl_meeting_agendas	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_agendas	meeting_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_agendas	agenda	character varying	255	-	Yes	-
+meeting.tbl_meeting_agendas	is_deleted	boolean	-	-	Yes	-
+meeting.tbl_meeting_attachments	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_attachments	meeting_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_attachments	office_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_attachments	type	character varying	50	-	Yes	-
+meeting.tbl_meeting_attachments	file_title	character varying	255	-	-	-
+meeting.tbl_meeting_attachments	file_id	character varying	255	-	-	-
+meeting.tbl_meeting_attachments	file_path	character varying	255	-	-	-
+meeting.tbl_meeting_attachments	is_deleted	boolean	-	-	Yes	-
+meeting.tbl_meeting_attachments	created_on	date	-	-	-	-
+meeting.tbl_meeting_attachments	created_by	uuid	-	-	-	-
+meeting.tbl_meeting_budgets	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_budgets	meeting_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_budgets	budget_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_budgets	estimated_budget	double precision	-	-	Yes	-
+meeting.tbl_meeting_budgets	accepted_budget	double precision	-	-	-	-
+meeting.tbl_meeting_budgets	expenses	double precision	-	-	-	-
+meeting.tbl_meeting_budgets	justification	character varying	1000	-	-	-
+meeting.tbl_meeting_budgets	expenses_justification	character varying	1000	-	-	-
+meeting.tbl_meeting_budgets	comments	character varying	1000	-	-	-
+meeting.tbl_meeting_budgets	fiscal_year	uuid	-	-	-	-
+meeting.tbl_meeting_budgets	is_deleted	boolean	-	-	Yes	false
+meeting.tbl_meeting_comments	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_comments	comment	text	-	-	-	-
+meeting.tbl_meeting_comments	type	character varying	50	-	-	-
+meeting.tbl_meeting_comments	employee_id	uuid	-	-	-	-
+meeting.tbl_meeting_comments	meeting_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_comments	comment_date	date	-	-	-	-
+meeting.tbl_meeting_comments	is_deleted	boolean	-	-	Yes	-
+meeting.tbl_meeting_comments	is_chair	boolean	-	-	Yes	-
+meeting.tbl_meeting_committee_members	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_committee_members	committee_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_committee_members	employee_id	uuid	-	-	-	-
+meeting.tbl_meeting_committee_members	designation	character varying	100	-	-	-
+meeting.tbl_meeting_committee_members	name	character varying	100	-	Yes	-
+meeting.tbl_meeting_committee_members	member_type	character varying	-	-	Yes	-
+meeting.tbl_meeting_committee_members	org_name	character varying	100	-	-	-
+meeting.tbl_meeting_committee_members	office_id	uuid	-	-	-	-
+meeting.tbl_meeting_committee_members	status	integer	-	-	-	-
+meeting.tbl_meeting_committee_members	is_deleted	boolean	-	-	Yes	-
+meeting.tbl_meeting_committee_members	role_in_meeting	character varying	20	-	-	-
+meeting.tbl_meeting_committees	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_committees	committee_code	character varying	50	-	Yes	-
+meeting.tbl_meeting_committees	committee_name	character varying	50	-	Yes	-
+meeting.tbl_meeting_committees	meeting_type	uuid	-	-	Yes	-
+meeting.tbl_meeting_committees	short_description	character varying	50	-	-	-
+meeting.tbl_meeting_committees	office_id	uuid	-	-	-	-
+meeting.tbl_meeting_committees	is_deleted	boolean	-	-	Yes	-
+meeting.tbl_meeting_committees	created_by	uuid	-	-	-	-
+meeting.tbl_meeting_committees	created_on	date	-	-	-	-
+meeting.tbl_meeting_decisions	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_decisions	meeting_id	uuid	-	-	-	-
+meeting.tbl_meeting_decisions	agenda_id	uuid	-	-	-	-
+meeting.tbl_meeting_decisions	speakers	text	-	-	-	-
+meeting.tbl_meeting_decisions	discussion	character varying	500	-	-	-
+meeting.tbl_meeting_decisions	decision	character varying	500	-	-	-
+meeting.tbl_meeting_decisions	decision_file	character varying	500	-	-	-
+meeting.tbl_meeting_decisions	is_deleted	boolean	-	-	-	-
+meeting.tbl_meeting_decisions	org_id	uuid	-	-	-	-
+meeting.tbl_meeting_invitation	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_invitation	employee_id	uuid	-	-	-	-
+meeting.tbl_meeting_invitation	meeting_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_invitation	is_owner	boolean	-	-	Yes	-
+meeting.tbl_meeting_invitation	is_nominated	boolean	-	-	Yes	-
+meeting.tbl_meeting_invitation	is_invited	boolean	-	-	Yes	-
+meeting.tbl_meeting_invitation	is_attend	boolean	-	-	Yes	-
+meeting.tbl_meeting_invitation	status	character varying	50	-	Yes	-
+meeting.tbl_meeting_invitation	remarks	character varying	1000	-	-	-
+meeting.tbl_meeting_invitation	office_id	uuid	-	-	-	-
+meeting.tbl_meeting_invitation	guest_type	character varying	255	-	Yes	-
+meeting.tbl_meeting_invitation	name	character varying	255	-	-	-
+meeting.tbl_meeting_invitation	office	character varying	255	-	-	-
+meeting.tbl_meeting_invitation	designation	character varying	255	-	-	-
+meeting.tbl_meeting_invitation	mobile_no	character varying	25	-	-	-
+meeting.tbl_meeting_invitation	email	character varying	100	-	-	-
+meeting.tbl_meeting_invitation	passport_no	character varying	100	-	-	-
+meeting.tbl_meeting_invitation	country_name	character varying	100	-	-	-
+meeting.tbl_meeting_invitation	is_deleted	boolean	-	-	Yes	-
+meeting.tbl_meeting_invitation	nominated_by	character varying	100	-	-	-
+meeting.tbl_meeting_invitation	is_acknowledged	boolean	-	-	Yes	-
+meeting.tbl_meeting_invitation	honorarium	double precision	-	-	-	0
+meeting.tbl_meeting_invitation	tax_deduction	double precision	-	-	-	0
+meeting.tbl_meeting_invitation	attendee_type_code	integer	-	-	-	-
+meeting.tbl_meeting_invitation	role_name	character varying	200	-	-	-
+meeting.tbl_meeting_invitation	honorium_given	boolean	-	-	-	-
+meeting.tbl_meeting_item_requisitions	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_item_requisitions	meeting_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_item_requisitions	item_requisition_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_item_requisitions	office_id	uuid	-	-	-	-
+meeting.tbl_meeting_item_requisitions	status	character varying	100	-	-	-
+meeting.tbl_meeting_notes	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_notes	meeting_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_notes	agenda_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_notes	office_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_notes	speaker	character varying	255	-	-	-
+meeting.tbl_meeting_notes	note	text	-	-	-	-
+meeting.tbl_meeting_notes	is_deleted	boolean	-	-	Yes	-
+meeting.tbl_meeting_resolution_files	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_resolution_files	resolution_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_resolution_files	file_id	uuid	-	-	-	-
+meeting.tbl_meeting_resolution_files	file_name	character varying	200	-	-	-
+meeting.tbl_meeting_resolutions	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_resolutions	meeting_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_resolutions	prepared_by	uuid	-	-	-	-
+meeting.tbl_meeting_resolutions	create_date	date	-	-	Yes	-
+meeting.tbl_meeting_resolutions	approve_date	date	-	-	-	-
+meeting.tbl_meeting_resolutions	approved_by	uuid	-	-	-	-
+meeting.tbl_meeting_resolutions	status	character varying	20	-	-	-
+meeting.tbl_meeting_resolutions	office_id	uuid	-	-	-	-
+meeting.tbl_meeting_resolutions	resolution	character varying	5000	-	-	-
+meeting.tbl_meeting_resolutions	remarks	character varying	500	-	-	-
+meeting.tbl_meeting_resolutions	is_deleted	boolean	-	-	Yes	-
+meeting.tbl_meeting_room_bookings	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_room_bookings	meeting_room_id	uuid	-	-	-	-
+meeting.tbl_meeting_room_bookings	meeting_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_room_bookings	booked_by	uuid	-	-	-	-
+meeting.tbl_meeting_room_bookings	booking_date	date	-	-	-	-
+meeting.tbl_meeting_room_bookings	responsed_by	uuid	-	-	-	-
+meeting.tbl_meeting_room_bookings	response_date	date	-	-	-	-
+meeting.tbl_meeting_room_bookings	status	character varying	50	-	-	-
+meeting.tbl_meeting_room_bookings	remarks	character varying	50	-	-	-
+meeting.tbl_meeting_rooms	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_rooms	code	character varying	50	-	Yes	-
+meeting.tbl_meeting_rooms	name	character varying	100	-	Yes	-
+meeting.tbl_meeting_rooms	office_id	uuid	-	-	-	-
+meeting.tbl_meeting_rooms	floor_no	character varying	50	-	-	-
+meeting.tbl_meeting_rooms	room_no	character varying	50	-	-	-
+meeting.tbl_meeting_rooms	capacity	character varying	50	-	-	-
+meeting.tbl_meeting_rooms	building_address	character varying	100	-	-	-
+meeting.tbl_meeting_rooms	is_deleted	boolean	-	-	Yes	-
+meeting.tbl_meeting_rooms	created_by	uuid	-	-	-	-
+meeting.tbl_meeting_rooms	created_on	date	-	-	-	-
+meeting.tbl_meeting_types	id	uuid	-	-	Yes	-
+meeting.tbl_meeting_types	meeting_type	character varying	50	-	Yes	-
+meeting.tbl_meeting_types	office_id	uuid	-	-	Yes	-
+meeting.tbl_meeting_types	employee_id	uuid	-	-	-	-
+meeting.tbl_meeting_types	frequency	character varying	50	-	-	-
+meeting.tbl_meeting_types	short_description	character varying	255	-	Yes	-
+meeting.tbl_meeting_types	is_deleted	boolean	-	-	Yes	-
+meeting.tbl_meeting_types	created_by	uuid	-	-	-	-
+meeting.tbl_meeting_types	created_on	date	-	-	-	-
+meeting.tbl_meetings	id	uuid	-	-	Yes	-
+meeting.tbl_meetings	title	character varying	255	-	Yes	-
+meeting.tbl_meetings	meeting_type_id	uuid	-	-	Yes	-
+meeting.tbl_meetings	meeting_room_id	uuid	-	-	Yes	-
+meeting.tbl_meetings	meeting_commitee_id	uuid	-	-	-	-
+meeting.tbl_meetings	office_id	uuid	-	-	Yes	-
+meeting.tbl_meetings	parent_id	uuid	-	-	-	-
+meeting.tbl_meetings	employee_id	uuid	-	-	Yes	-
+meeting.tbl_meetings	is_protocol_handled	boolean	-	-	Yes	-
+meeting.tbl_meetings	reference	character varying	255	-	-	-
+meeting.tbl_meetings	meeting_chairperson	uuid	-	-	-	-
+meeting.tbl_meetings	meeting_date	date	-	-	-	-
+meeting.tbl_meetings	start_time	time without time zone	-	-	-	-
+meeting.tbl_meetings	end_time	time without time zone	-	-	-	-
+meeting.tbl_meetings	estimated_budget	double precision	-	-	-	-
+meeting.tbl_meetings	meeting_status	character varying	100	-	-	-
+meeting.tbl_meetings	reason	text	-	-	-	-
+meeting.tbl_meetings	is_deleted	boolean	-	-	Yes	-
+meeting.tbl_meetings	project_id	uuid	-	-	-	-
+meeting.tbl_meetings	created_by	uuid	-	-	-	-
+meeting.tbl_meetings	created_on	date	-	-	-	-
+meeting.tbl_meetings	enothi_reference	character varying	500	-	-	-
+meeting.tbl_meetings	previous_meeting_reference	uuid	-	-	-	-
+meeting.tbl_meetings	meeting_background	text	-	-	-	-
+meeting.tbl_tax_setups	id	uuid	-	-	Yes	-
+meeting.tbl_tax_setups	tax_rate	double precision	-	-	-	-
+meeting.tbl_tax_setups	comment	character varying	500	-	-	-
+meeting.tbl_tax_setups	created_at	timestamp without time zone	-	-	-	-
+meeting.tbl_tax_setups	updated_at	timestamp without time zone	-	-	-	-
+meeting.tbl_tax_setups	employee_id	uuid	-	-	-	-
+meeting.tbl_tax_setups	org_id	uuid	-	-	-	-
+meeting.tbl_tax_setups	user_id	uuid	-	-	-	-
+meeting.tbl_tax_setups	proxy_user_id	uuid	-	-	-	-
+meeting.tbl_template_files	id	uuid	-	-	Yes	-
+meeting.tbl_template_files	office_id	character varying	100	-	-	-
+meeting.tbl_template_files	file_title	character varying	100	-	Yes	-
+meeting.tbl_template_files	file_id	character varying	100	-	Yes	-
+meeting.tbl_template_files	upload_date	date	-	-	-	-
+meeting.tbl_template_files	uploaded_by	character varying	100	-	-	-
+meeting.tbl_template_files	is_delete	boolean	-	-	Yes	-
+event.tbl_budget_details	id	uuid	-	-	Yes	-
+event.tbl_budget_details	expense_code	character varying	500	-	-	-
+event.tbl_budget_details	expense_head	character varying	500	-	-	-
+event.tbl_budget_details	estimated_expense	double precision	-	-	-	-
+event.tbl_budget_details	justification	character varying	500	-	-	-
+event.tbl_budget_details	approved_expense	double precision	-	-	-	-
+event.tbl_budget_details	budget_justification	character varying	1500	-	-	-
+event.tbl_budget_details	actual_expense	double precision	-	-	-	-
+event.tbl_budget_details	expense_justification	character varying	1500	-	-	-
+event.tbl_budget_details	bill_attachment	character varying	1500	-	-	-
+event.tbl_budget_details	type	character varying	1500	-	-	-
+event.tbl_budget_details	budget_id	uuid	-	-	-	-
+event.tbl_budget_details	user_id	uuid	-	-	Yes	-
+event.tbl_budget_details	employee_id	uuid	-	-	Yes	-
+event.tbl_budget_details	proxy_user_id	uuid	-	-	-	-
+event.tbl_budget_details	org_id	uuid	-	-	Yes	-
+event.tbl_budget_details	created_at	timestamp without time zone	-	-	-	-
+event.tbl_budget_details	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_budget_details	is_deleted	boolean	-	-	-	-
+event.tbl_budget_details	created_by	character varying	100	-	-	-
+event.tbl_budget_details	last_modified_by	character varying	100	-	-	-
+event.tbl_budgets	id	uuid	-	-	Yes	-
+event.tbl_budgets	budget_date	timestamp without time zone	-	-	-	-
+event.tbl_budgets	remarks	character varying	500	-	-	-
+event.tbl_budgets	approval_status	integer	-	-	-	-
+event.tbl_budgets	approval_comment	character varying	1500	-	-	-
+event.tbl_budgets	event_id	uuid	-	-	-	-
+event.tbl_budgets	user_id	uuid	-	-	Yes	-
+event.tbl_budgets	employee_id	uuid	-	-	Yes	-
+event.tbl_budgets	proxy_user_id	uuid	-	-	-	-
+event.tbl_budgets	org_id	uuid	-	-	Yes	-
+event.tbl_budgets	created_at	timestamp without time zone	-	-	-	-
+event.tbl_budgets	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_budgets	is_deleted	boolean	-	-	-	-
+event.tbl_budgets	created_by	character varying	100	-	-	-
+event.tbl_budgets	last_modified_by	character varying	100	-	-	-
+event.tbl_event_guests	id	uuid	-	-	Yes	-
+event.tbl_event_guests	guest_type	character varying	500	-	-	-
+event.tbl_event_guests	guest_name	character varying	500	-	Yes	-
+event.tbl_event_guests	designation	character varying	500	-	-	-
+event.tbl_event_guests	organization	character varying	500	-	-	-
+event.tbl_event_guests	"pictureFile"	character varying	500	-	-	-
+event.tbl_event_guests	email	character varying	500	-	-	-
+event.tbl_event_guests	phone_number	character varying	500	-	-	-
+event.tbl_event_guests	nid	character varying	500	-	-	-
+event.tbl_event_guests	passport	character varying	500	-	-	-
+event.tbl_event_guests	arrival_time	timestamp without time zone	-	-	-	-
+event.tbl_event_guests	departure_time	timestamp without time zone	-	-	-	-
+event.tbl_event_guests	accommodation	character varying	500	-	-	-
+event.tbl_event_guests	picture_file	character varying	500	-	-	-
+event.tbl_event_guests	country_id	uuid	-	-	-	-
+event.tbl_event_guests	event_id	uuid	-	-	Yes	-
+event.tbl_event_guests	event_role_id	uuid	-	-	Yes	-
+event.tbl_event_guests	status	integer	-	-	-	-
+event.tbl_event_guests	created_at	timestamp without time zone	-	-	-	-
+event.tbl_event_guests	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_event_guests	is_deleted	boolean	-	-	-	-
+event.tbl_event_guests	created_by	character varying	100	-	-	-
+event.tbl_event_guests	last_modified_by	character varying	100	-	-	-
+event.tbl_event_guests	notified	boolean	-	-	-	-
+event.tbl_event_guests	user_id	uuid	-	-	Yes	-
+event.tbl_event_guests	proxy_user_id	uuid	-	-	-	-
+event.tbl_event_guests	org_id	uuid	-	-	Yes	-
+event.tbl_event_guests	employee_id	uuid	-	-	Yes	-
+event.tbl_event_guests	guest_employee_id	uuid	-	-	-	-
+event.tbl_events	id	uuid	-	-	Yes	-
+event.tbl_events	title	character varying	500	-	Yes	-
+event.tbl_events	reference_number	character varying	500	-	-	-
+event.tbl_events	description	character varying	500	-	-	-
+event.tbl_events	background	character varying	500	-	-	-
+event.tbl_events	source	character varying	500	-	-	-
+event.tbl_events	phase	character varying	500	-	-	-
+event.tbl_events	event_chair_name	character varying	500	-	-	-
+event.tbl_events	event_chair_employee_id	uuid	-	-	-	-
+event.tbl_events	event_reporter_name	character varying	500	-	-	-
+event.tbl_events	event_reporter_employee_id	uuid	-	-	-	-
+event.tbl_events	event_convener_name	character varying	500	-	-	-
+event.tbl_events	event_convener_employee_id	uuid	-	-	-	-
+event.tbl_events	start_date	timestamp without time zone	-	-	-	-
+event.tbl_events	end_date	timestamp without time zone	-	-	-	-
+event.tbl_events	status	integer	-	-	-	-
+event.tbl_events	file_title	character varying	500	-	-	-
+event.tbl_events	created_at	timestamp without time zone	-	-	-	-
+event.tbl_events	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_events	is_deleted	boolean	-	-	-	-
+event.tbl_events	created_by	character varying	100	-	-	-
+event.tbl_events	last_modified_by	character varying	100	-	-	-
+event.tbl_events	closing_date	timestamp without time zone	-	-	-	-
+event.tbl_events	executive_summary	character varying	5000	-	-	-
+event.tbl_events	report_title	character varying	5000	-	-	-
+event.tbl_events	report_description	character varying	5000	-	-	-
+event.tbl_events	report_file	character varying	500	-	-	-
+event.tbl_events	finalized_comment	character varying	500	-	-	-
+event.tbl_events	finalized	integer	-	-	-	0
+event.tbl_events	cancel	integer	-	-	-	0
+event.tbl_events	cancel_reason	character varying	500	-	-	-
+event.tbl_events	event_type_id	uuid	-	-	-	-
+event.tbl_events	user_id	uuid	-	-	Yes	-
+event.tbl_events	employee_id	uuid	-	-	Yes	-
+event.tbl_events	proxy_user_id	uuid	-	-	-	-
+event.tbl_events	org_id	uuid	-	-	Yes	-
+event.databasechangelog	id	character varying	255	-	Yes	-
+event.databasechangelog	author	character varying	255	-	Yes	-
+event.databasechangelog	filename	character varying	255	-	Yes	-
+event.databasechangelog	dateexecuted	timestamp without time zone	-	-	Yes	-
+event.databasechangelog	orderexecuted	integer	-	-	Yes	-
+event.databasechangelog	exectype	character varying	10	-	Yes	-
+event.databasechangelog	md5sum	character varying	35	-	-	-
+event.databasechangelog	description	character varying	255	-	-	-
+event.databasechangelog	comments	character varying	255	-	-	-
+event.databasechangelog	tag	character varying	255	-	-	-
+event.databasechangelog	liquibase	character varying	20	-	-	-
+event.databasechangelog	contexts	character varying	255	-	-	-
+event.databasechangelog	labels	character varying	255	-	-	-
+event.databasechangelog	deployment_id	character varying	10	-	-	-
+event.databasechangeloglock	id	integer	-	-	Yes	-
+event.databasechangeloglock	locked	boolean	-	-	Yes	-
+event.databasechangeloglock	lockgranted	timestamp without time zone	-	-	-	-
+event.databasechangeloglock	lockedby	character varying	255	-	-	-
+event.tbl_event_schedules	id	uuid	-	-	Yes	-
+event.tbl_event_schedules	session_date	timestamp without time zone	-	-	-	-
+event.tbl_event_schedules	day_no	integer	-	-	-	-
+event.tbl_event_schedules	session_name	character varying	500	-	-	-
+event.tbl_event_schedules	start_time	timestamp without time zone	-	-	-	-
+event.tbl_event_schedules	end_time	timestamp without time zone	-	-	-	-
+event.tbl_event_schedules	topics	character varying	500	-	-	-
+event.tbl_event_schedules	floor_room	character varying	500	-	-	-
+event.tbl_event_schedules	description	character varying	500	-	-	-
+event.tbl_event_schedules	created_at	timestamp without time zone	-	-	-	-
+event.tbl_event_schedules	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_event_schedules	is_deleted	boolean	-	-	-	-
+event.tbl_event_schedules	event_id	uuid	-	-	Yes	-
+event.tbl_event_schedules	event_venue_id	uuid	-	-	Yes	-
+event.tbl_event_schedules	created_by	character varying	100	-	-	-
+event.tbl_event_schedules	last_modified_by	character varying	100	-	-	-
+event.tbl_event_schedules	user_id	uuid	-	-	Yes	-
+event.tbl_event_schedules	employee_id	uuid	-	-	Yes	-
+event.tbl_event_schedules	proxy_user_id	uuid	-	-	-	-
+event.tbl_event_schedules	org_id	uuid	-	-	Yes	-
+event.tbl_event_schedules	conflicted	boolean	-	-	-	-
+event.tbl_event_venues	id	uuid	-	-	Yes	-
+event.tbl_event_venues	from_date	timestamp without time zone	-	-	Yes	-
+event.tbl_event_venues	to_date	timestamp without time zone	-	-	Yes	-
+event.tbl_event_venues	status	integer	-	-	-	-
+event.tbl_event_venues	comments	character varying	500	-	-	-
+event.tbl_event_venues	conditions	character varying	500	-	-	-
+event.tbl_event_venues	venue_booking_employee_name	character varying	500	-	-	-
+event.tbl_event_venues	venue_booking_employee_id	uuid	-	-	-	-
+event.tbl_event_venues	booking_date	timestamp without time zone	-	-	-	-
+event.tbl_event_venues	cost	double precision	-	-	-	-
+event.tbl_event_venues	advance	double precision	-	-	-	-
+event.tbl_event_venues	created_at	timestamp without time zone	-	-	-	-
+event.tbl_event_venues	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_event_venues	is_deleted	boolean	-	-	-	-
+event.tbl_event_venues	event_id	uuid	-	-	Yes	-
+event.tbl_event_venues	venue_id	uuid	-	-	Yes	-
+event.tbl_event_venues	created_by	character varying	100	-	-	-
+event.tbl_event_venues	last_modified_by	character varying	100	-	-	-
+event.tbl_event_venues	user_id	uuid	-	-	Yes	-
+event.tbl_event_venues	employee_id	uuid	-	-	Yes	-
+event.tbl_event_venues	proxy_user_id	uuid	-	-	-	-
+event.tbl_event_venues	org_id	uuid	-	-	Yes	-
+event.tbl_event_venues	conflicted	boolean	-	-	-	-
+event.tbl_committee_members	id	uuid	-	-	Yes	-
+event.tbl_committee_members	committee_id	uuid	-	-	-	-
+event.tbl_committee_members	name	character varying	500	-	-	-
+event.tbl_committee_members	type	character varying	500	-	-	-
+event.tbl_committee_members	code	character varying	500	-	-	-
+event.tbl_committee_members	member_employee_id	uuid	-	-	-	-
+event.tbl_committee_members	member_employee_name	character varying	1500	-	-	-
+event.tbl_committee_members	organization_name	character varying	500	-	-	-
+event.tbl_committee_members	designation	character varying	500	-	-	-
+event.tbl_committee_members	responsibility	character varying	500	-	-	-
+event.tbl_committee_members	email	character varying	500	-	-	-
+event.tbl_committee_members	phone_number	character varying	500	-	-	-
+event.tbl_committee_members	is_deleted	boolean	-	-	-	-
+event.tbl_committee_members	created_at	timestamp without time zone	-	-	-	-
+event.tbl_committee_members	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_committee_members	created_by	character varying	100	-	-	-
+event.tbl_committee_members	last_modified_by	character varying	100	-	-	-
+event.tbl_committee_members	notified	boolean	-	-	-	-
+event.tbl_committee_members	user_id	uuid	-	-	Yes	-
+event.tbl_committee_members	employee_id	uuid	-	-	Yes	-
+event.tbl_committee_members	proxy_user_id	uuid	-	-	-	-
+event.tbl_committee_members	org_id	uuid	-	-	Yes	-
+event.tbl_committees	id	uuid	-	-	Yes	-
+event.tbl_committees	name	character varying	500	-	Yes	-
+event.tbl_committees	code	character varying	500	-	-	-
+event.tbl_committees	event_id	uuid	-	-	-	-
+event.tbl_committees	description	character varying	500	-	-	-
+event.tbl_committees	responsibilities	character varying	500	-	-	-
+event.tbl_committees	created_at	timestamp without time zone	-	-	-	-
+event.tbl_committees	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_committees	created_by	character varying	100	-	-	-
+event.tbl_committees	last_modified_by	character varying	100	-	-	-
+event.tbl_committees	is_deleted	boolean	-	-	-	-
+event.tbl_committees	user_id	uuid	-	-	Yes	-
+event.tbl_committees	employee_id	uuid	-	-	Yes	-
+event.tbl_committees	proxy_user_id	uuid	-	-	-	-
+event.tbl_committees	org_id	uuid	-	-	Yes	-
+event.tbl_concept_notes	id	uuid	-	-	Yes	-
+event.tbl_concept_notes	title	character varying	50	-	Yes	-
+event.tbl_concept_notes	description	character varying	1500	-	-	-
+event.tbl_concept_notes	status	integer	-	-	-	-
+event.tbl_concept_notes	created_at	timestamp without time zone	-	-	-	-
+event.tbl_concept_notes	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_concept_notes	is_deleted	boolean	-	-	-	-
+event.tbl_concept_notes	event_id	uuid	-	-	Yes	-
+event.tbl_concept_notes	created_by	character varying	100	-	-	-
+event.tbl_concept_notes	last_modified_by	character varying	100	-	-	-
+event.tbl_concept_notes	user_id	uuid	-	-	Yes	-
+event.tbl_concept_notes	employee_id	uuid	-	-	Yes	-
+event.tbl_concept_notes	proxy_user_id	uuid	-	-	-	-
+event.tbl_concept_notes	org_id	uuid	-	-	Yes	-
+event.tbl_event_attendance	id	uuid	-	-	Yes	-
+event.tbl_event_attendance	present_status	boolean	-	-	-	-
+event.tbl_event_attendance	comment	character varying	2500	-	-	-
+event.tbl_event_attendance	event_day	integer	-	-	-	-
+event.tbl_event_attendance	event_guest_id	uuid	-	-	Yes	-
+event.tbl_event_attendance	user_id	uuid	-	-	Yes	-
+event.tbl_event_attendance	employee_id	uuid	-	-	Yes	-
+event.tbl_event_attendance	proxy_user_id	uuid	-	-	-	-
+event.tbl_event_attendance	org_id	uuid	-	-	Yes	-
+event.tbl_event_attendance	created_at	timestamp without time zone	-	-	-	-
+event.tbl_event_attendance	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_event_attendance	is_deleted	boolean	-	-	-	-
+event.tbl_event_attendance	created_by	character varying	100	-	-	-
+event.tbl_event_attendance	last_modified_by	character varying	100	-	-	-
+event.tbl_event_checklist_details	id	uuid	-	-	Yes	-
+event.tbl_event_checklist_details	task	character varying	500	-	-	-
+event.tbl_event_checklist_details	assigned_to	character varying	500	-	-	-
+event.tbl_event_checklist_details	due_date_time	timestamp without time zone	-	-	-	-
+event.tbl_event_checklist_details	status	integer	-	-	-	-
+event.tbl_event_checklist_details	performed_by	character varying	500	-	-	-
+event.tbl_event_checklist_details	performed_date	timestamp without time zone	-	-	-	-
+event.tbl_event_checklist_details	serial	integer	-	-	-	-
+event.tbl_event_checklist_details	event_checklist_id	uuid	-	-	-	-
+event.tbl_event_checklist_details	created_at	timestamp without time zone	-	-	-	-
+event.tbl_event_checklist_details	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_event_checklist_details	created_by	character varying	100	-	-	-
+event.tbl_event_checklist_details	last_modified_by	character varying	100	-	-	-
+event.tbl_event_checklist_details	is_deleted	boolean	-	-	-	-
+event.tbl_event_checklist_details	user_id	uuid	-	-	Yes	-
+event.tbl_event_checklist_details	employee_id	uuid	-	-	Yes	-
+event.tbl_event_checklist_details	proxy_user_id	uuid	-	-	-	-
+event.tbl_event_checklist_details	org_id	uuid	-	-	Yes	-
+event.tbl_event_checklists	id	uuid	-	-	Yes	-
+event.tbl_event_checklists	name	character varying	500	-	Yes	-
+event.tbl_event_checklists	description	character varying	500	-	-	-
+event.tbl_event_checklists	event_id	uuid	-	-	-	-
+event.tbl_event_checklists	created_at	timestamp without time zone	-	-	-	-
+event.tbl_event_checklists	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_event_checklists	created_by	character varying	100	-	-	-
+event.tbl_event_checklists	last_modified_by	character varying	100	-	-	-
+event.tbl_event_checklists	is_deleted	boolean	-	-	-	-
+event.tbl_event_checklists	user_id	uuid	-	-	Yes	-
+event.tbl_event_checklists	employee_id	uuid	-	-	Yes	-
+event.tbl_event_checklists	proxy_user_id	uuid	-	-	-	-
+event.tbl_event_checklists	org_id	uuid	-	-	Yes	-
+event.tbl_event_files	id	uuid	-	-	Yes	-
+event.tbl_event_files	file_title	character varying	500	-	-	-
+event.tbl_event_files	file_name	character varying	500	-	-	-
+event.tbl_event_files	file_type	character varying	500	-	-	-
+event.tbl_event_files	file_link	character varying	500	-	-	-
+event.tbl_event_files	event_id	uuid	-	-	-	-
+event.tbl_event_files	attendance_file	boolean	-	-	-	-
+event.tbl_event_files	event_day	integer	-	-	-	-
+event.tbl_event_files	event_date	timestamp without time zone	-	-	-	-
+event.tbl_event_guest_schedules	id	uuid	-	-	Yes	-
+event.tbl_event_guest_schedules	index	integer	-	-	-	-
+event.tbl_event_guest_schedules	topic	character varying	500	-	-	-
+event.tbl_event_guest_schedules	topic_duration_in_hour	double precision	-	-	-	-
+event.tbl_event_guest_schedules	schedule_date	timestamp without time zone	-	-	-	-
+event.tbl_event_guest_schedules	start_time	timestamp without time zone	-	-	-	-
+event.tbl_event_guest_schedules	end_time	timestamp without time zone	-	-	-	-
+event.tbl_event_guest_schedules	created_at	timestamp without time zone	-	-	-	-
+event.tbl_event_guest_schedules	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_event_guest_schedules	is_deleted	boolean	-	-	-	-
+event.tbl_event_guest_schedules	created_by	character varying	100	-	-	-
+event.tbl_event_guest_schedules	last_modified_by	character varying	100	-	-	-
+event.tbl_event_guest_schedules	day_no	integer	-	-	-	-
+event.tbl_event_guest_schedules	event_guest_id	uuid	-	-	-	-
+event.tbl_event_guest_schedules	event_schedule_id	uuid	-	-	-	-
+event.tbl_event_guest_schedules	user_id	uuid	-	-	Yes	-
+event.tbl_event_guest_schedules	proxy_user_id	uuid	-	-	-	-
+event.tbl_event_guest_schedules	org_id	uuid	-	-	Yes	-
+event.tbl_event_guest_schedules	employee_id	uuid	-	-	Yes	-
+event.tbl_event_guest_schedules	conflicted	boolean	-	-	-	-
+event.tbl_event_requisition	id	uuid	-	-	Yes	-
+event.tbl_event_requisition	requistion_id	uuid	-	-	Yes	-
+event.tbl_event_requisition	event_id	uuid	-	-	-	-
+event.tbl_event_requisition	created_at	timestamp without time zone	-	-	-	-
+event.tbl_event_requisition	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_event_requisition	is_deleted	boolean	-	-	-	-
+event.tbl_event_requisition	created_by	character varying	100	-	-	-
+event.tbl_event_requisition	last_modified_by	character varying	100	-	-	-
+event.tbl_event_requisition	user_id	uuid	-	-	Yes	-
+event.tbl_event_requisition	employee_id	uuid	-	-	Yes	-
+event.tbl_event_requisition	proxy_user_id	uuid	-	-	-	-
+event.tbl_event_requisition	org_id	uuid	-	-	Yes	-
+event.tbl_event_roles	id	uuid	-	-	Yes	-
+event.tbl_event_roles	event_role	character varying	50	-	Yes	-
+event.tbl_event_roles	description	character varying	1500	-	-	-
+event.tbl_event_roles	status	integer	-	-	-	-
+event.tbl_event_roles	created_at	timestamp without time zone	-	-	-	-
+event.tbl_event_roles	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_event_roles	is_deleted	boolean	-	-	-	-
+event.tbl_event_roles	created_by	character varying	100	-	-	-
+event.tbl_event_roles	last_modified_by	character varying	100	-	-	-
+event.tbl_event_roles	user_id	uuid	-	-	Yes	-
+event.tbl_event_roles	employee_id	uuid	-	-	Yes	-
+event.tbl_event_roles	proxy_user_id	uuid	-	-	-	-
+event.tbl_event_roles	org_id	uuid	-	-	Yes	-
+event.tbl_event_sponsors	id	uuid	-	-	Yes	-
+event.tbl_event_sponsors	name	character varying	500	-	Yes	-
+event.tbl_event_sponsors	type	character varying	500	-	Yes	-
+event.tbl_event_sponsors	type_of_sponsoring	character varying	500	-	Yes	-
+event.tbl_event_sponsors	amount	double precision	-	-	-	-
+event.tbl_event_sponsors	check_number	character varying	500	-	-	-
+event.tbl_event_sponsors	check_date	timestamp without time zone	-	-	-	-
+event.tbl_event_sponsors	created_at	timestamp without time zone	-	-	-	-
+event.tbl_event_sponsors	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_event_sponsors	is_deleted	boolean	-	-	-	-
+event.tbl_event_sponsors	event_id	uuid	-	-	Yes	-
+event.tbl_event_sponsors	sponsor_id	uuid	-	-	Yes	-
+event.tbl_event_sponsors	created_by	character varying	100	-	-	-
+event.tbl_event_sponsors	last_modified_by	character varying	100	-	-	-
+event.tbl_event_sponsors	user_id	uuid	-	-	Yes	-
+event.tbl_event_sponsors	employee_id	uuid	-	-	Yes	-
+event.tbl_event_sponsors	proxy_user_id	uuid	-	-	-	-
+event.tbl_event_sponsors	org_id	uuid	-	-	Yes	-
+event.tbl_event_sponsors	remarks	character varying	1500	-	-	-
+event.tbl_event_types	id	uuid	-	-	Yes	-
+event.tbl_event_types	title	character varying	500	-	Yes	-
+event.tbl_event_types	description	character varying	1500	-	-	-
+event.tbl_event_types	status	integer	-	-	-	-
+event.tbl_event_types	created_at	timestamp without time zone	-	-	-	-
+event.tbl_event_types	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_event_types	is_deleted	boolean	-	-	-	-
+event.tbl_event_types	created_by	character varying	100	-	-	-
+event.tbl_event_types	last_modified_by	character varying	100	-	-	-
+event.tbl_event_types	user_id	uuid	-	-	Yes	-
+event.tbl_event_types	employee_id	uuid	-	-	Yes	-
+event.tbl_event_types	proxy_user_id	uuid	-	-	-	-
+event.tbl_event_types	org_id	uuid	-	-	Yes	-
+event.tbl_invitations	id	uuid	-	-	Yes	-
+event.tbl_invitations	session_title	character varying	500	-	-	-
+event.tbl_invitations	invitation_status	character varying	500	-	-	-
+event.tbl_invitations	session_start_date	timestamp without time zone	-	-	-	-
+event.tbl_invitations	session_end_date	timestamp without time zone	-	-	-	-
+event.tbl_invitations	invited_employee_id	uuid	-	-	-	-
+event.tbl_invitations	invited_employee_name	character varying	500	-	-	-
+event.tbl_invitations	email_address	character varying	500	-	-	-
+event.tbl_invitations	phone_number	character varying	500	-	-	-
+event.tbl_invitations	table_reference_id	uuid	-	-	-	-
+event.tbl_invitations	event_id	uuid	-	-	-	-
+event.tbl_invitations	finalized	integer	-	-	-	-
+event.tbl_invitations	comment	character varying	500	-	-	-
+event.tbl_invitations	invitation_type	character varying	500	-	-	-
+event.tbl_invitations	user_id	uuid	-	-	Yes	-
+event.tbl_invitations	employee_id	uuid	-	-	Yes	-
+event.tbl_invitations	proxy_user_id	uuid	-	-	-	-
+event.tbl_invitations	org_id	uuid	-	-	Yes	-
+event.tbl_invitations	created_at	timestamp without time zone	-	-	-	-
+event.tbl_invitations	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_invitations	is_deleted	boolean	-	-	-	-
+event.tbl_invitations	created_by	character varying	100	-	-	-
+event.tbl_invitations	last_modified_by	character varying	100	-	-	-
+event.tbl_invitations	organization_name	character varying	500	-	-	-
+event.tbl_sponsors	id	uuid	-	-	Yes	-
+event.tbl_sponsors	sponsor_name	character varying	500	-	Yes	-
+event.tbl_sponsors	organization_name	character varying	500	-	-	-
+event.tbl_sponsors	phone	character varying	500	-	-	-
+event.tbl_sponsors	description	character varying	500	-	-	-
+event.tbl_sponsors	logo_file	character varying	500	-	-	-
+event.tbl_sponsors	sponsor_file	character varying	500	-	-	-
+event.tbl_sponsors	created_at	timestamp without time zone	-	-	-	-
+event.tbl_sponsors	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_sponsors	is_deleted	boolean	-	-	-	-
+event.tbl_sponsors	created_by	character varying	100	-	-	-
+event.tbl_sponsors	last_modified_by	character varying	100	-	-	-
+event.tbl_sponsors	address	character varying	100	-	-	-
+event.tbl_sponsors	user_id	uuid	-	-	Yes	-
+event.tbl_sponsors	employee_id	uuid	-	-	Yes	-
+event.tbl_sponsors	org_id	uuid	-	-	Yes	-
+event.tbl_sponsors	proxy_user_id	uuid	-	-	-	-
+event.tbl_sponsors	contact_person	character varying	200	-	-	-
+event.tbl_venues	id	uuid	-	-	Yes	-
+event.tbl_venues	venue_name	character varying	500	-	Yes	-
+event.tbl_venues	venue_code	character varying	500	-	Yes	-
+event.tbl_venues	venue_type	character varying	500	-	Yes	-
+event.tbl_venues	venue_incharge_name	character varying	500	-	Yes	-
+event.tbl_venues	venue_incharge_phone	character varying	500	-	-	-
+event.tbl_venues	venue_incharge_employee_id	character varying	500	-	-	-
+event.tbl_venues	area	character varying	500	-	-	-
+event.tbl_venues	capacity	integer	-	-	-	-
+event.tbl_venues	pictures	character varying	500	-	-	-
+event.tbl_venues	address	character varying	500	-	-	-
+event.tbl_venues	description	character varying	500	-	-	-
+event.tbl_venues	postal_code	character varying	500	-	-	-
+event.tbl_venues	status	integer	-	-	-	-
+event.tbl_venues	estimated_budget	double precision	-	-	-	-
+event.tbl_venues	created_at	timestamp without time zone	-	-	-	-
+event.tbl_venues	updated_at	timestamp without time zone	-	-	-	-
+event.tbl_venues	is_deleted	boolean	-	-	-	-
+event.tbl_venues	created_by	character varying	100	-	-	-
+event.tbl_venues	last_modified_by	character varying	100	-	-	-
+event.tbl_venues	user_id	uuid	-	-	Yes	-
+event.tbl_venues	employee_id	uuid	-	-	Yes	-
+event.tbl_venues	proxy_user_id	uuid	-	-	-	-
+event.tbl_venues	org_id	uuid	-	-	Yes	-
+inventory.tbl_attribute_setup	as_id	uuid	-	-	Yes	-
+inventory.tbl_attribute_setup	cat_id	uuid	-	-	-	-
+inventory.tbl_attribute_setup	att_name	character varying	100	-	-	-
+inventory.tbl_attribute_setup	owned_by	uuid	-	-	Yes	-
+inventory.tbl_attribute_setup	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_attribute_setup	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_attribute_setup	org_id	uuid	-	-	-	-
+inventory.tbl_attribute_setup	employee_id	uuid	-	-	-	-
+inventory.tbl_attribute_value_setup	avs_id	uuid	-	-	Yes	-
+inventory.tbl_attribute_value_setup	as_id	uuid	-	-	Yes	-
+inventory.tbl_attribute_value_setup	att_value	character varying	100	-	Yes	-
+inventory.tbl_attribute_value_setup	owned_by	uuid	-	-	Yes	-
+inventory.tbl_attribute_value_setup	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_attribute_value_setup	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_attribute_value_setup	org_id	uuid	-	-	-	-
+inventory.tbl_attribute_value_setup	employee_id	uuid	-	-	-	-
+inventory.tbl_categories	category_id	uuid	-	-	Yes	-
+inventory.tbl_categories	cat_name	character varying	50	-	Yes	-
+inventory.tbl_categories	cat_description	character varying	250	-	Yes	-
+inventory.tbl_categories	status	boolean	-	-	Yes	-
+inventory.tbl_categories	owned_by	uuid	-	-	Yes	-
+inventory.tbl_categories	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_categories	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_categories	is_trackable	boolean	-	-	Yes	-
+inventory.tbl_categories	accounts_category	character varying	20	-	Yes	-
+inventory.tbl_categories	org_id	uuid	-	-	-	-
+inventory.tbl_categories	employee_id	uuid	-	-	-	-
+inventory.tbl_committee	committee_id	uuid	-	-	Yes	-
+inventory.tbl_committee	ct_id	uuid	-	-	Yes	-
+inventory.tbl_committee	authorised_by	uuid	-	-	Yes	-
+inventory.tbl_committee	approved_by	uuid	-	-	Yes	-
+inventory.tbl_committee	committee_name	character varying	100	-	Yes	-
+inventory.tbl_committee	min_no_member	character varying	50	-	Yes	-
+inventory.tbl_committee	max_no_member	character varying	50	-	Yes	-
+inventory.tbl_committee	forming_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_committee	purpose	character varying	200	-	-	-
+inventory.tbl_committee	comments	character varying	200	-	-	-
+inventory.tbl_committee	status	boolean	-	-	Yes	-
+inventory.tbl_committee	owned_by	uuid	-	-	Yes	-
+inventory.tbl_committee	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_committee	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_committee	org_id	uuid	-	-	-	-
+inventory.tbl_committee	employee_id	uuid	-	-	-	-
+inventory.tbl_committee_details	qcd_id	uuid	-	-	Yes	-
+inventory.tbl_committee_details	committee_id	uuid	-	-	Yes	-
+inventory.tbl_committee_details	emp_id	uuid	-	-	Yes	-
+inventory.tbl_committee_details	emp_roles	character varying	200	-	Yes	-
+inventory.tbl_committee_details	comments	character varying	200	-	-	-
+inventory.tbl_committee_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_committee_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_committee_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_committee_type	ct_id	uuid	-	-	-	-
+inventory.tbl_committee_type	ct_name	character varying	100	-	Yes	-
+inventory.tbl_committee_type	ct_ref_no	character varying	100	-	Yes	-
+inventory.tbl_committee_type	status	boolean	-	-	Yes	-
+inventory.tbl_committee_type	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_committee_type	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_committee_type	owned_by	uuid	-	-	Yes	-
+inventory.tbl_committee_type	org_id	uuid	-	-	-	-
+inventory.tbl_committee_type	employee_id	uuid	-	-	-	-
+inventory.tbl_common_attachment	common_attachment_id	uuid	-	-	Yes	-
+inventory.tbl_common_attachment	file_title	character varying	255	-	Yes	-
+inventory.tbl_common_attachment	file_id	character varying	255	-	Yes	-
+inventory.tbl_common_attachment	file_path	character varying	255	-	Yes	-
+inventory.tbl_common_attachment	transaction_type	character varying	50	-	Yes	-
+inventory.tbl_common_attachment	transaction_id	uuid	-	-	Yes	-
+inventory.tbl_common_attachment	owned_by	uuid	-	-	Yes	-
+inventory.tbl_common_attachment	employee_id	uuid	-	-	-	-
+inventory.tbl_common_attachment	org_id	uuid	-	-	-	-
+inventory.tbl_common_attachment	created_date	timestamp without time zone	-	-	-	-
+inventory.tbl_common_attachment	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_damage_item_details	did_id	uuid	-	-	Yes	-
+inventory.tbl_damage_item_details	damage_item_requisition_id	uuid	-	-	Yes	-
+inventory.tbl_damage_item_details	item_id	uuid	-	-	Yes	-
+inventory.tbl_damage_item_details	unit_id	uuid	-	-	Yes	-
+inventory.tbl_damage_item_details	damage_qty	integer	-	-	Yes	-
+inventory.tbl_damage_item_details	committee_approved_qty	integer	-	-	-	-
+inventory.tbl_damage_item_details	approved_qty	integer	-	-	-	-
+inventory.tbl_damage_item_details	committee_item_approval	boolean	-	-	-	-
+inventory.tbl_damage_item_details	item_approval	boolean	-	-	-	-
+inventory.tbl_damage_item_details	committee_comments	character varying	200	-	-	-
+inventory.tbl_damage_item_details	approval_comments	character varying	200	-	-	-
+inventory.tbl_damage_item_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_damage_item_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_damage_item_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_damage_requisition	damage_item_requisition_id	uuid	-	-	Yes	-
+inventory.tbl_damage_requisition	initiated_by	uuid	-	-	Yes	-
+inventory.tbl_damage_requisition	store_id	uuid	-	-	Yes	-
+inventory.tbl_damage_requisition	committee_id	uuid	-	-	-	-
+inventory.tbl_damage_requisition	committee_comments	character varying	250	-	-	-
+inventory.tbl_damage_requisition	damage_ref_no	character varying	50	-	-	-
+inventory.tbl_damage_requisition	damage_requisition_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_damage_requisition	damage_justification	character varying	200	-	-	-
+inventory.tbl_damage_requisition	approved_by	uuid	-	-	-	-
+inventory.tbl_damage_requisition	approval_date	timestamp without time zone	-	-	-	-
+inventory.tbl_damage_requisition	approval_comments	character varying	250	-	-	-
+inventory.tbl_damage_requisition	status	character varying	50	-	Yes	-
+inventory.tbl_damage_requisition	is_complete	boolean	-	-	Yes	-
+inventory.tbl_damage_requisition	owned_by	uuid	-	-	Yes	-
+inventory.tbl_damage_requisition	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_damage_requisition	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_damage_requisition	org_id	uuid	-	-	-	-
+inventory.tbl_damage_requisition	employee_id	uuid	-	-	-	-
+inventory.tbl_direct_stock_in	dsi_id	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_in	store_id	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_in	item_id	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_in	unit_id	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_in	opening_qty	integer	-	-	Yes	-
+inventory.tbl_direct_stock_in	item_rate	double precision	-	-	-	-
+inventory.tbl_direct_stock_in	comments	character varying	200	-	-	-
+inventory.tbl_direct_stock_in	owned_by	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_in	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_direct_stock_in	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_direct_stock_in	approved_by	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_in	approval_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_direct_stock_in	org_id	uuid	-	-	-	-
+inventory.tbl_direct_stock_in	employee_id	uuid	-	-	-	-
+inventory.tbl_direct_stock_out	dso_id	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_out	store_id	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_out	item_id	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_out	unit_id	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_out	opening_qty	integer	-	-	Yes	-
+inventory.tbl_direct_stock_out	item_rate	double precision	-	-	-	-
+inventory.tbl_direct_stock_out	comments	character varying	200	-	-	-
+inventory.tbl_direct_stock_out	owned_by	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_out	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_direct_stock_out	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_direct_stock_out	approved_by	uuid	-	-	Yes	-
+inventory.tbl_direct_stock_out	approval_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_direct_stock_out	org_id	uuid	-	-	-	-
+inventory.tbl_direct_stock_out	employee_id	uuid	-	-	-	-
+inventory.tbl_donation_handover_details	dhd_id	uuid	-	-	Yes	-
+inventory.tbl_donation_handover_details	item_donation_handover_id	uuid	-	-	Yes	-
+inventory.tbl_donation_handover_details	item_id	uuid	-	-	Yes	-
+inventory.tbl_donation_handover_details	unit_id	uuid	-	-	Yes	-
+inventory.tbl_donation_handover_details	received_qty	integer	-	-	Yes	-
+inventory.tbl_donation_handover_details	accepted_qty	integer	-	-	-	-
+inventory.tbl_donation_handover_details	item_approval	boolean	-	-	-	-
+inventory.tbl_donation_handover_details	comments	character varying	200	-	-	-
+inventory.tbl_donation_handover_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_donation_handover_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_donation_handover_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_gate_pass	id	uuid	-	-	Yes	-
+inventory.tbl_gate_pass	gate_pass_ref	character varying	100	-	Yes	-
+inventory.tbl_gate_pass	office_id	uuid	-	-	Yes	-
+inventory.tbl_gate_pass	gate_pass_date	date	-	-	Yes	-
+inventory.tbl_gate_pass	store_id	uuid	-	-	Yes	-
+inventory.tbl_gate_pass	employee_id	uuid	-	-	Yes	-
+inventory.tbl_gate_pass	employee_name	character varying	100	-	Yes	-
+inventory.tbl_gate_pass	remarks	character varying	200	-	-	-
+inventory.tbl_gate_pass	owned_by	uuid	-	-	Yes	-
+inventory.tbl_gate_pass	created_date	date	-	-	Yes	-
+inventory.tbl_gate_pass	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_gate_pass_file	id	uuid	-	-	Yes	-
+inventory.tbl_gate_pass_file	file_name	character varying	100	-	Yes	-
+inventory.tbl_gate_pass_file	file_id	character varying	150	-	Yes	-
+inventory.tbl_gate_pass_file	upload_date	date	-	-	Yes	-
+inventory.tbl_gate_pass_file	gate_pass_id	uuid	-	-	Yes	-
+inventory.tbl_gate_pass_file	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_gate_pass_item	id	uuid	-	-	Yes	-
+inventory.tbl_gate_pass_item	item_id	uuid	-	-	Yes	-
+inventory.tbl_gate_pass_item	quantity	integer	-	-	Yes	-
+inventory.tbl_gate_pass_item	unit_id	uuid	-	-	Yes	-
+inventory.tbl_gate_pass_item	gate_pass_id	uuid	-	-	Yes	-
+inventory.tbl_gate_pass_item	created_date	date	-	-	Yes	-
+inventory.tbl_gate_pass_item	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_donation_handover	item_donation_handover_id	uuid	-	-	Yes	-
+inventory.tbl_item_donation_handover	item_donation_handover_ref_no	character varying	50	-	-	-
+inventory.tbl_item_donation_handover	received_by_id	uuid	-	-	Yes	-
+inventory.tbl_item_donation_handover	store_id	uuid	-	-	Yes	-
+inventory.tbl_item_donation_handover	donor_id	uuid	-	-	-	-
+inventory.tbl_item_donation_handover	project_id	uuid	-	-	-	-
+inventory.tbl_item_donation_handover	handover_donation_tag	character varying	30	-	Yes	-
+inventory.tbl_item_donation_handover	receiving_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_donation_handover	purpose	character varying	200	-	-	-
+inventory.tbl_item_donation_handover	approved_committee	uuid	-	-	-	-
+inventory.tbl_item_donation_handover	committee_comments	character varying	200	-	-	-
+inventory.tbl_item_donation_handover	approval_date	timestamp without time zone	-	-	-	-
+inventory.tbl_item_donation_handover	status	character varying	50	-	Yes	-
+inventory.tbl_item_donation_handover	is_complete	boolean	-	-	Yes	-
+inventory.tbl_item_donation_handover	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_donation_handover	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_donation_handover	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_donation_handover	org_id	uuid	-	-	-	-
+inventory.tbl_item_donation_handover	employee_id	uuid	-	-	-	-
+inventory.tbl_item_in_out	item_in_out_id	uuid	-	-	Yes	-
+inventory.tbl_item_in_out	item_id	uuid	-	-	Yes	-
+inventory.tbl_item_in_out	item_category_id	uuid	-	-	-	-
+inventory.tbl_item_in_out	item_unit_id	uuid	-	-	-	-
+inventory.tbl_item_in_out	in_qty	integer	-	-	-	-
+inventory.tbl_item_in_out	out_qty	integer	-	-	-	-
+inventory.tbl_item_in_out	created_date	date	-	-	-	-
+inventory.tbl_item_in_out	transaction_type	character varying	50	-	-	-
+inventory.tbl_item_in_out	transaction_id	uuid	-	-	-	-
+inventory.tbl_item_in_out	store_id	uuid	-	-	-	-
+inventory.tbl_item_in_out	fiscal_year_id	uuid	-	-	-	-
+inventory.tbl_item_in_out	org_id	uuid	-	-	-	-
+inventory.tbl_item_in_out	employee_id	uuid	-	-	-	-
+inventory.tbl_item_issue_receive	item_issue_receive_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive	item_requisition_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive	issued_to	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive	issued_by	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive	issue_receive_ref_no	character varying	50	-	Yes	-
+inventory.tbl_item_issue_receive	store_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive	iir_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_issue_receive	remarks	character varying	200	-	-	-
+inventory.tbl_item_issue_receive	received_by	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive	issued_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_issue_receive	status	character varying	50	-	Yes	-
+inventory.tbl_item_issue_receive	is_complete	boolean	-	-	Yes	-
+inventory.tbl_item_issue_receive	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_issue_receive	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_issue_receive	org_id	uuid	-	-	-	-
+inventory.tbl_item_issue_receive	employee_id	uuid	-	-	-	-
+inventory.tbl_item_issue_receive_details	iird_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive_details	item_issue_receive_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive_details	item_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive_details	unit_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive_details	approved_qty	integer	-	-	Yes	-
+inventory.tbl_item_issue_receive_details	issued_qty	integer	-	-	Yes	-
+inventory.tbl_item_issue_receive_details	return_qty	integer	-	-	Yes	-
+inventory.tbl_item_issue_receive_details	item_issued	boolean	-	-	Yes	-
+inventory.tbl_item_issue_receive_details	comments	character varying	200	-	-	-
+inventory.tbl_item_issue_receive_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_issue_receive_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_issue_receive_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_issue_return	item_issue_return_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_return	item_requisition_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_return	item_issue_receive_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_return	accepted_by	uuid	-	-	-	-
+inventory.tbl_item_issue_return	returned_by	uuid	-	-	-	-
+inventory.tbl_item_issue_return	issue_return_ref_no	character varying	50	-	Yes	-
+inventory.tbl_item_issue_return	store_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_return	return_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_issue_return	remarks	character varying	200	-	-	-
+inventory.tbl_item_issue_return	status	character varying	50	-	Yes	-
+inventory.tbl_item_issue_return	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_issue_return	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_issue_return	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_issue_return	org_id	uuid	-	-	-	-
+inventory.tbl_item_issue_return	employee_id	uuid	-	-	-	-
+inventory.tbl_item_issue_return_details	item_issue_return_details_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_return_details	item_issue_return_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_return_details	item_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_return_details	unit_id	uuid	-	-	Yes	-
+inventory.tbl_item_issue_return_details	approved_qty	integer	-	-	Yes	-
+inventory.tbl_item_issue_return_details	issued_qty	integer	-	-	Yes	-
+inventory.tbl_item_issue_return_details	return_qty	integer	-	-	Yes	-
+inventory.tbl_item_issue_return_details	comments	character varying	200	-	-	-
+inventory.tbl_item_issue_return_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_issue_return_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_issue_return_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_receive	id	uuid	-	-	Yes	-
+inventory.tbl_item_receive	reference_number	character varying	100	-	-	-
+inventory.tbl_item_receive	text	character varying	100	-	-	-
+inventory.tbl_item_receive	porder_number	character varying	100	-	-	-
+inventory.tbl_item_receive	purchase_date	date	-	-	-	-
+inventory.tbl_item_receive	purchase_type	character varying	500	-	-	-
+inventory.tbl_item_receive	gorder_number	character varying	500	-	-	-
+inventory.tbl_item_receive	invoice_number	character varying	500	-	-	-
+inventory.tbl_item_receive	chalan_number	character varying	500	-	-	-
+inventory.tbl_item_receive	remarks	character varying	500	-	-	-
+inventory.tbl_item_receive	committee_comment	character varying	500	-	-	-
+inventory.tbl_item_receive	receiving_date	date	-	-	-	-
+inventory.tbl_item_receive	status	integer	-	-	-	-
+inventory.tbl_item_receive	fiscal_year_id	uuid	-	-	-	-
+inventory.tbl_item_receive	committee_id	uuid	-	-	-	-
+inventory.tbl_item_receive	is_deleted	boolean	-	-	-	false
+inventory.tbl_item_receive	vendor_id	uuid	-	-	-	-
+inventory.tbl_item_receive	store_id	uuid	-	-	-	-
+inventory.tbl_item_receive	created_at	timestamp without time zone	-	-	-	-
+inventory.tbl_item_receive	updated_at	timestamp without time zone	-	-	-	-
+inventory.tbl_item_receive	user_id	uuid	-	-	Yes	-
+inventory.tbl_item_receive	employee_id	uuid	-	-	Yes	-
+inventory.tbl_item_receive	proxy_user_id	uuid	-	-	-	-
+inventory.tbl_item_receive	org_id	uuid	-	-	Yes	-
+inventory.tbl_item_receive_details	id	uuid	-	-	Yes	-
+inventory.tbl_item_receive_details	quantity	integer	-	-	-	-
+inventory.tbl_item_receive_details	accepted_quantity	integer	-	-	-	-
+inventory.tbl_item_receive_details	comment	character varying	500	-	-	-
+inventory.tbl_item_receive_details	item_id	uuid	-	-	-	-
+inventory.tbl_item_receive_details	receiving_unit_id	uuid	-	-	-	-
+inventory.tbl_item_receive_details	category_id	uuid	-	-	-	-
+inventory.tbl_item_receive_details	item_receive_id	uuid	-	-	-	-
+inventory.tbl_item_receive_details	created_at	timestamp without time zone	-	-	-	-
+inventory.tbl_item_receive_details	updated_at	timestamp without time zone	-	-	-	-
+inventory.tbl_item_receive_details	user_id	uuid	-	-	-	-
+inventory.tbl_item_receive_details	employee_id	uuid	-	-	-	-
+inventory.tbl_item_receive_details	proxy_user_id	uuid	-	-	-	-
+inventory.tbl_item_receive_details	org_id	uuid	-	-	-	-
+inventory.tbl_item_receive_details	rate	double precision	-	-	-	-
+inventory.tbl_item_requisition	item_requisition_id	uuid	-	-	Yes	-
+inventory.tbl_item_requisition	employee_id	uuid	-	-	Yes	-
+inventory.tbl_item_requisition	store_id	uuid	-	-	Yes	-
+inventory.tbl_item_requisition	project_id	uuid	-	-	-	-
+inventory.tbl_item_requisition	event_id	uuid	-	-	-	-
+inventory.tbl_item_requisition	meeting_id	uuid	-	-	-	-
+inventory.tbl_item_requisition	requisition_ref_no	character varying	50	-	-	-
+inventory.tbl_item_requisition	requisition_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_requisition	remarks	character varying	200	-	-	-
+inventory.tbl_item_requisition	approved_by	uuid	-	-	Yes	-
+inventory.tbl_item_requisition	approval_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_requisition	status	character varying	50	-	Yes	-
+inventory.tbl_item_requisition	is_complete	boolean	-	-	Yes	-
+inventory.tbl_item_requisition	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_requisition	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_requisition	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_requisition	org_id	uuid	-	-	-	-
+inventory.tbl_item_requisition_details	ird_id	uuid	-	-	Yes	-
+inventory.tbl_item_requisition_details	ir_id	uuid	-	-	Yes	-
+inventory.tbl_item_requisition_details	item_id	uuid	-	-	Yes	-
+inventory.tbl_item_requisition_details	unit_id	uuid	-	-	Yes	-
+inventory.tbl_item_requisition_details	required_qty	integer	-	-	Yes	-
+inventory.tbl_item_requisition_details	approved_qty	integer	-	-	Yes	-
+inventory.tbl_item_requisition_details	item_approval	boolean	-	-	Yes	-
+inventory.tbl_item_requisition_details	comments	character varying	200	-	-	-
+inventory.tbl_item_requisition_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_requisition_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_requisition_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_setup	item_id	uuid	-	-	Yes	-
+inventory.tbl_item_setup	cat_id	uuid	-	-	Yes	-
+inventory.tbl_item_setup	unit_id	uuid	-	-	Yes	-
+inventory.tbl_item_setup	store_id	uuid	-	-	-	-
+inventory.tbl_item_setup	itspec_id	uuid	-	-	-	-
+inventory.tbl_item_setup	item_name	character varying	100	-	Yes	-
+inventory.tbl_item_setup	item_code	character varying	100	-	Yes	-
+inventory.tbl_item_setup	depreciation_rate	double precision	-	-	-	-
+inventory.tbl_item_setup	maintanance_cost	double precision	-	-	-	-
+inventory.tbl_item_setup	hscode	character varying	100	-	-	-
+inventory.tbl_item_setup	sub_ledger_account_code	integer	-	-	-	-
+inventory.tbl_item_setup	maintain_as	character varying	50	-	Yes	-
+inventory.tbl_item_setup	storing_temperature	double precision	-	-	-	-
+inventory.tbl_item_setup	storing_temperature_unit	uuid	-	-	-	-
+inventory.tbl_item_setup	life_time	double precision	-	-	-	-
+inventory.tbl_item_setup	life_time_unit	uuid	-	-	-	-
+inventory.tbl_item_setup	item_status	boolean	-	-	Yes	-
+inventory.tbl_item_setup	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_setup	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_setup	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_setup	org_id	uuid	-	-	-	-
+inventory.tbl_item_setup	employee_id	uuid	-	-	-	-
+inventory.tbl_item_specification	item_spec_id	uuid	-	-	Yes	-
+inventory.tbl_item_specification	item_id	uuid	-	-	Yes	-
+inventory.tbl_item_specification	spec_name	character varying	100	-	Yes	-
+inventory.tbl_item_specification	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_specification	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_specification	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_specification	org_id	uuid	-	-	-	-
+inventory.tbl_item_specification	employee_id	uuid	-	-	-	-
+inventory.tbl_item_specification_details	item_spec_details_id	uuid	-	-	-	-
+inventory.tbl_item_specification_details	item_spec_id	uuid	-	-	Yes	-
+inventory.tbl_item_specification_details	avs_id	uuid	-	-	Yes	-
+inventory.tbl_item_specification_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_specification_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_specification_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_stock	item_stock_id	uuid	-	-	Yes	-
+inventory.tbl_item_stock	item_id	uuid	-	-	-	-
+inventory.tbl_item_stock	opening_qty	integer	-	-	Yes	-
+inventory.tbl_item_stock	current_qty	integer	-	-	Yes	-
+inventory.tbl_item_stock	damage_qty	integer	-	-	Yes	-
+inventory.tbl_item_stock	stock_date	timestamp without time zone	-	-	-	-
+inventory.tbl_item_stock	store_id	uuid	-	-	-	-
+inventory.tbl_item_stock	fiscal_year_id	uuid	-	-	-	-
+inventory.tbl_item_stock	org_id	uuid	-	-	-	-
+inventory.tbl_item_stock	employee_id	uuid	-	-	-	-
+inventory.tbl_item_stock_history	id	integer	-	-	Yes	-
+inventory.tbl_item_stock_history	item_id	uuid	-	-	-	-
+inventory.tbl_item_stock_history	store_id	uuid	-	-	-	-
+inventory.tbl_item_stock_history	opening_qty	integer	-	-	Yes	-
+inventory.tbl_item_stock_history	current_qty	integer	-	-	Yes	-
+inventory.tbl_item_stock_history	damage_qty	integer	-	-	Yes	-
+inventory.tbl_item_stock_history	stock_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_stock_history	history_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_stock_history	fiscal_year_id	uuid	-	-	-	-
+inventory.tbl_item_transfer	item_transfer_id	uuid	-	-	Yes	-
+inventory.tbl_item_transfer	transfer_type_id	character varying	50	-	-	-
+inventory.tbl_item_transfer	store_ref_id	uuid	-	-	-	-
+inventory.tbl_item_transfer	donor_ref_id	uuid	-	-	-	-
+inventory.tbl_item_transfer	project_ref_id	uuid	-	-	-	-
+inventory.tbl_item_transfer	to_store_id	uuid	-	-	-	-
+inventory.tbl_item_transfer	authorised_by_id	uuid	-	-	-	-
+inventory.tbl_item_transfer	committee_id	uuid	-	-	-	-
+inventory.tbl_item_transfer	committee_comments	character varying	250	-	-	-
+inventory.tbl_item_transfer	transfer_ref_no	character varying	50	-	-	-
+inventory.tbl_item_transfer	transfer_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_transfer	remarks	character varying	200	-	-	-
+inventory.tbl_item_transfer	approved_by	uuid	-	-	-	-
+inventory.tbl_item_transfer	approval_date	timestamp without time zone	-	-	-	-
+inventory.tbl_item_transfer	transfer_tag	character varying	50	-	-	-
+inventory.tbl_item_transfer	status	character varying	50	-	Yes	-
+inventory.tbl_item_transfer	is_complete	boolean	-	-	Yes	-
+inventory.tbl_item_transfer	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_transfer	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_transfer	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_item_transfer	org_id	uuid	-	-	-	-
+inventory.tbl_item_transfer	employee_id	uuid	-	-	-	-
+inventory.tbl_item_transfer_details	transfer_detail_id	uuid	-	-	Yes	-
+inventory.tbl_item_transfer_details	item_transfer_id	uuid	-	-	Yes	-
+inventory.tbl_item_transfer_details	item_id	uuid	-	-	-	-
+inventory.tbl_item_transfer_details	unit_id	uuid	-	-	-	-
+inventory.tbl_item_transfer_details	category_id	uuid	-	-	-	-
+inventory.tbl_item_transfer_details	transfer_qty	integer	-	-	-	-
+inventory.tbl_item_transfer_details	accepted_qty	integer	-	-	-	-
+inventory.tbl_item_transfer_details	approved_qty	integer	-	-	-	-
+inventory.tbl_item_transfer_details	item_approval	boolean	-	-	-	-
+inventory.tbl_item_transfer_details	comments	character varying	200	-	-	-
+inventory.tbl_item_transfer_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_item_transfer_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_item_transfer_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_opening_stock	os_id	uuid	-	-	Yes	-
+inventory.tbl_opening_stock	store_id	uuid	-	-	Yes	-
+inventory.tbl_opening_stock	item_id	uuid	-	-	Yes	-
+inventory.tbl_opening_stock	unit_id	uuid	-	-	Yes	-
+inventory.tbl_opening_stock	opening_qty	integer	-	-	Yes	-
+inventory.tbl_opening_stock	item_rate	double precision	-	-	-	-
+inventory.tbl_opening_stock	comments	character varying	200	-	-	-
+inventory.tbl_opening_stock	owned_by	uuid	-	-	Yes	-
+inventory.tbl_opening_stock	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_opening_stock	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_opening_stock	org_id	uuid	-	-	-	-
+inventory.tbl_opening_stock	employee_id	uuid	-	-	-	-
+inventory.tbl_parent_unit	parent_id	uuid	-	-	Yes	-
+inventory.tbl_parent_unit	parent_name	character varying	50	-	Yes	-
+inventory.tbl_parent_unit	status	boolean	-	-	Yes	-
+inventory.tbl_parent_unit	owned_by	uuid	-	-	Yes	-
+inventory.tbl_parent_unit	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_parent_unit	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_physical_inventory	physical_inventory_id	uuid	-	-	Yes	-
+inventory.tbl_physical_inventory	employee_id	uuid	-	-	Yes	-
+inventory.tbl_physical_inventory	store_id	uuid	-	-	Yes	-
+inventory.tbl_physical_inventory	project_id	uuid	-	-	-	-
+inventory.tbl_physical_inventory	reference_no	character varying	50	-	-	-
+inventory.tbl_physical_inventory	investigating_officer_id	uuid	-	-	-	-
+inventory.tbl_physical_inventory	inspection_date	timestamp without time zone	-	-	-	-
+inventory.tbl_physical_inventory	remarks	character varying	200	-	-	-
+inventory.tbl_physical_inventory	approved_by	uuid	-	-	-	-
+inventory.tbl_physical_inventory	approval_date	timestamp without time zone	-	-	-	-
+inventory.tbl_physical_inventory	status	character varying	50	-	-	-
+inventory.tbl_physical_inventory	owned_by	uuid	-	-	Yes	-
+inventory.tbl_physical_inventory	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_physical_inventory	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_physical_inventory	org_id	uuid	-	-	-	-
+inventory.tbl_physical_inventory	fiscal_year_id	uuid	-	-	-	-
+inventory.tbl_physical_inventory_details	physical_inventory_details_id	uuid	-	-	Yes	-
+inventory.tbl_physical_inventory_details	physical_inventory_id	uuid	-	-	Yes	-
+inventory.tbl_physical_inventory_details	item_id	uuid	-	-	Yes	-
+inventory.tbl_physical_inventory_details	unit_id	uuid	-	-	Yes	-
+inventory.tbl_physical_inventory_details	physical_qty	integer	-	-	Yes	-
+inventory.tbl_physical_inventory_details	inventory_qty	integer	-	-	Yes	-
+inventory.tbl_physical_inventory_details	approved_qty	integer	-	-	Yes	-
+inventory.tbl_physical_inventory_details	comments	character varying	200	-	-	-
+inventory.tbl_physical_inventory_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_physical_inventory_details	org_id	uuid	-	-	Yes	-
+inventory.tbl_physical_inventory_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_physical_inventory_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_purchase_requisition	purchase_requisition_id	uuid	-	-	Yes	-
+inventory.tbl_purchase_requisition	employee_id	uuid	-	-	Yes	-
+inventory.tbl_purchase_requisition	store_id	uuid	-	-	Yes	-
+inventory.tbl_purchase_requisition	purchase_requisition_ref_no	character varying	50	-	-	-
+inventory.tbl_purchase_requisition	purchase_requisition_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_purchase_requisition	remarks	character varying	200	-	-	-
+inventory.tbl_purchase_requisition	approved_by	uuid	-	-	Yes	-
+inventory.tbl_purchase_requisition	approval_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_purchase_requisition	status	character varying	50	-	Yes	-
+inventory.tbl_purchase_requisition	is_complete	boolean	-	-	Yes	-
+inventory.tbl_purchase_requisition	owned_by	uuid	-	-	Yes	-
+inventory.tbl_purchase_requisition	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_purchase_requisition	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_purchase_requisition	org_id	uuid	-	-	-	-
+inventory.tbl_purchase_requisition_details	prd_id	uuid	-	-	Yes	-
+inventory.tbl_purchase_requisition_details	pr_id	uuid	-	-	Yes	-
+inventory.tbl_purchase_requisition_details	item_id	uuid	-	-	Yes	-
+inventory.tbl_purchase_requisition_details	unit_id	uuid	-	-	Yes	-
+inventory.tbl_purchase_requisition_details	required_qty	integer	-	-	Yes	-
+inventory.tbl_purchase_requisition_details	approved_qty	integer	-	-	Yes	-
+inventory.tbl_purchase_requisition_details	item_approval	boolean	-	-	Yes	-
+inventory.tbl_purchase_requisition_details	comments	character varying	200	-	-	-
+inventory.tbl_purchase_requisition_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_purchase_requisition_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_purchase_requisition_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_reorder_level	reorderlevel_id	uuid	-	-	Yes	-
+inventory.tbl_reorder_level	store_id	uuid	-	-	Yes	-
+inventory.tbl_reorder_level	item_id	uuid	-	-	Yes	-
+inventory.tbl_reorder_level	cat_id	uuid	-	-	Yes	-
+inventory.tbl_reorder_level	unit_id	uuid	-	-	Yes	-
+inventory.tbl_reorder_level	reorder_level	integer	-	-	Yes	-
+inventory.tbl_reorder_level	low_level	integer	-	-	Yes	-
+inventory.tbl_reorder_level	high_level	integer	-	-	-	-
+inventory.tbl_reorder_level	remarks	character varying	200	-	-	-
+inventory.tbl_reorder_level	owned_by	uuid	-	-	Yes	-
+inventory.tbl_reorder_level	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_reorder_level	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_reorder_level	org_id	uuid	-	-	-	-
+inventory.tbl_reorder_level	employee_id	uuid	-	-	-	-
+inventory.tbl_store	store_id	uuid	-	-	Yes	-
+inventory.tbl_store	organisation_id	uuid	-	-	Yes	-
+inventory.tbl_store	store_in_charge	uuid	-	-	Yes	-
+inventory.tbl_store	store_keeper	uuid	-	-	Yes	-
+inventory.tbl_store	store_name	character varying	100	-	Yes	-
+inventory.tbl_store	store_location	character varying	100	-	Yes	-
+inventory.tbl_store	store_code	character varying	100	-	Yes	-
+inventory.tbl_store	store_status	boolean	-	-	Yes	-
+inventory.tbl_store	opening_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_store	comment	character varying	50	-	-	-
+inventory.tbl_store	owned_by	uuid	-	-	Yes	-
+inventory.tbl_store	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_store	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_store	org_id	uuid	-	-	-	-
+inventory.tbl_store	employee_id	uuid	-	-	-	-
+inventory.tbl_store	project_id	uuid	-	-	-	-
+inventory.tbl_store_item_issue_receive	store_item_issue_receive_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_issue_receive	store_item_requisition_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_issue_receive	store_keeper_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_issue_receive	store_incharge_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_issue_receive	from_store_id	uuid	-	-	-	-
+inventory.tbl_store_item_issue_receive	to_store_id	uuid	-	-	-	-
+inventory.tbl_store_item_issue_receive	issue_receive_ref_no	character varying	50	-	-	-
+inventory.tbl_store_item_issue_receive	issued_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_store_item_issue_receive	remarks	character varying	200	-	-	-
+inventory.tbl_store_item_issue_receive	issued_by	uuid	-	-	-	-
+inventory.tbl_store_item_issue_receive	status	character varying	50	-	Yes	-
+inventory.tbl_store_item_issue_receive	is_complete	boolean	-	-	Yes	-
+inventory.tbl_store_item_issue_receive	owned_by	uuid	-	-	Yes	-
+inventory.tbl_store_item_issue_receive	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_store_item_issue_receive	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_store_item_issue_receive	org_id	uuid	-	-	-	-
+inventory.tbl_store_item_issue_receive	employee_id	uuid	-	-	-	-
+inventory.tbl_store_item_issue_receive_details	siird_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_issue_receive_details	siir_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_issue_receive_details	item_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_issue_receive_details	unit_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_issue_receive_details	issued_qty	integer	-	-	Yes	-
+inventory.tbl_store_item_issue_receive_details	previous_issued_qty	integer	-	-	-	-
+inventory.tbl_store_item_issue_receive_details	approved_qty	integer	-	-	Yes	-
+inventory.tbl_store_item_issue_receive_details	item_approval	boolean	-	-	Yes	-
+inventory.tbl_store_item_issue_receive_details	comments	character varying	200	-	-	-
+inventory.tbl_store_item_issue_receive_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_store_item_issue_receive_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_store_item_issue_receive_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_store_item_requisition	store_item_requisition_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_requisition	store_keeper_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_requisition	store_incharge_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_requisition	from_store_id	uuid	-	-	-	-
+inventory.tbl_store_item_requisition	to_store_id	uuid	-	-	-	-
+inventory.tbl_store_item_requisition	requisition_ref_no	character varying	50	-	-	-
+inventory.tbl_store_item_requisition	requisition_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_store_item_requisition	remarks	character varying	200	-	-	-
+inventory.tbl_store_item_requisition	approved_by	uuid	-	-	-	-
+inventory.tbl_store_item_requisition	approval_date	timestamp without time zone	-	-	-	-
+inventory.tbl_store_item_requisition	status	character varying	50	-	Yes	-
+inventory.tbl_store_item_requisition	is_complete	boolean	-	-	Yes	-
+inventory.tbl_store_item_requisition	owned_by	uuid	-	-	Yes	-
+inventory.tbl_store_item_requisition	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_store_item_requisition	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_store_item_requisition	org_id	uuid	-	-	-	-
+inventory.tbl_store_item_requisition	employee_id	uuid	-	-	-	-
+inventory.tbl_store_item_requisition_details	sird_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_requisition_details	sir_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_requisition_details	item_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_requisition_details	unit_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_requisition_details	required_qty	integer	-	-	Yes	-
+inventory.tbl_store_item_requisition_details	approved_qty	integer	-	-	Yes	-
+inventory.tbl_store_item_requisition_details	item_approval	boolean	-	-	Yes	-
+inventory.tbl_store_item_requisition_details	comments	character varying	200	-	-	-
+inventory.tbl_store_item_requisition_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_store_item_requisition_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_store_item_requisition_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_store_item_transfer	store_item_transfer_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_transfer	store_keeper_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_transfer	store_incharge_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_transfer	from_store_id	uuid	-	-	-	-
+inventory.tbl_store_item_transfer	to_store_id	uuid	-	-	-	-
+inventory.tbl_store_item_transfer	transfer_ref_no	character varying	50	-	-	-
+inventory.tbl_store_item_transfer	transfer_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_store_item_transfer	transfer_status	character varying	50	-	-	-
+inventory.tbl_store_item_transfer	remarks	character varying	200	-	-	-
+inventory.tbl_store_item_transfer	approved_by	uuid	-	-	-	-
+inventory.tbl_store_item_transfer	approval_date	timestamp without time zone	-	-	-	-
+inventory.tbl_store_item_transfer	received_by	uuid	-	-	-	-
+inventory.tbl_store_item_transfer	received_date	timestamp without time zone	-	-	-	-
+inventory.tbl_store_item_transfer	status	character varying	50	-	Yes	-
+inventory.tbl_store_item_transfer	owned_by	uuid	-	-	Yes	-
+inventory.tbl_store_item_transfer	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_store_item_transfer	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_store_item_transfer	org_id	uuid	-	-	-	-
+inventory.tbl_store_item_transfer	employee_id	uuid	-	-	-	-
+inventory.tbl_store_item_transfer_details	store_item_transfer_details_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_transfer_details	store_item_transfer_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_transfer_details	item_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_transfer_details	unit_id	uuid	-	-	Yes	-
+inventory.tbl_store_item_transfer_details	transfer_qty	integer	-	-	Yes	-
+inventory.tbl_store_item_transfer_details	approved_qty	integer	-	-	Yes	-
+inventory.tbl_store_item_transfer_details	received_qty	integer	-	-	Yes	-
+inventory.tbl_store_item_transfer_details	comments	character varying	200	-	-	-
+inventory.tbl_store_item_transfer_details	owned_by	uuid	-	-	Yes	-
+inventory.tbl_store_item_transfer_details	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_store_item_transfer_details	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_transfer_type	tt_id	uuid	-	-	Yes	-
+inventory.tbl_transfer_type	tt_name	character varying	100	-	Yes	-
+inventory.tbl_transfer_type	comment	character varying	100	-	-	-
+inventory.tbl_transfer_type	status	boolean	-	-	Yes	-
+inventory.tbl_transfer_type	referance_no	character varying	100	-	Yes	-
+inventory.tbl_transfer_type	owned_by	uuid	-	-	Yes	-
+inventory.tbl_transfer_type	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_transfer_type	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_transfer_type	org_id	uuid	-	-	-	-
+inventory.tbl_transfer_type	employee_id	uuid	-	-	-	-
+inventory.tbl_unit	unit_id	uuid	-	-	Yes	-
+inventory.tbl_unit	unit_name	character varying	100	-	Yes	-
+inventory.tbl_unit	unit_code	character varying	50	-	Yes	-
+inventory.tbl_unit	parent_unit	uuid	-	-	-	-
+inventory.tbl_unit	status	boolean	-	-	Yes	-
+inventory.tbl_unit	conversion_rate	character varying	50	-	Yes	-
+inventory.tbl_unit	owned_by	uuid	-	-	Yes	-
+inventory.tbl_unit	created_date	timestamp without time zone	-	-	Yes	-
+inventory.tbl_unit	is_deleted	boolean	-	-	Yes	-
+inventory.tbl_unit	org_id	uuid	-	-	-	-
+inventory.tbl_unit	employee_id	uuid	-	-	-	-

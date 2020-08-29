@@ -1,0 +1,22 @@
+.login .container #login-row #login-column #login-box {
+  margin-top: 40px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+  border-radius: 5px;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+.image img{
+  height: 80px;
+  width: 20%
+}
+.page-heading{
+  background-color: #6495ED;
+  color: white;
+  padding: 5px 5px;
+  height: 30px;
+
+}

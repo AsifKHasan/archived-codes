@@ -1,0 +1,29 @@
+                                                  Task list assumption for ML
+                                      ----------------------------------------------------
+
+
+1) Task: Student Performance( For CSSM Project)
+   Dataset: https://archive.ics.uci.edu/ml/datasets/Student+Performance
+   Algorithm : Regression or Classification
+   Use case: We will be able to apply it for different kind of performance matrix scenario
+
+2) Task: Object Detection From Streaming Video
+   Dataset: Data will be taken from webcam or security camera or from other data source
+   Algorithm: Classification (Tensorflow or Theano)
+   Use case: We can use it for object detection and and facial recognition
+
+3) Task: Credit Approval
+   Dataset: https://archive.ics.uci.edu/ml/datasets/Credit+Approval
+   Algorithm: Classification (Tensorflow or Theano)
+   Use case: We can use it for criteria based approval scenario
+
+
+Asif's List
+
+1. Object detection in static image
+2. Object movement detection from two static images
+3. Object movement detection in stream
+4. Object identification in a static image
+5. Object matching between two static images
+
+6. Song classification from text (Rabindranath Thakur's song collection)

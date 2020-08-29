@@ -1,0 +1,139 @@
+30000 Revenue Income
+	30100 Operating Income
+		30101 Sales Proceed 0
+			3010101 Sales-Local
+					301010100001 Sales-Whole Sales Market
+					301010100002 Sales-Institutional
+					301010100003 Sales-Distributor
+					301010100004 Sales-Internal
+					301010100005 Sales-Retail
+			3010102 Sales-Export
+					301010200001 Sales-Export-Brumar-Italy
+					301010200002 Sales-Export-Bottlers Nepal Ltd.
+					301010200003 Sales Export-Phoenix Distribution U.K Ltd.
+		30102 Others Income 0
+			3010201 Dividend from Investment
+					301020100001 DV-Investment in AB Bank Ltd.
+					301020100002 DV-Investment in First Security Bank Ltd.
+					301020100003 DV-Investment in Southeast Bank Ltd.
+					301020100004 DV-Investment in HEIDELBERGE
+					301020100005 DV-Investment in Titas Gas T&D Co. Ltd.
+					301020100006 DV-Investment in Novus Pharmaceuticals Ltd.
+					301020100007 DV-Investment in Desco Ltd.
+					301020100008 DV-Investment in BSRM Steel
+					301020100009 DV-Investment in BEXTEX
+					301020100010 DV-Investment in Uttara Bank Ltd.
+					301020100011 DV-Investment in Grameen Phone
+					301020100012 DV-Investment in Meghna Cement
+					301020100013 DV-Investment in Prime Bank Ltd.
+					301020100014 DV-Investment in Summit Power
+					301020100015 DV-Investment in Lafarge Surma Cement
+					301020100016 DV-Investment in Square Pharmaceuticals Ltd.
+					301020100017 DV-Investment in Power Grid Ltd.
+					301020100018 DV-Investment in Beximco Pharmaceuticals Ltd.
+					301020100019 DV-Investment in Islami Bank [ BD] Ltd.
+					301020100020 DV-Investment in Delta Brac Housing Finance Ltd.
+					301020100021 DV-Investment in Fareast Life Insurance Ltd.
+					301020100022 DV-Investment in I D L C
+					301020100023 DV-Investment in United Leasing Co.
+					301020100024 DV-Investment in Bank Asia Ltd.
+					301020100025 DV-Investment in National Bank Ltd.
+					301020100026 DV-Investment in One Bank Ltd.
+					301020100027 DV-Investment in Standard Bank Ltd.
+			3010202 Unrealised Profit/[ Loss] on Investment in Share
+					301020200001 UPL-Investment in AB Bank Ltd.
+					301020200002 UPL-Investment in First Security Bank Ltd.
+					301020200003 UPL-Investment in Southeast Bank Ltd.
+					301020200004 UPL-Investment in HEIDELBERGE
+					301020200005 UPL-Investment in Titas Gas T&D Co. Ltd.
+					301020200006 UPL-Investment in Novus Pharmaceuticals Ltd.
+					301020200007 UPL-Investment in Desco Ltd.
+					301020200008 UPL-Investment in BSRM Steel.
+					301020200009 UPL-Investment in BEXTEX.
+					301020200010 UPL-Investment in Uttara Bank Ltd.
+					301020200011 UPL-Investment in Grameen Phone.
+					301020200012 UPL-Investment in Meghna Cement.
+					301020200013 UPL-Investment in Prime Bank Ltd.
+					301020200014 UPL-Investment in Summit Power.
+					301020200015 UPL-Investment in Lafarge Surma Cement.
+					301020200016 UPL-Investment in Square Pharmaceuticals Ltd.
+					301020200017 UPL-Investment in Power Grid Ltd.
+					301020200018 UPL-Investment in Beximco Pharmaceuticals Ltd.
+					301020200019 UPL-Investment in Islami Bank [ BD.] Ltd.
+					301020200020 UPL-Investment in Delta Brac Housing Finance Ltd.
+					301020200021 UPL-Investment in Fareast Life Insurance Ltd.
+					301020200022 UPL-Investment in I D L C.
+					301020200023 UPL-Investment in United Leasing Co.
+					301020200024 UPL-Investment in Bank Asia Ltd.
+					301020200025 UPL-Investment in National Bank Ltd.
+					301020200026 UPL-Investment in One Bank Ltd.
+					301020200027 UPL-Investment in Standard Bank Ltd.
+					301020200028 UPL-Investment in Al-Arafah Islami Bank Ltd.
+					301020200029 UPL-Investment in Beximco Ltd.
+			3010203 Realised Profit/[ Loss] on Sale in Share
+					301020300001 RPL-Investment in AB Bank Ltd.
+					301020300002 RPL-Investment in First Security Bank Ltd.
+					301020300003 RPL-Investment in Southeast Bank Ltd.
+					301020300004 RPL-Investment in HEIDELBERGE
+					301020300005 RPL-Investment in Titas Gas T&D Co. Ltd.
+					301020300006 RPL-Investment in Novus Pharmaceuticals Ltd.
+					301020300007 RPL-Investment in Desco Ltd.
+					301020300008 RPL-Investment in BSRM Steel.
+					301020300009 RPL-Investment in BEXTEX.
+					301020300010 RPL-Investment in Uttara Bank Ltd..
+					301020300011 RPL-Investment in Grameen Phone.
+					301020300012 RPL-Investment in Meghna Cement.
+					301020300013 RPL-Investment in Prime Bank Ltd.
+					301020300014 RPL-Investment in Summit Power.
+					301020300015 RPL-Investment in Lafarge Surma Cement.
+					301020300016 RPL-Investment in Square Pharmaceuticals Ltd.
+					301020300017 RPL-Investment in Power Grid Ltd.
+					301020300018 RPL-Investment in Beximco Pharmaceuticals Ltd.
+					301020300019 RPL-Investment in Islami Bank [ BD.] Ltd.
+					301020300020 RPL-Investment in Delta Brac Housing Finance Ltd.
+					301020300021 RPL-Investment in Fareast Life Insurance Ltd.
+					301020300022 RPL-Investment in I D L C.
+					301020300023 RPL-Investment in United Leasing Co.
+					301020300024 RPL-Investment in Bank Asia Ltd.
+					301020300025 RPL-Investment in National Bank Ltd.
+					301020300026 RPL-Investment in One Bank Ltd.
+					301020300027 RPL-Investment in Standard Bank Ltd.
+					301020300028 RPL-Investment in Al-Arafah Islami Bank Ltd.
+					301020300029 RPL-Investment in Beximco Ltd.
+		30103 Interest Income 0
+			3010301 Interest Income on Bank Deposit
+				301030101 Interest Income On STD Accounts
+					301030101001 Interest Income-DBBL-STD
+					301030101002 Interest Income-Prime- STD
+					301030101003 Interest Income-Premier-STD
+					301030101004 Interest Income-NBL- STD
+					301030101005 Interest Income-MTBL- STD
+					301030101006 Interest Income-SJIBL-SND
+					301030101007 Interest Income-ABBL- STD
+					301030101008 Interest Income-UCBL-STD
+					301030101009 Interest Income-Sonali Bank-STD
+					301030101010 Interest Income-Exim Bank-MSTD
+					301030101011 Interest Income-Janata Bank Ltd-SND
+					301030101012 Interest Income-OBL-SND
+					301030101013 Interest Income-Dhaka Bank Ltd.
+				301030102 Interest Income On FDR
+					301030102001 Interest Income MTBL-FDR
+					301030102002 Interest Income-ABBL-FDR
+					301030102003 Interest Income-SJIBL-FDR
+					301030102004 Interest Income-BAL-FDR
+					301030102005 Interest Income-OBL-FDR
+					301030102006 Interest Income-Premier Bank Ltd.-FDR
+					301030102007 Interest Income-NBL-FDR
+					301030102008 Interest Income-DBBL-FDR
+			3010302 Interest Income on Inter Company Current Account
+					301030200001 Interest Income-AML-Construction
+					301030200002 Interest Income-AML-Igloo Ice-Cream
+					301030200003 Interest Income-AML-Igloo Foods
+					301030200004 Interest Income-Novus Pharma Ltd.
+					301030200005 Interest Income-AML-Baverage Unit
+		30104 Income from Transport 0
+					301040000001 Income from Transport - DM-TA-11-4677
+					301040000002 Income From Transport-DM-TA-11-4681
+					301040000003 Income from Transport-DM-U-11-0346
+					301040000004 Income From Transport-DM-TA-11-4679
+					301040000005 Income from Transport-DM-TA-11-4678

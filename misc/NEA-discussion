@@ -1,0 +1,53 @@
+1.​ Current existing systems those are connected with NEA
+a. ePrimary
+b. NID
+c. Pay Fixation
+d. ePension
+e. BOESL - Test
+f. Blockchain platform (BCC)
+g. GeoDash platform (BCC)
+h. Birth and Death Registration
+i. eRecruitment (BCC)
+j. Food procurement management system
+
+Meeting done
+a. iBAS++
+b. CPTU
+c. PPS
+d. PMIS (project)
+
+
+Live:
+Test: BOESL
+
+
+2.​ Load Capacity of the BUS
+a. HA clustering
+b. Load testing not done yet
+
+
+3.​ Success history on securities to answer external critics
+a. It is not in public IP
+b. Access token provided by bus (Access Token)
+c. CIRT certified
+
+
+
+4.​ As being informed that Pay-fixation is data provider in NEA, what fields we can access from there?
+a. For salary every GoB employee needs updated data in pay fixation
+b. name and NID query to pay fixation for verifying GoB employee
+
+
+
+5.​ How can NEA convince or force​ existing systems like (eNothi, eGP, PMIS) to be data provider?
+
+
+
+6.​ How demand-lists are to be presented to NEA​ from GRP project to execute​ 5th point?
+a. Internal GRP use-cases on NEA testbed
+b. Test with pay fixation for HRM, Accounts
+
+
+NEA Activities
+1. A workshop with all Ministry Secretary on NEA on May 19, 2019 presided by Cabinet Secretary
+2. A guideline under National Digital Architecture to be published this month May, 2019

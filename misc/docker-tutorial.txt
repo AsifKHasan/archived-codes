@@ -1,0 +1,82 @@
+Chapter 3
+-----------------------------------------------------------------------------------------
+docker run debian echo "Hello World"
+docker run -i -t debian /bin/bash
+docker run -h CONTAINER -i -t debian /bin/bash
+docker ps
+docker inspect prickly_payne
+docker inspect prickly_payne | grep IPAddress
+docker inspect --format {{.NetworkSettings.IPAddress}} prickly_payne
+
+docker diff prickly_payne
+docker logs prickly_payne
+
+docker ps -a
+
+docker rm prickly_payne
+docker ps -aq -f status=exited
+docker rm -v $(docker ps -aq -f status=exited)
+
+docker run -it --name cowsay --hostname cowsay debian bash
+apt-get update
+apt-get install -y cowsay fortune
+/usr/games/fortune | /usr/games/cowsay
+
+docker commit cowsay test/cowsayimage
+f28e77e1b1d7b6ee5dd991ea5cae2a95091c93b3295217508857a21decfe6bb1
+
+docker run test/cowsayimage /usr/games/cowsay "Moo"
+
+cd /Users/asif.hasan/Documents/code/Docker
+mkdir cowsay
+cd cowsay
+touch Dockerfile
+
+--Dockerfile----------
+FROM debian:wheezy
+
+MAINTAINER Asif Hasan <asif.hasan@gmail.com>
+RUN apt-get update && apt-get install -y cowsay fortune
+
+# ENTRYPOINT ["/usr/games/cowsay"]
+
+COPY entrypoint.sh /
+ENTRYPOINT ["/entrypoint.sh"]
+----------------------
+
+docker build -t test/cowsay-dockerfile .
+docker run test/cowsay-dockerfile "Moo"
+
+docker run test/cowsay-dockerfile "Moo"
+
+vim entrypoint.sh
+--entrypoint.sh----------
+#!/bin/bash
+if[$#-eq0];then
+/usr/games/fortune | /usr/games/cowsay
+else
+/usr/games/cowsay "$@" fi
+-------------------------
+
+chmod +x entrypoint.sh
+
+docker build -t test/cowsay-dockerfile .
+docker run test/cowsay-dockerfile
+docker run test/cowsay-dockerfile "Moo"
+
+docker build -t asifkhasan/cowsay .
+docker push asifkhasan/cowsay
+ca03a4271aee858a6873c0c5e6ad474cea2a074cf64a184db3540fd0053acf54
+
+docker pull redis
+docker run --name myredis -d redis
+
+docker run --rm -it --link myredis:redis redis /bin/bash
+
+--redis-client---------------------
+redis-cli -h redis -p 6379
+ping
+set "abc" 123 OK
+get "abc" "123"
+exit
+-------------------------

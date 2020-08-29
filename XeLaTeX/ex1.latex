@@ -1,0 +1,29 @@
+\documentclass[10pt]{article}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage[numerals=Devanagari]{bengali}
+\setotherlanguage{english}
+\setmainfont[Script=Bengali]{Lohit Bengali}
+
+%\newcommand{\devanagarinumeral}[1]{%
+%  \devanagaridigits{\number\csname c@#1\endcsname}}
+
+% renew all representation of counters
+% \renewcommand{\thesection}{\devanagarinumeral{section}}
+% \renewcommand{\thepage}{\devanagarinumeral{page}}
+% \renewcommand{\theenumi}{\devanagarinumeral{enumi}}
+
+
+\title{মফিজের গরু}
+\author{কোপা-শামসু}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{ভূমিকা}
+পাশের বাড়ির মফিজের কুরবানীর গরু দেইখ্যা পুরা টাশকি মাইরা গেলাম। দাম নাকি পড়ছে ৫০ হাজার ট্যাকা।
+হালায় এত টাকা কামায় ক্যামনে? 
+\end{document}
+
+% compile with xelatex: xelatex bangla.tex

@@ -1,0 +1,976 @@
+20000 Capital and Liabilities
+20100 Shareholders Equity
+20101 Share Capital 0
+201010000001 SC-Abdul Monem Ltd.
+201010000002 SC-Abdul Monem
+201010000003 SC-Mrs. Meherunnessa
+201010000004 SC-Husana Banu
+201010000005 SC-ASM Mainuddin Monem
+201010000006 SC-ASM Mohiuddin Monem
+201010000007 SC-Mrs. Dilara Begum
+201010000008 SC-Mrs. Mahmuda Begum
+201010000009 SC-Mrs. Farhana Monem
+20102 Retained Earnings 0
+201020000001 Profit /(Loss) Appropriation Account
+201020000002 Profit /(Loss) Account
+20200 Reserve & Surplus
+20201 Tax Holiday Reserve 0
+20202 Reserve-Assets Revaluation 0
+20300 Non-Current Liabilities
+20301 Accumulated Depriciation 0
+203010000001 Acc.Dep.Factory Building & Construction
+203010000002 Acc.Dep.Building Construction
+203010000003 Acc.Dep.Road Construction
+203010000004 Acc.Dep.Plant & Machinery
+203010000005 Acc.Dep.Equipments
+203010000006 Acc.Dep.Furniture & Fixture
+203010000007 Acc.Dep.Computer & Computer Equipment
+203010000008 Acc.Dep.Vehicles
+203010000009 Acc.Dep-Communication Equipment
+203010000010 Acc.Dep-Electrical Installation
+203010000011 Acc.Dep. Truck Cargo
+20302 Long Term Loan 0
+203020000001 IBBL HPSM
+203020000002 Premier Bank Ltd.-TL-108-712-2178
+20400 Current Liabilities
+20401 Trade Payable 0
+2040101 Trade Payable-Packaging Item Purchase
+204010100001 Shovon Woven Bag Mfg.
+204010100002 G Q Industries
+204010100003 Sinobangla Industries Ltd.
+204010100004 Poly Cables Industries Ltd.
+204010100005 Bengal Poly & Paper Sack Ltd.
+204010100006 Desh Bandhu Polymer Ltd.
+204010100007 Asia Plastic Container Industries.
+204010100008 Mono Feed Mills Ltd.
+204010100009 Paragon Plast Fiber Ltd.
+204010100010 Tampaco Foils Ltd.
+204010100011 Cytrax Packaging & Printing Inds. Ltd.
+204010100012 United Fibre Industries Ltd.
+204010100013 Faisal & Fahad Bag Industries Ltd.
+204010100014 A.B Woven Bag Ind. Ltd.
+204010100015 Royal P.P Bags Ltd.
+204010100016 Khan Brothers Bag Industries Ltd
+204010100017 Dada Bag Industries Ltd.
+204010100018 ICOM Solutions Ltd.
+204010100019 Poly Cord Ltd.
+204010100020 Zumar Bag Industries Ltd.
+204010100021 Bhuiyan Trade House
+2040102 Trade Payable-Chemical Purchase
+204010200001 Murad Limes
+204010200002 Pacific Chemitrade Co.
+204010200003 A I Traders { Lime}
+204010200004 Popular Trade Syndicate
+204010200005 M/S ION Exchange.
+204010200006 Dhaka Limes.
+204010200007 H R Chemical
+204010200008 Shifat Shium Enterprise.
+204010200009 Banorupa Salt Industries Ltd.
+204010200010 Desh Chemicals & Stone Corp.
+204010200011 Bhai Bhai Limes Traders
+204010200012 Popular Traders [ Common Salt ]
+204010200013 National Perfumary & Chemical
+204010200014 S.K. Scientific & Chemical Mart
+204010200015 Shahed International
+204010200016 Jonaki Chemicals
+204010200017 Shah Chemicals
+204010200018 Murad Perfumary & Chemicals
+204010200019 Shekh International
+204010200020 Ranjit Chowdhury [Rano]
+204010200021 Media Adcom
+204010200022 Eastern Chemical
+204010200023 Lasania Trade International
+204010200024 Nazrul Islam [Common Salt]
+204010200025 Hanif Chemical
+204010200026 Labiba Enterprise
+204010200027 Prime International
+204010200028 Chand Trade International
+204010200029 Al-Arafa Scientific & Surgical Co. Ltd.
+204010200030 Bangladesh Calcium Traders
+204010200031 Samogry Salt Crushing Industries
+2040103 Trade Payable-Raw Sugar Carrying
+204010300001 Marine Service & Traders
+204010300002 Kaderia Enterprise
+2040104 Trade Payable-Transport
+204010400001 Tania Enterprise [ Sugar Transporter ]
+204010400002 Truck BandobostoKari Trans. [ Sugar Transporter ]
+204010400003 Upokul Transport Agency
+204010400004 Islamia Enterprise
+204010400005 Sadman Enterprise & Transport Agency.
+204010400006 M/s. New Al-Amin Transport Agency
+204010400007 Global Logistic & Transportation
+204010400008 B.S.K Transport Agency
+204010400009 OK Transport Agency
+204010400010 Dayal Paribahan Sangstha
+204010400011 Swadesh Container Service
+204010400012 Transport bill payable [ Sugar Carrying ]
+2040105 Trade Payable-Stevedoring
+204010500001 Associated Traders Mariners
+204010500002 Akmal Khan & Co.
+204010500003 Union Traders
+204010500004 United Freight Systems
+204010500005 Alam Transport & Cargo Service
+204010500006 Sealift Stevedoring Service Ltd.
+204010500007 xxxxx
+204010500008 Green Enterprise Ltd.
+204010500009 Prestige Corporation Ltd.
+204010500010 H.S Marine Agency
+204010500011 Sea Coast Shipping Trading Ltd.
+204010500012 Fleet International Limited.
+204010500013 MST Marine Service & Traders Ltd.
+204010500014 H C Marine Ltd.
+204010500015 Haji Idris & Sons Ltd.
+204010500016 Ancient Traders Limited
+2040106 Trade Payable-C&F Agent
+204010600001 Ali Enterprise
+204010600002 Air lift Trade & Logistic Ltd.
+204010600003 Mamoni Trade International
+204010600004 Shanta Enterprise [C&F]
+204010600005 Akash Ent
+204010600006 Shah Amanath Corporation
+2040107 Trade Payable-Survey
+204010700001 SGS Bangladesh Ltd.
+204010700002 Online Survey & Inspection Ltd.
+204010700003 Intertek Bangladesh Ltd.
+204010700004 Capt Syed Jane Alam
+204010700005 Shore Survey Station Ltd.
+2040108 Trade Payable-Others
+204010800001 Insulation Engineering Works.
+204010800002 Highspeed Shipbuilding & Engineering Co. Ltd.
+204010800003 Abdullah & Sons
+204010800004 Sonali Traders
+204010800005 Superior Builders
+204010800006 Harun & Brothers
+204010800007 Shahina Enterprise
+204010800008 Hydro Mech Engineering
+204010800009 Sanjida Engineering
+204010800010 Janata Mill Store
+204010800011 Anowarul Mamun -Factory
+204010800012 Inland Construction
+204010800013 Zahid Eng. Workshop.
+204010800014 Hasi Enterprise
+204010800015 Imtiaj Eng. Works.
+204010800016 Sutech Eng. Works
+204010800017 S.S Boiler House
+204010800018 Gresham A/C.
+204010800019 Tahura Printing Press.
+204010800020 Amin Enterprise.
+204010800021 Royal Utilization Services Ltd.
+204010800022 B I T A C
+204010800023 Masum Enterprise.
+204010800024 Didar Eng. Construction.
+204010800025 Design Planning and Cons. Ltd.
+204010800026 A.K.M Murad.
+204010800027 Sigma Technology.
+204010800028 Shahan Shah
+204010800029 Shashi Traders.
+204010800030 Allutech BD
+204010800031 Asha Hardware
+204010800032 Akram Hossain
+204010800033 Anwar Ispat
+204010800034 A.B.Siddique
+204010800035 Abdur Rahim
+204010800036 Akbar Hossain
+204010800037 Abdur Razzak
+204010800038 Alo Enterprise
+204010800039 Akbar Ali
+204010800040 Raihan Enterprise
+204010800041 Anwar Metal
+204010800042 BST Eng
+204010800043 Benj Industry
+204010800044 Badrul Alam
+204010800045 Bashundhara Steel
+204010800046 Billal Hossain
+204010800047 Bandhu Enterprise
+204010800048 Bengal Tigar
+204010800049 Capital Pipe
+204010800050 Chittagong Eng
+204010800051 Cemex Cement
+204010800052 Chittagong Traders
+204010800053 Dubai Bd Cement Ltd.
+204010800054 Dhaka Eng
+204010800055 Excellent
+204010800056 Foundation Builders
+204010800057 Fateha
+204010800058 GEC Ltd
+204010800059 Global Survey
+204010800060 Hajee Chand Mia
+204010800061 Harun Enterprise
+204010800062 Harun Steel
+204010800063 Holcim
+204010800064 Heidelbarg Cement
+204010800065 Ibrahim Traders
+204010800066 Jahangir Steel
+204010800067 Jahirul
+204010800068 KN Traders
+204010800069 Lutfur Rahman
+204010800070 Liton Enterprise
+204010800071 Munir Sarder
+204010800072 Mahabubul Islam
+204010800073 Mizan and Brothers
+204010800074 Metro Geotechnical
+204010800075 Nurul Alam
+204010800076 New Doleshur
+204010800077 Nasir
+204010800078 Pirjada
+204010800079 Panna Metal
+204010800080 Rashid and Brother
+204010800081 Rashid Enterprise
+204010800082 Sujan
+204010800083 Shapla Enterprise [Void ]
+204010800084 Subal Chandra
+204010800085 Sharif Enterprise
+204010800086 S.Islam
+204010800087 Shubo Enterprise
+204010800088 Sayeedur Rahaman
+204010800089 Shamim Enterprise
+204010800090 S.S.Steel
+204010800091 Sonali Beading
+204010800092 Shah Cement
+204010800093 Sayeedur Almunium
+204010800094 Sultan Electronic
+204010800095 Tutul Timbers
+204010800096 Tecnocrat
+204010800097 Time and Tune
+204010800098 Tareq Metal
+204010800099 White Product
+204010800100 Siam Enterprise
+204010800101 Kamal Hossain
+204010800102 Altaf Hossain
+204010800103 Hedayet Ullah
+204010800104 M.S Pilling
+204010800105 Hafizur Rahman
+204010800106 Anik Enterprise
+204010800107 Argon Gas
+204010800108 Centro Decoration
+204010800109 Meghatech Eng.
+204010800110 Overseas Marketing Cor.
+204010800111 Paragon Furniture
+204010800112 Pacific Motors
+204010800113 Shapla Enterprise
+204010800114 Soft Furnishers
+204010800115 xxxxx
+204010800116 Sayed Ali Ahmed
+204010800117 Anisur Rahman
+204010800118 Delcot Enterprise
+204010800119 xxxxxx
+204010800120 Wooden Runner
+204010800121 Progoti Eng. Works
+204010800122 S.K Traders
+204010800123 Vanish Chemical
+204010800124 Abul Kashem
+204010800125 Kamal Timber
+204010800126 Shaon Ent.
+204010800127 Suruz Miah N Sons
+204010800128 Cosmos Enterprise
+204010800129 Al-Mansur Enterprise
+204010800130 Agni System
+204010800131 Khan Enterprise
+204010800132 Moklesur Rahman
+204010800133 Shahjahan Miah
+204010800134 Reza A/C
+204010800135 N S Enterprise
+204010800136 Adroit Environment Consultants Ltd.
+204010800137 Refuz Enterprise
+204010800138 Ripon Enterprise
+204010800139 Sayed Nippon Steel Corporation.
+204010800140 Sharif Iron Agency
+204010800141 Rakmot Ali Sarder [Labor Contractor]
+204010800142 Shaheen Iron Store
+204010800143 Centro Steel Technology
+204010800144 Elan Corporation Ltd.
+204010800145 Piyal Enterprise
+204010800146 Khokon Miah
+204010800147 Technoworth Associated
+204010800148 Lafarge Surma Cement
+204010800149 Hadayet Miah
+204010800150 Motivate home of Business.
+204010800151 A M and Sons
+204010800152 BOC Bangladesh Ltd.
+204010800153 Dalower Hossain
+204010800154 Mamun Enterprise
+204010800155 Delower Enterprise
+204010800156 Rashed Enterprise
+204010800157 M N S Inspection Co.
+204010800158 Brothers Enterprise
+204010800159 Anower Hossain
+204010800160 Samarai Convention Centre.
+204010800161 Sugar & Food Industries Corporation [ Bgd.]
+204010800162 Golden Marketing Associate
+204010800163 Paradise Cables
+204010800164 Bismillah Ent. [ Carrying Cont. ]
+204010800165 Jahan Mintu [ Local sugar carrying purpose ]
+204010800166 Siemens Bangladesh Ltd.
+204010800167 Packard Engineering Ltd.
+204010800168 Bengal Scales
+204010800169 Russells Enterprise
+204010800170 Techno Engineering
+204010800171 Isha Khan Motors
+204010800172 S F Scientific
+204010800173 Bengal Overseas Corporation
+204010800174 Bengal Sack Corporation
+204010800175 Luminous Associates
+204010800176 Tania Manufacturing Eng. Works
+204010800177 Creative Scientific
+204010800178 Tijarah Motors
+204010800179 Farjana Enterprise
+204010800180 Salim & Brothers
+204010800181 Recevable for advance sales
+204010800182 Business Domain [BD] Intl.
+204010800183 Miracle Industries Ltd.
+204010800184 Litmond Shipping Ltd.
+204010800185 J F Bangladesh Ltd.
+204010800186 Mousumi Enterprise [ Labour ]
+204010800187 H Mill Machineries
+204010800188 Seven Circle [ Bangladesh ] Ltd.
+204010800189 Salim Automobile
+204010800190 Unique Engineering Works
+204010800191 F & P Enterprise.
+204010800192 Bengal Shipping Line Ltd.
+204010800193 Superior Stationery
+204010800194 Eastland Insurance Co. Ltd.
+204010800195 M.B. International.
+204010800196 Surja Trade International
+204010800197 S.M Shoaib
+204010800198 New Sundarban Motors.
+204010800199 Majibor Rubber & Eng. Works
+204010800200 Sundry Creditors [ Various suppliers ]
+204010800201 Surma Traders
+204010800202 Chittagong Suppliers
+204010800203 Capt.Shamshad A.Khan.
+204010800204 Reliance Insurance Ltd
+204010800205 Marine Collection
+204010800206 Sujitz Machinery Corporation
+204010800207 Jalalabad Steel Ltd.
+204010800208 Abdul Matin [ Landhold ] Mgt. Ghat
+204010800209 Mam Power Ltd.
+204010800210 Dream Engineering & Technology
+204010800211 Shifat Trading
+204010800212 Salam Engineering Works
+204010800213 Multibrand Workshop
+204010800214 Grey Textial Mils
+204010800215 Singer Bangladesh Ltd
+204010800216 Tanisha Printers & Suppliers
+204010800217 A.R. Fire Fighting Equipments
+204010800218 Mir Mechanical Engineering Works
+204010800219 Ludwig Industrial Solutions Ltd.
+204010800220 Jarin Enterprise
+204010800221 Sayed Aluminium Fabricators
+204010800222 Emerging Credit Rating Ltd.
+204010800223 Glossyad
+204010800224 Phoenix Insurance Co. Ltd.
+204010800225 Kajol & Zaman Printers
+204010800226 Lemon Traders & Tailors
+204010800227 Bencon Seatrans Ltd.
+204010800228 Adex Corporation Ltd.
+204010800229 Jibon Electric Service
+204010800230 Bashir Ahmed Chowdhury
+204010800231 Wideways Enterprise
+204010800232 Aftab IT Ltd.
+204010800233 Spy Security System [ C.C Camera-Fac.]
+204010800234 Shahadat Rashid & Co. [ CA Firm ]
+204010800235 M.R. Lube [ BD ] Limited
+204010800236 Afzal Hasan Uddin [ Barrister ]
+204010800237 Japan-Bangladesh Security Printing & Papers Ltd.
+204010800238 Unique Cement Industries Ltd.
+20402 Others Payable 0
+204020000001 Provision for Other Expenses
+204020000002 Provision For Income Tax
+204020000003 Provision For Interest Payable
+204020000004 Interest Payable-AB Bank
+204020000005 Interest Payable-MPI [IBBL]
+204020000006 Interest Payable-SIBL [1863]
+204020000007 Interest Payable-SIBL [1982]
+204020000008 Carrying Charge Payable [ Imported sugar ]
+204020000009 Insurance premium Payable [ Imported sugar ]
+204020000010 Loading & Unloading
+204020000011 House Rent Payable [ Fac. ]
+204020000012 C & F commission Payable [ Imported sugar ]
+204020000013 Transport Bills Payable
+204020000014 Travelling Expenses Payable
+204020000015 Audit Fees Payable
+204020000016 Consultancy & Professional Fees Payable
+204020000017 Legal Exp Payable
+204020000018 Electricity Charges Payable
+204020000019 Telephone & Fax Bills Payable
+204020000020 Mobile Phone Bills Payable
+204020000021 Security Money A/C
+204020000022 Rakmat Ali Sardar,Labour, [Security deposit)
+204020000023 Income tax & Vat payable.
+204020000024 Overtime payable [ Fac. ]
+204020000025 P S I charge payable [ Imported sugar ]
+204020000026 Custom duty payable [ Imported sugar ]
+204020000027 Port charge payable [ Imported sugar ]
+204020000028 Radio activity payable [ Imported sugar ]
+204020000029 Stevedoring charge payable [ Imported sugar ]
+204020000030 Survey exp. payable [ Imported sugar ]
+204020000031 Global tax payable [ Imported sugar ]
+204020000032 Add confirmation charge payable [ Imported sugar ]
+204020000033 Bank charge payable [ Imported sugar ]
+204020000034 Bank commission payable [ Imported sugar ]
+204020000035 Takaful Islami Insurance Co. Ltd.
+204020000036 Pragati Insurance Ltd.
+204020000037 Office Rent Payable [ H/O ]
+204020000038 Sugar Carrying Scot Payable A/C
+204020000039 Internet bill payable
+204020000040 Gas bill payable [ Fac. staff ]
+204020000041 Satellite bill payable [ Fac. staff ]
+204020000042 Overtime payable [ H/O. staff ]
+204020000043 Advertisement payable
+204020000044 Equipment Rental Payable A/C.
+204020000045 Poor Fund A/C.
+204020000046 Salary & Wages Payable [ Fac. ]
+204020000047 Salary & Allowances Payable [ H/O ]
+204020000048 Arrear Salary
+204020000049 Customs Bond. [Import duty Ctg.]
+204020000050 Retention Money
+204020000051 Remuneration Payable A/C
+204020000052 A.R. Fire Fighting Equipments
+204020000053 Tanha-Bappi Engineering Works
+204020000054 New Sunrise Transport Agency
+20403 Security Deposit-Distributors 0
+204030000001 SDD-Tarek Traders [Tangail]
+204030000002 SDD-Bhuyan & Brothers [Bhairab]
+204030000003 SDD-Babul Akther [Tangail]
+204030000004 SDD-Delower Enterprise [Narayangonj]
+204030000005 SDD-Sagarika Corporation [Dhaka]
+204030000006 SDD-Rupali Store [Tangail]
+204030000007 SDD-Sazzad Enterprise [Tangail]
+204030000008 SDD-Bimol Kumar Saha [Gaibandha]
+204030000009 SDD-Nirmal Kumar Saha [Gaibandha]
+204030000010 SDD-Rokeya Enterprise [Tangail]
+204030000011 SDD-Shilpi Construction [Bogra]
+204030000012 SDD-Talukder Traders [Tangail]
+204030000013 SDD-Khandaker Store [Tangail]
+204030000014 SDD-Rouzia Traders [Narayangonj]
+204030000015 SDD-Prime Traders [Narsingdi]
+204030000016 SDD-Nilkamol Trading [Narsingdi]
+204030000017 SDD-MBM Trading [Narayangonj]
+204030000018 SDD-Bhai Bhai Store [Natore]
+204030000019 SDD-Rafim Enterprise [Narayangonj]
+204030000020 SDD-Sharif Store [Habigonj]
+204030000021 SDD-Dewan Trading Corporation [Narayangonj]
+204030000022 SDD-Ujjal Traders [Narayangonj]
+204030000023 SDD-Ujjal Brothers [Bogra]
+204030000024 SDD-Chadni Traders [Nilphamari]
+204030000025 SDD-Pranta Traders [Dhaka]
+204030000026 SDD-Pal Rice Agency [Dhaka]
+204030000027 SDD-Amorandronath Dutta & Sons [Rajbari]
+204030000028 SDD-Gias Traders [Rajbari]
+204030000029 SDD-Toha Enterprise [Bogra]
+204030000030 SDD-Swapan Kumar Roy [Habigonj]
+204030000031 SDD-Salim & Brothers [Chuadanga]
+204030000032 SDD-Mostak Ahmed [Rajshahi]
+204030000033 SDD-Monir Enterprise [Tangail]
+204030000034 SDD-Sonargaon Enterprise [Lalmonirhat]
+204030000035 SDD-Babutipara Enterprise [Comilla]
+204030000036 SDD-Monoranjan Saha [Comilla]
+204030000037 SDD-M.N. Builders & Eng. [Dhaka]
+204030000038 SDD-Fulguni Traders [Mymensingh]
+204030000039 SDD-B.S. Enterprise [Dhaka]
+204030000040 SDD-Provat Trade Int. [Narayangonj]
+204030000041 SDD-Banijja Bitan [Narayangonj]
+204030000042 SDD-Seba Traders [Bogra]
+204030000043 SDD-Islam Traders [Bogra]
+204030000044 SDD-Gopal Chandra Saha [B. Baria]
+204030000045 SDD-Gyan Bhander [Comilla]
+204030000046 SDD-Aminul Momin [Gaibandha]
+204030000047 SDD-Aminul Momin [Rangpur]
+204030000048 SDD-Shahid Traders [Dhaka]
+204030000049 SDD-Janata Store [Bhairab]
+204030000050 SDD-Haji Mokles Meah [Sylhet]
+204030000051 SDD-Zaman Traders [Rajshahi]
+204030000052 SDD-Sadia Trade Int. [Pabna]
+204030000053 SDD-Islam Store [Bogra]
+204030000054 SDD-Janata Store [Pabna]
+204030000055 SDD-Soroj Kr. Saha [Narsingdi]
+204030000056 SDD-Abdullah Food Products [Bhairab]
+204030000057 SDD-Wasek Khan [Lalmonirhat]
+204030000058 SDD-Habib Store [Lalmonirhat]
+204030000059 SDD-Habibur Rahman [Sylhet]
+204030000060 SDD-Sattar & Brothers [Jamalpur]
+204030000061 SDD-Niranjan Gopal [Mymensingh]
+204030000062 SDD-North Bengal Dal Mill [Rajshahi]
+204030000063 SDD-N.R. Enterprise [Meherpur]
+204030000064 SDD-R. N. Enterprise [Mymensingh]
+204030000065 SDD-Gopal Chandra Saha [Faridpur]
+204030000066 SDD-Chandni Enterprise [Munshigonj]
+204030000067 SDD-Sumaiya Trading [Rangpur]
+204030000068 SDD-Rabbi Enterprise [Dhaka]
+204030000069 SDD-Faraji Store [Noakhali]
+204030000070 SDD-Al- Haji Md. Abu Taher [Kishoregonj]
+204030000071 SDD-Mahadev Flower & Foods [Comilla]
+204030000072 SDD-Dewan Trading [Narayangonj]
+204030000073 SDD-Khondaker Traders [Tangail, Dhanbari]
+204030000074 SDD-Joyram Store [Comilla]
+204030000075 SDD-Sibbir Ahmed Bhuiyan [Netrokona]
+204030000076 SDD-Adarshah Brothers [Chapai]
+204030000077 SDD-Haji Mainuddin [Rangpur]
+204030000078 SDD-Karim Traders [Lalmonirhat]
+204030000079 SDD-Al- Nur Traders [Narayangonj]
+204030000080 SDD-Ganga Traders [Manikgonj]
+204030000081 SDD-Sagar Traders [Rajbari]
+204030000082 SDD-Jalan Traders [Chuadanga]
+204030000083 SDD-Rupali Traders [Feni]
+204030000084 SDD-Sobhan Brothers [Dhaka]
+204030000085 SDD-AG Traders [Shariotpur]
+204030000086 SDD-Bismilla Traders [Rajshahi]
+204030000087 SDD-Humayan Kabir [Comilla]
+204030000088 SDD-Basudev Kanti Das [Netrokona]
+204030000089 SDD-Alomgir Store [Thakurgaon]
+204030000090 SDD-Azem & Sons [Chapai]
+204030000091 SDD-OI Company [Dhaka]
+204030000092 SDD-Alpha Enterprise [Noagaon]
+204030000093 SDD-F M Traders [Dhaka]
+204030000094 SDD-SM Traders [Dhaka]
+204030000095 SDD-Hasan Enterpise [Pabna]
+204030000096 SDD-Kajol & Sons [Natore]
+204030000097 SDD-Ishaq Miah & Sons [Sylhet]
+204030000098 SDD-Rahman & Sons [Luxmipur]
+204030000099 SDD-Haripada Saha [Feni]
+204030000100 SDD-Tareef Pvt. Ltd. [Dhaka]
+204030000101 SDD-Noor Alam [Dinajpur]
+204030000102 SDD-Samad Brik Food [Thakurgaon]
+204030000103 SDD-Molla Store [Magura]
+204030000104 SDD-Purnima Traders [Narayangonj]
+204030000105 SDD-Rezaul Karim [Bhairab]
+204030000106 SDD-Karthik Saha [Kustia]
+204030000107 SDD-Luxmi Traders [Chittagong]
+204030000108 SDD-Hazi Siddiqure Rahman [Faridpur]
+204030000109 SDD-Rumke Enterprise [Kishoregonj]
+204030000110 SDD-Harun - ur- Rashid [Kishoregonj]
+204030000111 SDD-Bhai Bhai Corporation [Dhaka]
+204030000112 SDD-Nanda Kishore Enterprise [Noagaon]
+204030000113 SDD-Majid Meah [Bhairab]
+204030000114 SDD-Hossain Store [Comilla]
+204030000115 SDD-Hossain Food & Co.[Chitagong]
+204030000116 SDD-Sudipta Enterprise [Chittagong]
+204030000117 SDD-Muzammil Haq [Sylhet]
+204030000118 SDD-Faisal Trading [Dhaka]
+204030000119 SDD-Nazmul Trading [Dhaka]
+204030000120 SDD-Sourav Silk [Natore]
+204030000121 SDD-Tegarat Traders [Natore]
+204030000122 SDD- Haq Enterprise [Khulna]
+204030000123 SDD-Akbar Ali [Sylhet]
+204030000124 SDD-Ashraful Karim [Noagaon]
+204030000125 SDD-Kalipada Kundu [Jhalakati]
+204030000126 SDD-Abdur Sobhan Meah [Kishoregonj]
+204030000127 SDD-DS Telecom & Trade [Jamalpur]
+204030000128 SDD-Sourav Enterprise [B. Baria]
+204030000129 SDD-S. R. Enterprise [Chittagong]
+204030000130 SDD-Asha Store [Khulna]
+204030000131 SDD-Radhaballab Saha [Comilla]
+204030000132 SDD-Bandhu Traders [Comilla]
+204030000133 SDD-Haider Trading [Chadpur]
+204030000134 SDD-Biswas Brothers [Jhenaidha]
+204030000135 SDD-Bengal Biscuit Ltd. [Barisal]
+204030000136 SDD-M. A. Traders [Comilla]
+204030000137 SDD-Mayer Dea Traders [Natore]
+204030000138 SDD-Sudev Kumar Dutta [Jhenaidah]
+204030000139 SDD-Ujjal Traders [Jhenaidah]
+204030000140 SDD-Sree Durga Bhander [B.Baria]
+204030000141 SDD-Habib Trade Int. [Dhaka]
+204030000142 SDD-Rajib Enterprise [Dhaka]
+204030000143 SDD-New S.H. Int. [Dhaka]
+204030000144 SDD-Delta Int. [B. Baria]
+204030000145 SDD-Raju Store [Dhaka]
+204030000146 SDD-Shamim Enterprise [Khagrachari]
+204030000147 SDD-Bijoy Kumar [Kustia]
+204030000148 SDD-R. K. Trading [Dhaka]
+204030000149 SDD-Rajkumar Dhanuka [Faridpur]
+204030000150 SDD-ST Enterprise [Comilla]
+204030000151 SDD-Kaji Mamun Hossain [Jhenaidah]
+204030000152 SDD-Maa Enterprise [Kustia]
+204030000153 SDD-M. Rezaul Karim [Sirajgonj]
+204030000154 SDD-Janab Ali & Co. [Dhaka]
+204030000155 SDD-Eleyash Brothers [B. Baria]
+204030000156 SDD-Gulshan Trade [Dhaka]
+204030000157 SDD-Mokbul Hossain [Kustia]
+204030000158 SDD-Savar Enterprise [Savar]
+204030000159 SDD-Alam Traders [Tangail]
+204030000160 SDD-Hasnat Chaul Kall [Rangpur]
+204030000161 SDD-Dulal & Brothers [Narsingdi]
+204030000162 SDD-Sahadat & Brothers [Luxmipur]
+204030000163 SDD-Kalam & Sons [Noakhali]
+204030000164 SDD-Rahmat Ali [Gazipur]
+204030000165 SDD-Giasuddin & Brothers [Coxbazar]
+204030000166 SDD-Reazul Haq Patwary [Lalmonirhat]
+204030000167 SDD-Kamrul Hassan [Kishoregonj]
+204030000168 SDD-Champa Traders [Bogra]
+204030000169 SDD-Fahim Enterprise [Jessore]
+204030000170 SDD-Bengal oil store [Dhaka]
+204030000171 SDD-Maa Trading [Chittagong]
+204030000172 SDD-Luxmi Bhander [Panba]
+204030000173 SDD-Selim & Brothers [Munshigonj]
+204030000174 SDD-Azad Traders [Chittagong]
+204030000175 SDD-MM Trading [Dhaka]
+204030000176 SDD-Tarajul Islam [Sirajgonj]
+204030000177 SDD-Bhuiyan Food Products [Chadpur]
+204030000178 SDD-Hasan Enterprise [Comilla]
+204030000179 SDD-Shapla Shaluk [Dhaka]
+204030000180 SDD-Bismillah Food Products [Bhairab]
+204030000181 SDD-Golap Meah [Kishoregonj]
+204030000182 SDD-Akter Trade Link [Chadpur]
+204030000183 SDD-Mayer Doa Enterprise [Chapai]
+204030000184 SDD-Mojibar Rahman [Mymensingh]
+204030000185 SDD-Anam Ahmed [Sylhet]
+204030000186 SDD-SMB Traders [Magura]
+204030000187 SDD-Monowara Enterprise [Jessore]
+204030000188 SDD-Ajit Ranjon [Bhairab]
+204030000189 SDD-Bayazid Traders [Bhairab]
+204030000190 SDD-Siddique Enterprise [Dhaka]
+204030000191 SDD-Mohona Traders [Manikgonj]
+204030000192 SDD-Arefin Enterprise [Gopalgonj]
+204030000193 SDD-Shimul Enterprise [Tangail]
+204030000194 SDD-Haji Aftab Store [Kishoregonj]
+204030000195 SDD-Shad Enterprise [Dhaka]
+204030000196 SDD-S.S. Enterprise [Satkhira]
+204030000197 SDD-Shahin Traders [Dhaka]
+204030000198 SDD-Anika Traders [Chitagong]
+204030000199 SDD-Anower & Brothers [Dhaka]
+204030000200 SDD-Janani Bhander [Sylhet]
+204030000201 SDD-Lakshmi Store [Rangamati]
+204030000202 SDD-Ashab Ali [Rajshahi]
+204030000203 SDD-Loknath Bhander [Dhaka]
+204030000204 SDD-Altaf & Brothers [Chittagong]
+204030000205 SDD-Khandaker Store [Natore]
+204030000206 SDD-Rahimafrooz Superstores Ltd.[Dhaka]
+204030000207 SDD-Nasir Store [Bandarban]
+204030000208 SDD-M A Halim General Store [Dhaka]
+204030000209 SDD-Uttam Kumar Kundu [Pabna]
+204030000210 SDD-B. K. International [Dhaka]
+204030000211 SDDSadman Enterprise [Dhaka]
+204030000212 SDD-Radha Binod Modok [Sylhet]
+204030000213 SDD-Shafi Traders [Chittagong]
+204030000214 SDD-Shah Jamal [Chittagong]
+204030000215 SDD-Taranga Traders [Mymensingh]
+204030000216 SDD-Nehal Trade Int. [Dhaka]
+204030000217 SDD-Abul Hashem & Co. [Dhaka]
+204030000218 SDD-Meena Bazar [Dhaka]
+204030000219 SDD-Brothers Enterprise [Chittagong]
+204030000220 SDD-R. K. Trading [Chittagong]
+204030000221 SDD-Sheikh Brothers [Gazipur]
+204030000222 SDD-Rupam Trade Int. [Dhaka]
+204030000223 SDD-Al- Amin Int. [Dhaka]
+204030000224 SDD-Konok Kanti Das [Jhenaidah]
+204030000225 SDD-Nahin Enterprise [Noagaon]
+204030000226 SDD-Matiar Rahman [Faridpur]
+204030000227 SDD-Molla Traders [Faridpur]
+204030000228 SDD-Masuda Trading [Faridpur]
+204030000229 SDD-Shahjadi Trading [Kishoregonj]
+204030000230 SDD-Jerin Enterprise [Gazipur]
+204030000231 SDD-Ahnaf Int. [Thakurgaon]
+204030000232 SDD-Fozlo Store [Dhaka]
+204030000233 SDD-Ayesha Enterprise [Gazipur]
+204030000234 SDD-Zillur Rahman [Munshigonj]
+204030000235 SDD-Modok Khaddo Vander [Norsingdi]
+204030000236 SDD-Biswas Enterprise [Faridpur]
+204030000237 SDD-Nurul Islam & Brothers [Chittagong]
+204030000238 SDD-Adar Trade Int. [Dhaka]
+204030000239 SDD-Mobashira Traders [Chittagong]
+204030000240 SDD-Tuhin Enterprise [Dhaka]
+204030000241 SDD-Shahjahan Store [Dhaka]
+204030000242 SDD-Mostafa Store [Dhaka]
+204030000243 SDD-Sumon International [Faridpur]
+204030000244 SDD-Kajol Traders [Bogra]
+204030000245 SDD-Kibria Traders [Bogra]
+204030000246 SDD-Nilufa Enterprise [Dhaka]
+204030000247 SDD-Nandy Trading [Khulna]
+204030000248 SDD-Bayes Brothers [B. Baria]
+204030000249 SDD-Hasan Trading Corp. [Faridpur]
+204030000250 SDD-Ado Alo Traders [Narail]
+204030000251 SDD-JB Traders [Dhaka]
+204030000252 SDD-Nishi Trade Int. [Dhaka]
+204030000253 SDD-Haji Dost Mohammad Trade [Dhaka]
+204030000254 SDD-Nazmul Haq [B. Baria]
+204030000255 SDD-Shamim Enterprise [Luxmipur]
+204030000256 SDD-Khandaker Traders [Dhaka]
+204030000257 SDD-Tapan Kumar Saha [Munshigonj]
+204030000258 SDD-Talukder Traders [Munshigonj]
+204030000259 SDD-Rahbor Traders [Dhaka]
+204030000260 SDD-Borhanuddin Oil Traders [Narayangonj]
+204030000261 SDD-Taher Enterprise [Gazipur]
+204030000262 SDD-Rasel Enterprise [Dhaka]
+204030000263 SDD-Sani Traders [Rangpur]
+204030000264 SDD-Noman Enterprise [Shatkhira]
+204030000265 SDD-Maa Enterprise [Satkhira]
+204030000266 SDD-SM Traders [Dhaka]
+204030000267 SDD-Delewar Hossain & Co. [Dhaka]
+204030000268 SDD-Shad Enterprise [Dhaka, Mirpur]
+204030000269 SDD-Pia Traders [Bagherhat]
+204030000270 SDD-Karimiah Agency [Dhaka]
+204030000271 SDD-M.V. Traders [Dhaka]
+204030000272 SDD-Bismillah Store [Dhaka]
+204030000273 SDD-Kalam Enterprise [Tangail]
+204030000274 SDD-Johny Enterprise [B. Baria]
+204030000275 SDD-Milon Bala Pal [Mymensingh]
+204030000276 SDD-Mohona International [Munshigonj]
+204030000277 SDD-Baten Trading Corp. [Dhaka]
+204030000278 SDD-Sumon Traders [B. Baria]
+204030000279 SDD-Bhai Bhai Enterprise [Narayangonj]
+204030000280 SDD-Shafiq Store [Dhaka]
+204030000281 SDD-Kartick Ch. Saha [Tangail]
+204030000282 SDD-Fulmiah Traders [Dhaka]
+204030000283 SDD-Jamms International [Dhaka]
+204030000284 SDD-Haji Abdul Karim Miah [Bhairab]
+204030000285 SDD-Bivash Kanti Das [Netrokona]
+204030000286 SDD-Muslim Store [MB-Dhaka]
+204030000287 SDD-Munni Enterprise [MB-Dhaka]
+204030000288 SDD-Hasan Enterprise [MB-Dhaka]
+204030000289 SDD-Banijja Bitan [Mv-Dhaka]
+204030000290 SDD-Meximco Trading [MB-Dhaka]
+204030000291 SDD-Jahura Trading [MB-Dhaka]
+204030000292 SDD-Prohlath & Brothers [MB-Dhaka]
+204030000293 SDD-TM Enterprise [Kishoregonj]
+204030000294 SDD-Mofizul Haq [MB-Dhaka]
+204030000295 SDD-New Salauddin & Brothers [MB-Dhaka]
+204030000296 SDD-Luxmi Bhander [MB-Dhaka]
+204030000297 SDD-Jamms International [Dhaka]
+204030000298 SDD-Fatema Sons Trade Int. [Munshigonj]
+204030000299 SDD-Mamun Traders [Dhaka]
+204030000300 SDD-Doel Enterprise [Dhaka]
+204030000301 SDD-Rajesh Brothers [Dinajpur]
+204030000302 SDD-Rajib Traders [Bogra]
+204030000303 SDD-Anchal Traders [Mymensingh]
+204030000304 SDD-Uttam Traders [Chuadanga]
+204030000305 SDD-Badsha Enterprise [Jamalpur]
+204030000306 SDD-Shapla Enterprise [Munshigonj]
+204030000307 SDD-Prakash Chandra Saha [Gopalgonj]
+204030000308 SDD-Ananya Anika Traders [Mymensingh]
+204030000309 SDD-Krishna Chandra Saha [Madaripur]
+204030000310 SDD-Swiss Trade [Cox's Bazar]
+204030000311 SDD-Molai Store [B. Baria]
+204030000312 SDD-New Bhairab Store [Kishoregonj]
+204030000313 SDD-Hasan Enterprise [Gazipur]
+204030000314 SDD-K.M. Enterprise [ Chuadanga]
+204030000315 SDD-Azadi Traders [Nilphamari]
+204030000316 SDD-Rahbor Traders [ Shariatepur]
+20404 Short Term Loan 0
+2040401 STL-Islami Bank BD Ltd. [L/O]
+204040100001 IBBL-Murababaha
+204040101 IBBL-MPI
+204040101001 IBBL-MPI-7231
+204040101002 IBBL-MPI-7539
+204040101003 IBBL-MPI-7540
+204040101004 IBBL-MPI-7541
+204040101005 IBBL-MPI-7880
+204040101006 IBBL-MPI-7881
+204040101007 IBBL-MPI-7882
+204040101008 IBBL-MPI-8501
+204040101009 IBBL-MPI-8502
+204040101010 IBBL-MPI-8503
+204040101011 IBBL-MPI-8504
+204040101012 IBBL-MPI-8638-LC-20123
+204040101013 IBBL-MPI-8639-LC-20125
+204040101014 IBBL-MPI-8640-LC-20124
+204040101015 IBBL-MPI-8641-LC-20126
+204040101016 IBBL-MPI-8973-LC-20064
+204040101017 IBBL-MPI-8974-LC-20065
+204040101018 IBBL-MPI-8975-LC-20066
+204040101019 IBBL-MPI-8976-LC-20067
+204040101020 IBBL-MPI-9068-LC-20081/47th
+204040101021 IBBL-MPI-9069-LC-20082/47th
+204040101022 IBBL-MPI-9067-LC-20083/47th
+204040101023 IBBL-MPI-9066-LC-20084/47th
+2040402 STL-Premier Bank Ltd. [Banani Branch]
+204040201 Premier Bank Ltd.[BB]-LTR
+204040201001 Premier Bank Ltd. [BB]-LTR-
+204040202 Premier Bank Ltd.[BB]-DL
+204040202001 Premier Bank Ltd.[BB]-DL-1091
+204040202002 Premier Bank Ltd.[BB]-DL-1091
+204040203 Janata Bank Ltd. L/O-LTR
+204040203001 Janata Bank Ltd. L/O-LTR -
+204040204 Janata Bank Ltd. L/O-PAD
+204040204001 Janata Bank Ltd. L/O-PAD-LC-
+204040204002 Janata Bank Ltd. L/O-PAD-LC-
+2040403 STL-Shahjalal Islami Bank Ltd.[Dhanmondi]
+204040301 SJIBL-BMCTR [Dhanmondi]
+204040301001 SJIBL-BMCTR-331-2262-0
+204040301002 SJIBL-BMCTR-331-2316-5
+204040301003 SJIBL-BMCTR-331-2980-4
+204040301004 SJIBL-BMCTR-331-3390-2
+204040301005 SJIBL-BMCTR-331-3393-1
+204040301006 SJIBL-BMCTR-331-3539-0
+204040301007 SJIBL-BMCTR-331-3981-0
+204040301008 SJIBL-BMCTR-331-3982-7
+204040301009 SJIBL-BMCTR-331-4173-5
+204040301010 SJIBL-BMCTR-331-4174-1
+204040302 SJIBL-BMD [Dhanmondi]
+204040302001 SJIBL-BMD-330-373-8
+204040302002 SJIBL-BMD-330-374-4
+2040404 STL-Mutual Trust Bank Ltd. [Dilkusha]
+204040401 MTBL-LTR
+204040401001 MTBL-LTR #
+204040401002 MTBL-LTR #
+204040402 MTBL-DL
+204040402001 MTBL-DL-123-0122
+204040402002 MTBL-DL-123-0131
+204040402003 MTBL-DL-123-0275
+204040402004 MTBL-DL-123-0284
+204040402005 MTBL-DL-123-0293
+204040402006 MTBL-DL-123-0300
+204040402007 MTBL-DL-123-0319
+204040402008 MTBL-DL-123-0328
+204040402009 MTBL-DL-123-0337
+2040405 STL-AB Bank Ltd. [New Elephant Road Branch]
+204040501 ABBL-Time Loan
+204040501001 ABBL-Time Loan -45
+204040501002 ABBL-Time Loan -46
+2040406 STL-AB Bank Ltd. [New Elephant Road Branch]
+204040601 ABBL-Demand Loan
+204040601001 ABBL-Demand Loan -45
+204040601002 ABBL-Demand Loan-46
+2040407 STL-Bank Asia Ltd. [Corporate Branch]
+204040701 Bank Asia Ltd.[CB]-LTR
+204040701001 Bank Asia Ltd.[CB]-LTR-231-6056
+204040701002 Bank Asia Ltd.[CB]-LTR-231-6248
+204040701003 Bank Asia Ltd.[CB]-LTR-231-6255
+204040701004 Bank Asia Ltd.[CB]-LTR-231-6263
+204040701005 Bank Asia Ltd.[CB]-LTR-231-6303
+204040701006 Bank Asia Ltd.[CB]-LTR-231-6371
+204040701007 Bank Asia Ltd.[CB]-LTR-231-6372
+204040702 Bank Asia Ltd.[CB]-PAD
+204040702001 Bank Asia Ltd.[CB]-PAD-2p11-275
+204040702002 Bank Asia Ltd.[CB]-PAD-2P11-556
+204040703 Bank Asia Ltd.[CB]-DL
+204040703001 Bank Asia Ltd.[CB]-DL-2DL-357
+204040703002 Bank Asia Ltd.[CB]-DL-002DL000409
+204040703003 Bank Asia Ltd.[CB]-DL-002DL000410
+2040408 Deffered L/C Liability
+204040801 DP-Islami Bank BD Ltd. [L/O]
+204040801001 DP-IBBL-LC-20099
+204040801002 DP-IBBL-LC-20100
+204040801003 DP-IBBL-LC-20105
+204040801004 DP-IBBL-LC-20106
+204040801005 DP-IBBL-LC-20123
+204040801006 DP-IBBL-LC-20124
+204040801007 DP-IBBL-LC-20125
+204040801008 DP-IBBL-LC-20126
+204040801009 DP-IBBL-LC-20064/46th
+204040801010 DP-IBBL-LC-20065/46th
+204040801011 DP-IBBL-LC-20066/46th
+204040801012 DP-IBBL-LC-20067/46th
+204040801013 DP-IBBL-LC-20081/47th
+204040801014 DP-IBBL-LC-20082/47th
+204040801015 DP-IBBL-LC-20083/47th
+204040801016 DP-IBBL-LC-20084/47th
+204040801017 DP-IBBL-LC-20125/48th
+204040801018 DP-IBBL-LC-20126/48th
+204040801019 DP-IBBL-LC-20127/48th
+204040801020 DP-IBBL-LC-20128/48th
+204040802 DP-Janata Bank Ltd [L/O]
+204040802001 DP-JB-LC-21091
+204040802002 DP-JB-LC-21092
+204040802003 DP-JB-LC-21093
+204040802004 DP-JB-LC-21094
+204040802005 DP-JB-LC-21602
+204040802006 DP-JB-LC-21637
+204040802007 DP-JB-LC-21707
+204040802008 DP-JB-LC-21746
+204040803 DP-Premier Bank Ltd.[BB]
+204040803001 DP-Premier-LCPage
+204040803002 DP-Premier-LC-
+204040804 DP-Shahjalal Islami Bank Ltd. [Dhanmondi]
+204040804001 DP-SJIBL-LC-20001
+204040804002 DP-SJIBL-LC-20002
+204040805 DP-Mutual Trust Bank Ltd.[Dilkusha]
+204040805001 DP-MTBL-LC-20006
+204040805002 DP-MTBL-LC-20007
+204040805003 DP-MTBL-LC-20010
+204040805004 DP-MTBL-LC-20004/43rd
+204040805005 DP-MTBL-LC-20005/43rd
+204040805006 DP-MTBL-LC-20006/43rd
+204040805007 DP-MTBL-LC-20015/45th
+204040805008 DP-MTBL-LC-20016/45th
+204040805009 DP-MTBL-LC-20017/45th
+204040805010 DP-MTBL-LC-20018/45th
+204040806 DP-AB Bank Ltd. [New Elephant Road Branch]
+204040806001 DP-ABBL-LC-
+204040806002 DP-ABBL-LC-
+204040807 DP-Bank Asia Ltd. [Corporate Branch]
+204040807001 DP-BAL-LC-20008
+204040807002 DP-BAL-LC-20025
+204040807003 DP-BAL-LC-20056
+204040807004 DP-BAL-LC-20057
+204040807005 DP-BAL-LC-20104-18-09-12
+204040807006 DP-BAL-LC-20105-18-09-12
+204040808 DP-One Bank Ltd. [Kawran Bazar Branch]
+204040808001 DP-OBL-LC-20006
+204040808002 DP-OBL-LC-20007
+204040808003 DP-OBL-LC-20018
+204040808004 DP-OBL-LC-20019
+204040808005 DP-OBL-LC-20032
+204040809 DP-National Bank Ltd. [Motijheel Branch]
+204040809001 DP-NBL-LC-20002
+204040809002 DP-NBL-LC-20003
+204040809003 DP-NBL-LC-20004
+204040809004 DP-NBL-LC-20005
+204040809005 DP-NBL-LC-20008
+204040809006 DP-NBL-LC-20009
+204040809007 DP-NBL-LC-20001/44th
+204040809008 DP-NBL-LC-20002/44th
+204040810 DP-Premier Bank Ltd. [Motijheel Branch]
+204040810002 DP-Premier-MB-LC-20008
+204040810003 DP-Premier-MB-LC-20007
+204040810004 DP-Premier-MB-LC-20002/42nd
+204040810005 DP-Premier-MB-LC-20003/42nd
+204040811 DP-Dutch Bangla bank Ltd.-KB
+204040811001 DP-DBBL-KB-LC-10196-20-11-12
+204040811002 DP-DBBL-KB-LC-10197-20-11-12
+2040409 Sight LC Liability
+204040901 Sight-Shahjalal Islami Bank Ltd. [Dhanmondi]
+204040901001 Sight-SJIBL-LC-
+204040901002 Sight-SJIBL-LC-
+204040902 Sight-Bank Asia Ltd. [Corporate Branch]
+204040902001 Sight-BAL-LC-10056
+204040902002 Sight-BAL-LC-10088/06-06-11
+204040902003 Sight-BAL-LC-10087/06-06-11
+204040902004 Sight-BAL-LC-10114/11-07-11
+204040902005 Sight-BAL-LC-10117/13-07-11
+204040902006 Sight-BAL-LC-10126/26-07-11
+204040902007 Sight-BAL-LC-10154/22-09-11
+204040902008 Sight-BAL-LC-10156/26-09-11
+204040902009 Sight-BAL-LC-10158/29-09-11
+204040902010 Sight-BAL-LC-10001/02-01-12
+204040902011 Sight-BAL-LC-10039/06.02.12
+204040902012 Sight-BAL-LC-10056/13.03.12
+204040902013 Sight-BAL-LC-10033/30.01.12
+204040902014 Sight-BAL-LC-10140/25-06-12
+204040902015 Sight-BAL-LC-10034/30-01-12
+204040903 Sight-IBBL [Local Office]
+204040903001 Sight-IBBL-LC-10218-25.03.12
+204040903002 Sight-IBBL-LC-10219-25.03.12
+204040903003 Sight-IBBL-LC-10295-25.04.12
+204040903004 Sight-IBBL-LC-10296-25.04.12
+204040903005 Sight-IBBL-LC-10385-29.05.12
+204040904 Sight-One Bank Ltd.(KB]
+204040904001 Sight-OBL-LCAF-51559 dtd. 02.12.12
+2040410 STL-One Bank Ltd. [Kawran Bazar Branch]
+204041000001 One Bank Ltd.[KB]-LTR-83818-077
+204041000002 One Bank Ltd. [KB]-TLF-012TM1312031000
+204041000003 One Bank Ltd.[KB]-TLF-012TM13121230001
+2040411 STL-National Bank Ltd. [Motijheel Branch]
+204041101 National Bank Ltd. [MB]-Demand Loan
+204041101001 NBL-MB-DL-35-461
+204041101002 NBL-MB-DL-35-478
+204041101003 NBL-MB-DL-35-486
+204041101004 NBL-MB-DL-35-494
+204041101005 NBL-MB-DL-35-511
+204041101006 NBL-MB-DL-35-528
+204041101007 NBL-MB-DL-35-619
+204041101008 NBL-MB-DL-35-627
+204041101009 NBL-MB-DL-35-635
+2040412 STL-Janata Bank Ltd. [Local Office]
+2040413 STL-Premier Bank Ltd.-DL [Motijheel Branch]
+204041300001 Premier Bank Ltd.-MB-DL-717-2150
+204041300002 Premier Bank Ltd.-MB-DL-717-2152
+204041300003 Premier Bank Ltd.-MB-DL-717-2153
+2040414 STL-Premier Bank Ltd. [Motijheel Branch]
+204041401 Premier Bank Ltd.[MB]-DL
+204041402 Premier Bank Ltd.[MB]-LTR
+204041402001 Premier Bank Ltd-STL-108.712-2179
+20405 Income Tax Payable 0
+204050000001 Tax payable [ Salary ]
+204050000002 Tax & Vat payable [ Sugar sales ]
+204050000003 Tax payable [Supplier ] A/c.
+204050000004 Vat payable [Supplier ] A/c.

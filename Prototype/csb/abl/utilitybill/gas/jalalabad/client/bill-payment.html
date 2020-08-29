@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<meta name="description" content="UtilityBillPayment">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>
+			Bill Payment
+		</title>
+		<link rel="stylesheet" href="./bill-payment.css" type="text/css">
+		<script src="./bill-payment.js" charset="utf-8" type="text/javascript">
+</script>
+	</head>
+	<body>
+		<div class="outer-canvas">
+			<div class="outer-canvas-header">
+				<span class="outer-canvas-header-text">Utility Bill Payment</span>
+			</div>
+			<div class="outer-canvas-subheader">
+				<span class="outer-canvas-subheader-text">Jalalabad Gas Limited</span>
+			</div>
+			<div id="divRetrieveua" class="outer-canvas-body">
+				<div class="outer-canvas-message">
+					<span id="msg" class="label-warning"></span>
+				</div>
+				<table>
+					<tr id="rowMobile">
+						<td class="cell-right">
+							<span class="label-text">Mobile Number</span>
+						</td>
+						<td class="cell-left">
+							<input id="textMobile" type="text" class="text-input" required>
+						</td>
+					</tr>
+					<tr id="rowUaid">
+						<td class="cell-right">
+							<span class="label-text">Gas Account Number</span>
+						</td>
+						<td class="cell-left">
+							<input id="textUaid" type="text" class="text-input" required>
+						</td>
+					</tr>
+					<tr id="rowName">
+						<td class="cell-right">
+							<span class="label-text">Gas Account Name</span>
+						</td>
+						<td class="cell-left">
+							<input id="textName" type="text" class="text-input" required>
+						</td>
+					</tr>
+					<tr id="rowAmount">
+						<td class="cell-right">
+							<span class="label-text">Bill Amount</span>
+						</td>
+						<td class="cell-left">
+							<input id="textAmount" type="number" class="text-input" required>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="outer-canvas-footer">
+				<table style="width: 100%;">
+					<tr>
+						<td style="width: 100%;" class="cell-middle" align="middle">
+					<input id="btnRetrieveua" value="Retrieve" type="button" class="btn-retrieveua"> <input id="btnPaybill" value="Pay Bill" type="button" class="btn-paybill"> <input id="btnRetry" value="Retry Payment" type="button" class="btn-retry"> <input id="btnNewpayment" value="New Payment" type="button" class="btn-newpayment">
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+
+1. service url : http://demo.randomaccess.ca/CityServices/Portal/Services/ServiceMain.svc/json/
+2. This is how we are calling it using Angular 1
+
+.factory('Server', function ($http, Working, Security) {
+    var _s = {
+        post: function (endpoint, method, data, resultProperty) {
+            Working.start();
+            data = data || {};
+            data.token = Security.token;
+            $.support.cors = true;
+            //alert(data.token);
+            return $http.post(endpoint + method, data)
+				.then(function (res) {
+				    return resultProperty ?
+						res.data[method + 'Result'] :
+						res.data;
+				}
+                )
+				.finally(Working.end);
+        },
+        cocService: function (method, data) {
+            return _s.post(ServiceURL, method, data, false);
+        }
+    };
+    return _s;
+})
+
+.factory('Service', function (Server) {
+    return {
+        getEventCategoryList: function () {
+            return Server.cocService('GetEventCategoryList', {
+            }).then(function (records) {
+                //alert(records);
+                return records;
+            }
+            );
+        },
+}
+
+3. here 
+	a. ServiceURL = "http://demo.randomaccess.ca/CityServices/Portal/Services/ServiceMain.svc/json/"
+	b. Security.token = "j9FolKbsehecirHRooYjUvDhN93wR2o1AUc1mGwMDW0="

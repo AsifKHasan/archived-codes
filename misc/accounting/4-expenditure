@@ -1,0 +1,301 @@
+40000 Revenue Expenditure
+    40100 Materials Consumption
+        40101 Materials Opening Stock 0
+            401010000001 Opening Raw Sugar A/C
+            401010000002 Opening Chemicals A/C
+            401010000003 Opening Packing Material A/C
+            401010000004 Opening Tools Items A/C
+            401010000005 Opening Diesel & Lubricants A/C
+            401010000006 Opening Vehicle Maintenance Items A/C
+            401010000007 Opening Mechanical Items A/C
+            401010000008 Opening Electrical Items A/C
+            401010000009 Opening Laboratory Items A/C
+            401010000010 Opening Medicine Items A/C
+            401010000011 Opening Sutech Electrical Items A/C
+            401010000012 Opening Stationery Items A/C
+            401010000013 Opening E-crane spare Items A/C
+            401010000014 Opening Civil & Hardware Items A/C
+        40102 Materials Purchase 0
+            401020000001 Purchase Raw Sugar A/C
+            401020000002 Purchase Chemicals A/C
+            401020000003 Purchase Packing Material A/C
+            401020000004 Purchase tools Items A/C
+            401020000005 Purchase Diesel & Lubricants A/C
+            401020000006 Purchase Vehicle Maintenance Items A/C
+            401020000007 Purchase Mechanical Items A/C
+            401020000008 Purchase Electrical Items A/C
+            401020000009 Purchase Laboratory Items A/C
+            401020000010 Purchase Medicine Items A/C
+            401020000011 Purchase Sutech Electrical Items A/C
+            401020000012 Purchase Stationery Items A/C
+            401020000013 Purchase E-crane spare Items A/C
+            401020000014 Purchase Civil & Hardware Items A/C.
+        40103 Materials Closing Stock 0
+            401030000001 Closing Raw Sugar A/C
+            401030000002 Closing Chemicals A/C
+            401030000003 Closing Packing Material A/C
+            401030000004 Closing tools Items A/C
+            401030000005 Closing Diesel & Lubricants A/C
+            401030000006 Closing Vehicle Maintenance Items A/C
+            401030000007 Closing Mechanical Items A/C
+            401030000008 Closing Electrical Items A/C
+            401030000009 Closing Laboratory Items A/C
+            401030000010 Closing Medicine Items A/C
+            401030000011 Closing Sutech Electrical Items A/C
+            401030000012 Closing Stationery Items A/C
+            401030000013 Closing E-crane spare Items A/C
+            401030000014 Closing Civil & Hardware Items A/C
+        40104 Stock Adjustment Accounts 0
+            401040000001 Work-In- Process Control A/C
+            401040000002 Finished Goods Control A/C
+        40105 Cost of Goods Sold 0
+    40200 Factory Expenditure
+        40201 Salary & Wages-Factory 0
+            402010000001 Salary & Wages Factory-Admin
+            402010000002 Salary & Wages Factory-Production
+            402010000003 Salary & Wages Factory-Engineering
+            402010000004 Salary & Wages Factory-QC
+            402010000005 Salary & Wages Factory-Store
+            402010000006 Salary & Wages Factory-Distribution
+            402010000007 Salary & Wages Factory-Expatriate
+            402010000008 Festival Bonus- Factory Officers & Staff
+            402010000009 Incentive Bonus-Factory
+            402010000010 Salary & Wages Factory-Accounts
+            402010000011 Salary & Wages Factory-MIS
+        40202 Over time-Factory 0
+            402020000001 Over Time-Factory-Admin
+            402020000002 Over Time-Factory-Production
+            402020000003 Over Time-Factory-Engineering
+            402020000004 Over Time-Factory-QC
+            402020000005 Over Time-Factory-Store
+            402020000006 Over Time-Factory-Distribution
+            402020000007 Over Time-Factory-Expatriate
+            402020000008 Over Time-Factory-Security
+        40203 Fooding & Entertainment-Factory 0
+            402030000001 Fooding & Entertainment Factory-Officers
+            402030000002 Fooding & Entertainment Factory-Expatriate
+            402030000003 Fooding & Entertainment Factory-Guest
+            402030000004 Fooding & Entertainment Factory-Subsidy
+            402030000005 Fooding & Entertainment-Fac.-Driver & Others
+        40204 Repair & Maintenance-Factory 0
+            402040000001 R&M-E -Crane
+            402040000002 R&M-Raw Sugar Unloading System
+            402040000003 R&M-Raw Sugar Handling, Affination and Melting
+            402040000004 R&M-Raw Liquor and Co2 Gas Purification Unit
+            402040000005 R&M-Liquor and Mud Filtration
+            402040000006 R&M-Milk of Lime Preparation Unit
+            402040000007 R&M-Milk of Lime Preparation Unit
+            402040000008 R&M-Liquor Decolorization and Concentration Unit
+            402040000009 R&M-Refined Sugar Crystalization unit
+            402040000010 R&M-Refined Sugar Drying, Cooling and Bagging Unit
+            402040000011 R&M-Sugar Recovery Unit
+            402040000012 R&M-Piping, Fitting and Insulation
+            402040000013 R&M-Electrical Equipment and Cables
+            402040000014 R&M-Measuring & Control system
+            402040000015 R&M-Air Compressor and Accessories
+            402040000016 R&M-Air conditioning, Lifting Equipment etc.
+            402040000017 R&M-Utilities System
+            402040000018 R&M-Cooling Tower & Accessories
+            402040000019 R&M-Tools Accessories and Equipment
+            402040000020 R&M-Water Treatment Plant
+            402040000021 R&M-Waste Water Treatment Pond
+            402040000022 R&M-Packaging Machine
+            402040000023 R&M-Electrical Installation-Factory
+            402040000024 R&M-Diesel Generator
+            402040000025 R&M-Airconditioner-Factory
+            402040000026 R&M-Aircompressor-Factory
+            402040000027 R&M-Laboratory Equipment-Factory
+            402040000028 R&M-Photocopier-Factory
+            402040000029 R&M-Refrigerator-Factory
+            402040000030 R&M-Loose Tools-Factory
+            402040000031 R&M-Factory
+            402040000032 R&M-Computer & Printer [Factory]
+        40205 License & Renewal -Factory 0
+            402050000001 License & Renewal-BIWTA
+            402050000002 License & Renewal-
+            402050000003 License & Renewal-
+            402050000004 License & Renewal-
+        40206 Diesel Expenses-Factory 0
+            402060000001 Diesel Expenses-Generator
+            402060000002 Diesel Expenses-Pay Loader
+            402060000003 Diesel Expenses-Fork Lift Truck
+            402060000004 Diesel Expenses-Dump Truck
+        40207 Electricity Bill 0
+            402070000001 Electricity Bill-Factory
+            402070000002 Electricity Bill-Staff House
+        40208 Vehicle Maintenance -Factory 0
+            402080000001 VM-Factory [ Car # 7061 ]
+            402080000002 VM-Factory [ Car # 4240 ]
+            402080000003 VM-Factory [ Car # 4450 ]
+            402080000004 VM-Factory [ Car # 8074 ]
+            402080000005 VM-Factory [ Pay Loader ]
+            402080000006 VM-Factory [ Car # 8872 ]
+            402080000007 VM-Factory [ Fork lift-Truck ]
+            402080000008 VM-Factory [ Drum Truck ]
+        40209 Factory Expenditure (Others) 0
+            402090000001 L.P Gas Expenses-Factory
+            402090000002 Repair & Maintenance-Factory
+            402090000003 Uniform Expenses-Factory
+            402090000004 Environment Certificates Fees
+            402090000005 License & Renewal -Factory
+            402090000006 Diesel Expenses-Factory
+            402090000007 Gas bill- Factory Staff
+            402090000008 Loading & Unloading-Factory
+            402090000009 Drinking water-Factory
+            402090000010 Labour charge [ Bag handling ]
+            402090000011 Satellite Bill-Factory
+            402090000012 News Paper-Factory
+            402090000013 Telephone & Mobile Bill-Factory
+            402090000014 Crockeries Expenses-Factory
+            402090000015 Rent, Rate and Taxes-Factory
+            402090000016 House Rent-Factory staff
+            402090000017 Gift & Subscription
+            402090000018 Labour charge
+            402090000019 Sugar Carrying Escort
+            402090000020 Inspection Charge
+            402090000021 Welfare Expenses
+            402090000022 Beautification Expenses
+            402090000023 Insurance Premium -Factory
+            402090000024 Utility Expenses
+            402090000025 Transport Expenses-Factory
+            402090000026 Equipment Rental
+            402090000027 Donation & Subscription-Factory
+            402090000028 Preliminary Expenses [ Written off ]
+            402090000029 Vehicle Maintenance -Factory
+            402090000030 Fuel & Lubricants-Factory
+            402090000031 Printing & Stationery-Factory
+            402090000032 Depreciation Expenses-Factory
+            402090000033 Office Expenses-Factory
+            402090000034 Medical Expenses-Factory
+            402090000035 Traveling & Conveyance -Factory
+            402090000036 Tour & Travels-Factory
+            402090000037 Postage & Stamp-Factory
+            402090000038 Night Allowances-Factory
+            402090000039 Internet bill- Factory
+            402090000040 Sampling Test-Factory
+            402090000041 Work Permit & Visa Processing-Fac.
+    40300 Head Office Expenses
+        40301 Vehicle Maintenance-HO 0
+            403010000001 VM -H/O [ Car # 0000 ]
+            403010000002 VM -H/O [ Car # 7689]
+            403010000003 VM-H/O [ Car # 0000 ]
+            403010000004 VM-H/O [Motor Cycle # ]
+            403010000005 VM-H/O [Car-6313]
+            403010000006 VM-H/O [Car-2579]
+            403010000007 VM-H/O [Car#11-7300]
+            403010000008 VM-H/O [Car # 19-7692]
+        40302 Salary & Allowance-HO 0
+            403020000001 Salary & Allowance H/O-Admin
+            403020000002 Salary & Allowance H/O-F&A
+            403020000003 Salary & Allowance H/O-Commercial
+            403020000004 Salary & Allowance H/O-Brand
+            403020000005 Salary & Allowance H/O-Procurement
+            403020000006 Festival Bonus-H/O [Officers & Staff]
+            403020000007 Incentive Bonus-HO
+            403020000008 Salary & Allowances-H/O-Portfolio Analyst
+            403020000009 Salary & Allowance H/O-Business Development
+            403020000010 Salary & Allowance H/O-HRD
+            403020000011 Salary & Allowance H/O-IT & IAD
+            403020000012 Festival Bonus-H/O [ Directors ]
+        40303 Membership Fees 0
+            403030000001 Membership Fees -MCCI
+            403030000002 Membership Fees -DCCI
+            403030000003 Online Subscription Fees-Raw Sugar Trading
+            403030000004 Membership Fees - BEF
+        40304 Head Office Expenses (Others) 0
+            403040000001 Internet Bill-HO
+            403040000002 Remuneration
+            403040000003 Traveling & Conveyance-HO
+            403040000004 Postage & Stamp-HO
+            403040000005 Fooding & Entertainment-HO
+            403040000006 Depreciation Expenses-HO
+            403040000007 Printing & Stationery-HO
+            403040000008 Repair & Maintenance-HO
+            403040000009 Crockeries Expenses-HO
+            403040000010 Office Expenses-HO
+            403040000011 Transport Expenses-HO
+            403040000012 Consultancy & Professional Fees-HO
+            403040000013 Abnormal Loss
+            403040000014 Over time-HO
+            403040000015 Hotel Rent -HO
+            403040000016 Business Development Exp.
+            403040000017 Donation & Subscription -HO
+            403040000018 Sampling Test
+            403040000019 Audit Fee
+            403040000020 Legal Expenses
+            403040000021 Membership Fees
+            403040000022 Training & Apprenticeship Exp.
+            403040000023 Traveling & Conveyance [ Foreign ]
+            403040000024 Registration Fees
+            403040000025 Office Rent-HO
+            403040000026 Telephone & Mobile-HO
+            403040000027 News Paper-HO
+            403040000028 Income Tax & VAT Exp.
+            403040000029 Fuel & Lubricants [ H/O ]
+            403040000030 General Exp. [ Corporate ]
+            403040000031 Tours and Travels-HO
+        40305 License & Renewal -HO 0
+            403050000001 License & Renewal-IRC
+            403050000002 License & Renewal-ERC
+            403050000003 License & Renewal-Trade License-DCC
+    40400 Selling Expenses
+        40401 Selling Expenses (Others) 0
+            404010000001 Sample Expenses
+            404010000002 Traveling & Conveyance-Sales
+            404010000003 Fooding & Entertainment-Sales
+            404010000004 Export Expenses
+            404010000005 Sales Commission
+            404010000006 Brand Expenses
+            404010000007 Advertisement Exp.
+            404010000008 Promotional Exp.
+            404010000009 Salary & Allowances-Sales
+            404010000010 Transport Exp.- Export
+            404010000011 Trade Discount
+            404010000012 Transport Exp. [ Sales of Sugar ]
+            404010000013 Incentive on Sales Target
+            404010000014 Festival Bonus-Sales
+            404010000015 Incentive Bonus-Sales Dept.
+            404010000016 Transport Exp. [ Sugar Corporation ]
+            404010000017 Printing & Stationery [ SO ]
+            404010000018 Fuel & Lubricants-Sales
+    40500 Financial Expenses
+        40501 Bank Charge 0
+            405010000001 Bank Charge-SJIBL
+            405010000002 Bank Charge-DBBL
+            405010000003 Bank Charge-MTBL
+            405010000004 Bank Charge-Exim Bank Ltd.
+            405010000005 Bank Charge-Uttara Bank Ltd.
+            405010000006 Bank Charge-UCBL
+            405010000007 Bank Charge-BAL
+            405010000008 Bank Charge-Prime Bank Ltd.
+            405010000009 Bank Charge-NBL
+            405010000010 Bank Charge-OBL
+            405010000011 Bank Charge-IBBL
+            405010000012 Bank Charge-ABBL
+            405010000013 Bank Charge-Premier Bank Ltd.
+            405010000014 Bank Charge-City Bank Ltd
+            405010000015 Bank Charge-Sonali Bank Ltd.
+            405010000016 Bank Charge-Southeast Bank Ltd.
+            405010000017 Bank Charge-Agrani Bank Ltd.
+            405010000018 Bank Charge-Jamuna Bank Ltd.
+            405010000019 Bank Charge-Janata Bank ltd.
+            405010000020 Bank Charge [ AM Securities & FSL ]
+            405010000021 Bank Charge-Dhaka Bank Ltd.
+            405010000022 Bank Charge-SCB
+        40502 Bank Interest Expenses 0
+            405020000001 Interest Expenses-IBBL [HPSM]
+            405020000002 Interest Expenses- IBBL [MPI]
+            405020000003 Interest Expenses-NBL [LTR]
+            405020000004 Interest Expenses -ABBL-Term Loan
+            405020000005 Interest Expenses -Prime Bank Ltd.
+            405020000006 Interest Expenses-Premier Bank Ltd. [LTR]
+            405020000007 Interest Expenses-JB-LTR
+            405020000008 Interest Expenses-SJIBL
+            405020000009 Interest Expenses-ABBL [Time Loan]
+            405020000010 Interest Expenses-BAL
+            405020000011 Interest Expenses-OBL
+            405020000012 Interest Expenses-MTBL
+        40503 Interest Expenses-Inter Company Current Account 0
+            405030000001 Interest Expenses-AML [Igloo Ice-Cream ]
+        40504 Preliminary Expenses Written Off [ FC ] (Others) 0
+            405040000001 Preliminary Expenses Written Off [ FC ]

@@ -1,0 +1,123 @@
+Request for Expressions of Interest (EOI) for selection of Software Firm
+
+
+
+Ministry/Division:
+
+[GOVERNMENT OF THE PEOPLE'S REPUBLIC OF BANGLADESIT_
+
+
+
+Secondary and Higher Education Division, Ministry of Education
+
+
+
+
+
+
+
+
+
+Agency: Bangladesh Bureau of Educational Information & Statistics (BANBEIS)
+Procuring Entity Name: Bangladesh Bureau of Educational Information & Statistics (BANBEIS)
+Procuring Entity Code: 224246000
+
+Procuring Entity District: Dhaka
+
+
+
+Expression of Interest for Selection of:
+
+Sofware Developing/Software Solution Providing Firm (Lump Sum)
+
+
+
+Title of Service:
+
+Selection of Sofware Developing/Software Solution Providing Firm for developing, updating, maintaining Database Software on student profile at the secondary level of education based on CRVS with maintenance support for 2 (two) years
+
+
+
+
+
+
+
+
+
+EOI Ref. N 37.20.0000.005.14.061.2018-1923, Date: (06-January-2019)
+
+Procurement Method: Quality Based System (QBS)
+Budget and Source of Funds: Development Budget (GoB)
+
+
+
+Development Partners:
+
+
+
+Not Applicable
+
+
+
+
+
+
+
+
+
+PARTICULAR INFORMATION soko gate : Tee
+Project/Programme Name: Establishment of Integrated Educational Information Management System (IEIMS)
+EOI Closing Date and Ti 27 January 2019, 3.00 P.M. BDT
+
+
+
+INFORMATION FOR SOFTWARE
+
+
+
+
+
+Brief Description of Assignment:
+
+Development and implementation of Real-time online Database system for students profile at the secondary level of education based on CRVS. The purpose of developing CRVS of students is to strengthen online monitoring system, online auditing performance of students, online inspection reporting system and online feedback system of the students and institutions. The key activities of  software firm stated as follows:
+
+    - Preparation CRVS server system including input data, language support both English and Bengali, User access etc.
+    - Development of CRVS Client including finalization of online data entry with uploading photograph of students and verification option with NID of parents & ORG, data transfer and data integration, data migration online application download and user access authorization.
+    - Development of Software System including general information of the institution, student management including attendance & leave management, examination & result management and reporting module.
+    - Generation of Unique ID of students link with ORG
+    - Reporting Dash board in the web application for different indicators of CRVS system
+    - Preparation of Email Function.
+
+
+
+Experience, Resources and Delivery Capacity Required:
+
+The software firm must have relevant practical experience of developing and implementation of Real-time online database management system. Experience documents need to be attached.
+Valid Trade License, TIN, Income Tax & VAT certificates
+The software firm must have proven experience in providing support services of online DBMS
+The software firm must have online database system in Live at least in two organization/ company
+The software firm must have minumum amount of working capital or credit facility Tk. 20 lakh.
+The software firm must have minimum 05 (five) qualified and dedicated experienced Key professional engaged in online software application development. CVs of professional must attached.
+The software firm engaged in e-Learning software development parameter based reporting system and management will have extra weightage
+
+
+
+Other Details (if applicable):
+
+BANBEIS now invites eligible Software Firms to their interest in providing the services enclosing all documents as required. Only short-listed software firms shall be invited to submit the RFP proposal.
+
+
+
+
+Association with foreign firms is: Not Applicable
+a) System Design within 1 month
+b) Development of software system within 3 months
+c) Pilot test and full implementation within 4 months
+
+
+
+Md. Shamsul Alam
+Project Director, Establishment of Integrated Educational Information Management System (IEIMS)
+Zahir Raihan Road, Palashi-Nilkhet, Dhaka-1205, Bangladesh
+Phone: 55151815, 55151666
+Email: shamsul.alam30@yahoo.com, khan01_1234@yahoo.com

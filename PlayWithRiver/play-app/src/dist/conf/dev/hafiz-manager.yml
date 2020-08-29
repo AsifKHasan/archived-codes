@@ -1,0 +1,140 @@
+univergeWorker:
+    activeEquipments:
+        - GenbandS3
+        - GenbandC3
+    filesToProcessInParallel : 1
+    numWriters : 1
+    numAgents : 1
+    secondsBetweenFiles : 10
+    shouldAutoBalanceUpdate : false
+    balanceUpdateInvervalSec : 0
+    sendMessageToAlertProcessor : false
+    sendEmailForSequenceGap : false
+    sendSMSForSequenceGap : false
+
+#Dropwizard see https://dropwizard.github.io/dropwizard/0.7.1/docs/manual/configuration.html
+server:
+  type: default
+  maxThreads: 1024
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+             
+jdbc:
+    driver : org.postgresql.Driver    
+    url : jdbc:postgresql://localhost/univerge
+    username : univerge
+    password : univerged
+    cdrInsertMethod : JdbcBatch
+    
+
+zookeeper:
+    connectString : localhost:2181
+    timeout : 15000
+
+rabbitMq:
+    host : localhost
+
+cdr:
+    eraseOlderThanInMins : 20
+    eraserStartInvervalInMins : 20
+
+rating:
+    iNTSecondsPerPulse : 15
+    aNSSecondsPerPulse : 15
+    roundFraction : 100
+
+cdrFile:
+    baseDir : src/test/data/CDR
+    source : GenbandS3/source
+    processedQueue : GenbandS3/processedQueue
+    errorQueue : GenbandS3/errorQueue
+    rejectedQueue : GenbandS3/rejectedQueue
+    alreadyProcessedQueue : GenbandS3/alreadyProcessedQueue
+    fileDownloaded : GenbandS3/downloaded
+    secondsBetweenUnzipAndJobSubmission : 1
+    fileSequenceInterval : 1
+
+
+mincdr:
+    saveToDB : true
+    saveToFile : true
+    fileRoot : src/test/data/CDR/GenbandS3/minCdr
+    rowsPerFile : 20000
+    extension : .csv
+
+fullcdr:
+    saveToDB : true
+    saveToFile : true
+    fileRoot : src/test/data/CDR/GenbandS3/fullCdr
+    rowsPerFile : 1000
+    extension : .csv
+
+
+btrc:
+    saveToFile : false
+    fileRoot : src/test/data/CDR/GenbandS3/fullCdr/btrc
+    fileDone : src/test/data/CDR/GenbandS3/fullCdr/btrc_done
+    rowsPerFile : 20000
+    extension : .csv
+
+ftp:
+    host : 192.168.0.11
+    user : billcdr
+    password : billcdr
+    fileSourceDir : /from_tb
+    fileToMoveDir : /to_billing/
+    timeIntervalInMS : 10000
+    connectionMode : Active
+    startStatus : false
+    shouldIgnoreToDownload : true
+    numberFileToBeIgnore : 1
+    fileExtension : .DAT
+    unZipNeeded : false
+
+ftp_btrc:
+    host : 127.0.0.1
+    user : btrc
+    password : btrc
+    fileSourceDir : '.'
+    fileToMoveDir : /btrc_done/
+    timeIntervalInMS : 10000
+    connectionMode : Active
+    startStatus : false
+
+email:
+    fromEmailID : univerge@secl-bd.com
+    password : 
+    host : smtp.gmail.com
+    smtp : smtp
+    port : 587
+    firstThresholdValue : -150
+    secondThresholdValue : -100
+    thirdThresholdValue : -50
+    finalThresholdValue : 0
+    thresholdFirstEmail : mail@host.com
+    thresholdSecondEmail : mail@host.com
+    thresholdThirdEmail : mail@host.com
+    thresholdFinalEmail : mail@host.com
+
+equipments:
+    GenbandS3:
+        parserPackageName : com.distint.river.telecom.dal.parser.genbandS3
+        parserClassName : GenbandS3VCDRParser
+        ratingAgent : com.distint.river.telecom.cdr.agent.digicon.DigiconIgwRatingAgent
+        reratingAgent : com.distint.river.telecom.cdr.agent.digicon.DigiconIgwReratingAgent
+        dbInserterPackageName : com.distint.river.telecom.dal.db.inserter.genbandS3
+        classNameMySQLBulk : GenbandS3MySQLBulkFullCdrInserter
+        classNameJdbcBatch : GenbandS3JdbcBatchFullCdrInserter
+    GenbandC3:
+        parserPackageName : com.distint.river.telecom.dal.parser.genbandc3
+        parserClassName : GenbandC3VCDRParser
+        ratingAgent : com.distint.river.telecom.cdr.agent.digicon.DigiconIgwRatingAgent
+        reratingAgent : com.distint.river.telecom.cdr.agent.digicon.DigiconIgwReratingAgent
+        dbInserterPackageName : com.distint.river.telecom.dal.db.inserter.genbandc3
+        classNameMySQLBulk : GenbandC3MySQLBulkFullCdrInserter
+        classNameJdbcBatch : GenbandC3JdbcBatchFullCdrInserter
+        
