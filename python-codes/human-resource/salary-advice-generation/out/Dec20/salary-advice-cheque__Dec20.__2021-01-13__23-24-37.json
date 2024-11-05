@@ -1,0 +1,19 @@
+{
+    "wing": "Acquisition",
+    "month": "Dec20.",
+    "date": "January 13, 2021",
+    "totalamount": "81,858.00",
+    "totalamountinwords": "eighty-one thousand, eight hundred and fifty-eight taka, zero paisa",
+    "salary": [
+        {
+            "wing": "Acquisition",
+            "unit": "Marketing & Public Relationship",
+            "name": "Amal Hari Roy",
+            "type": "",
+            "account": "",
+            "payable": "81,858.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        }
+    ]
+}

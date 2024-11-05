@@ -1,0 +1,119 @@
+{
+    "refno": "21/825",
+    "month": "Jan21.",
+    "date": "February 10, 2021",
+    "totalamount": "132,350.00",
+    "totalamountinwords": "one lakh, thirty-two thousand, three hundred and fifty taka, zero paisa",
+    "salary": [
+        {
+            "wing": "Operations",
+            "unit": "Finance & Accounts",
+            "name": "Md. Shahidul Islam",
+            "type": "Support Staff",
+            "account": "14121080019226",
+            "payable": "16,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Finance & Accounts",
+            "name": "Arman Miah",
+            "type": "Support Staff",
+            "account": "2141211011353",
+            "payable": "10,500.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "HR & Admin",
+            "name": "Md. Jahangir Alam",
+            "type": "Support Staff",
+            "account": "14121020019253",
+            "payable": "16,250.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "HR & Admin",
+            "name": "Imran Sarker",
+            "type": "Support Staff",
+            "account": "14121040019431",
+            "payable": "11,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "HR & Admin",
+            "name": "Md. Alamin Hossain Razib",
+            "type": "Support Staff",
+            "account": "14121060019227",
+            "payable": "15,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "HR & Admin",
+            "name": "Md. Kamal Uddin",
+            "type": "Support Staff",
+            "account": "2141212011428",
+            "payable": "10,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "HR & Admin",
+            "name": "Md. Jabbar",
+            "type": "Support Staff",
+            "account": "2141211012070",
+            "payable": "12,500.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Supply Chain Management",
+            "name": "Abul Kashem",
+            "type": "Support Staff",
+            "account": "14121090019711",
+            "payable": "10,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Supply Chain Management",
+            "name": "Md. Arif Hossain",
+            "type": "Support Staff",
+            "account": "14121040019266",
+            "payable": "11,667.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Supply Chain Management",
+            "name": "Md. Chan Miah",
+            "type": "Support Staff",
+            "account": "14121020007716",
+            "payable": "11,100.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Supply Chain Management",
+            "name": "Mohammad Khokon Mia",
+            "type": "Support Staff",
+            "account": "2141215011508",
+            "payable": "8,333.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        }
+    ]
+}

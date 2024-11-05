@@ -1,0 +1,59 @@
+{
+    "wing": "Operations",
+    "month": "Apr21.",
+    "date": "May 04, 2021",
+    "totalamount": "73,000.00",
+    "totalamountinwords": "seventy-three thousand taka, zero paisa",
+    "salary": [
+        {
+            "wing": "Operations",
+            "unit": "Admin",
+            "name": "Golam Rabbi",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "9,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Project Management Office",
+            "name": "Joyanta Das",
+            "type": "BdREN",
+            "account": "0156.105.15781-DBBL",
+            "payable": "12,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Project Management Office",
+            "name": "Md. Rabiul Islam",
+            "type": "BdREN",
+            "account": "16310531213 - DBBL",
+            "payable": "12,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Project Management Office",
+            "name": "Md. Syful Islam",
+            "type": "BdREN",
+            "account": "0032000008454-Dhaka Bank",
+            "payable": "12,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Admin",
+            "name": "Md. Shamim",
+            "type": "",
+            "account": "",
+            "payable": "28,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        }
+    ]
+}

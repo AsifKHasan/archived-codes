@@ -1,0 +1,139 @@
+{
+    "refno": "21/865",
+    "month": "May21.",
+    "date": "June 12, 2021",
+    "totalamount": "349,066.00",
+    "totalamountinwords": "three lakh, forty-nine thousand and sixty-six taka, zero paisa",
+    "salary": [
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Abdur Rab Marjan",
+            "type": "",
+            "account": "14121070019420",
+            "payable": "30,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Manzur Alam",
+            "type": "",
+            "account": "14121090011442",
+            "payable": "41,816.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Md. Nazmul Hasan",
+            "type": "",
+            "account": "14121090019023",
+            "payable": "48,750.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Md. Zahidul Islam",
+            "type": "",
+            "account": "2141211011080",
+            "payable": "30,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Nafis Ahmed",
+            "type": "",
+            "account": "14121030016112",
+            "payable": "12,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Akeed Anjum",
+            "type": "",
+            "account": "2141217011282",
+            "payable": "25,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Dipika Debnath",
+            "type": "",
+            "account": "2141215012126",
+            "payable": "21,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Ferdous Rahman",
+            "type": "",
+            "account": "2141216012521",
+            "payable": "22,500.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "K.M. Zabir Tarique",
+            "type": "",
+            "account": "2141211012220",
+            "payable": "19,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Mohammad Nazmul Hasan",
+            "type": "",
+            "account": "2141211011958",
+            "payable": "25,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Sagar Saha",
+            "type": "",
+            "account": "2141216011077",
+            "payable": "34,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Syed Shah Md. Adib",
+            "type": "",
+            "account": "2141217011969",
+            "payable": "25,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Adiat Islam Sahih",
+            "type": "",
+            "account": "2141218012966",
+            "payable": "15,000.00",
+            "paythrough": "Bank",
+            "paystatus": "In Process"
+        }
+    ]
+}

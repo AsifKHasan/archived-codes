@@ -1,0 +1,49 @@
+{
+    "wing": "Delivery",
+    "month": "Apr21.",
+    "date": "May 04, 2021",
+    "totalamount": "50,712.00",
+    "totalamountinwords": "fifty thousand, seven hundred and twelve taka, zero paisa",
+    "salary": [
+        {
+            "wing": "Delivery",
+            "unit": "Systems",
+            "name": "Shuvo Das",
+            "type": "",
+            "account": "",
+            "payable": "15,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Software Services",
+            "name": "Adiat Islam Sahih",
+            "type": "",
+            "account": "",
+            "payable": "15,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Active Network",
+            "name": "Md. Ferdous Mahmud",
+            "type": "",
+            "account": "",
+            "payable": "15,780.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Delivery",
+            "unit": "Active Network",
+            "name": "Rakibur Rahman",
+            "type": "",
+            "account": "",
+            "payable": "4,932.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        }
+    ]
+}

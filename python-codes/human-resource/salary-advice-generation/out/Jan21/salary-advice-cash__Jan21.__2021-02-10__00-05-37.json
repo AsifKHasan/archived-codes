@@ -1,0 +1,69 @@
+{
+    "wing": "Operations",
+    "month": "Jan21.",
+    "date": "February 10, 2021",
+    "totalamount": "40,800.00",
+    "totalamountinwords": "forty thousand, eight hundred taka, zero paisa",
+    "salary": [
+        {
+            "wing": "Operations",
+            "unit": "HR & Admin",
+            "name": "Lipon Nokrek",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "12,000.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "HR & Admin",
+            "name": "Mrs. Fuzirannasa",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "6,800.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "HR & Admin",
+            "name": "Md. Nur Islam",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "5,000.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "HR & Admin",
+            "name": "Shakina Begum",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "5,000.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "HR & Admin",
+            "name": "Imran Hossain",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "5,000.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Supply Chain Management",
+            "name": "Raihan Hosssain",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "7,000.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        }
+    ]
+}

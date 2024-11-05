@@ -13,7 +13,7 @@ import num2words
 from helper.latex.latex2pdf import Latex2Pdf
 from helper.google.google_helper import GoogleHelper
 
-GSHEET_NAME = 'FAU__SalarySheet__2019-2020'
+GSHEET_NAME = 'FAU__SalarySheet__2020-2021'
 
 class AdviceGenerator:
 

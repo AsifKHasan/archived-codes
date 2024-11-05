@@ -1,0 +1,79 @@
+{
+    "wing": "Operations",
+    "month": "Mar21.",
+    "date": "April 12, 2021",
+    "totalamount": "48,601.00",
+    "totalamountinwords": "forty-eight thousand, six hundred and one taka, zero paisa",
+    "salary": [
+        {
+            "wing": "Operations",
+            "unit": "Admin",
+            "name": "Lipon Nokrek",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "12,000.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Admin",
+            "name": "Mrs. Fuzirannasa",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "6,800.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Admin",
+            "name": "Imran Hossain",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "3,333.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Admin",
+            "name": "Md. Nur Islam",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "5,000.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Admin",
+            "name": "Shakina Begum",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "5,000.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Supply Chain Management",
+            "name": "Raihan Hosssain",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "7,000.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Supply Chain Management",
+            "name": "Rony Ahmed",
+            "type": "",
+            "account": "",
+            "payable": "9,468.00",
+            "paythrough": "Cash",
+            "paystatus": "In Process"
+        }
+    ]
+}

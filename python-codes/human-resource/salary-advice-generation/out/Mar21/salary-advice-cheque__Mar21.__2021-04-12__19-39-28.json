@@ -1,0 +1,89 @@
+{
+    "wing": "Operations",
+    "month": "Mar21.",
+    "date": "April 12, 2021",
+    "totalamount": "137,250.00",
+    "totalamountinwords": "one lakh, thirty-seven thousand, two hundred and fifty taka, zero paisa",
+    "salary": [
+        {
+            "wing": "Operations",
+            "unit": "Admin",
+            "name": "Md. Jahangir Alam",
+            "type": "Support Staff",
+            "account": "14121020019253",
+            "payable": "16,250.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Admin",
+            "name": "Golam Rabbi",
+            "type": "Support Staff",
+            "account": "",
+            "payable": "9,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Admin",
+            "name": "Mozammel Haq",
+            "type": "Support Staff",
+            "account": "2141218012909",
+            "payable": "14,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Admin",
+            "name": "Shahila Parvin",
+            "type": "",
+            "account": "",
+            "payable": "18,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Corporate Affairs",
+            "name": "Md. Rakib Uddin Chowdhury",
+            "type": "",
+            "account": "2141211012865",
+            "payable": "44,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Project Management Office",
+            "name": "Joyanta Das",
+            "type": "BdREN",
+            "account": "0156.105.15781-DBBL",
+            "payable": "12,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Project Management Office",
+            "name": "Md. Rabiul Islam",
+            "type": "BdREN",
+            "account": "16310531213 - DBBL",
+            "payable": "12,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Project Management Office",
+            "name": "Md. Syful Islam",
+            "type": "BdREN",
+            "account": "0032000008454-Dhaka Bank",
+            "payable": "12,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        }
+    ]
+}

@@ -11,10 +11,12 @@ master-data:
   - Cheque
   - Bank
   months:
-  - Apr20
-  - May20
-  - Jun20
-  - Jul20
+  - Jan21.
+  - Feb21.
+  - Mar21.
+  - Apr21.
+  - May21.
+  - Jun21.
   wings:
   - Acquisition
   - Delivery
@@ -22,7 +24,7 @@ master-data:
 selection:
   selected-account: '14111060000068'
   selected-filter: None
-  selected-mode: Bank
-  selected-month: May20
-  selected-reference: 20/764
+  selected-mode: Cash
+  selected-month: May21.
+  selected-reference: 21/867
   selected-wing: Operations

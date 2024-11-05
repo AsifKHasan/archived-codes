@@ -1,0 +1,49 @@
+{
+    "wing": "Operations",
+    "month": "Dec20.",
+    "date": "January 13, 2021",
+    "totalamount": "48,000.00",
+    "totalamountinwords": "forty-eight thousand taka, zero paisa",
+    "salary": [
+        {
+            "wing": "Operations",
+            "unit": "Project Management Office",
+            "name": "Joyanta Das",
+            "type": "BdREN",
+            "account": "0156.105.15781-DBBL",
+            "payable": "12,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Project Management Office",
+            "name": "Md. Abdullha Al Hasan",
+            "type": "BdREN",
+            "account": "1961520002307-DBBL",
+            "payable": "12,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Project Management Office",
+            "name": "Md. Syful Islam",
+            "type": "BdREN",
+            "account": "0032000008454-Dhaka Bank",
+            "payable": "12,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Operations",
+            "unit": "Project Management Office",
+            "name": "Md. Rabiul Islam",
+            "type": "BdREN",
+            "account": "16310531213 - DBBL",
+            "payable": "12,000.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "wing": "Acquisition",
+    "month": "Apr21.",
+    "date": "May 04, 2021",
+    "totalamount": "192,397.00",
+    "totalamountinwords": "one lakh, ninety-two thousand, three hundred and ninety-seven taka, zero paisa",
+    "salary": [
+        {
+            "wing": "Acquisition",
+            "unit": "Marketing & Public Relationship",
+            "name": "Amal Hari Roy",
+            "type": "",
+            "account": "",
+            "payable": "95,731.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Acquisition",
+            "unit": "Research and Development",
+            "name": "Md. Shakhrul Iman Siam",
+            "type": "",
+            "account": "",
+            "payable": "48,333.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        },
+        {
+            "wing": "Acquisition",
+            "unit": "Research and Development",
+            "name": "Sumen Shikder Shuvo",
+            "type": "",
+            "account": "",
+            "payable": "48,333.00",
+            "paythrough": "Cheque",
+            "paystatus": "In Process"
+        }
+    ]
+}
